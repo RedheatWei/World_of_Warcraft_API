@@ -1,5 +1,7 @@
 # 魔兽世界API
 
+> 原链接:https://wow.gamepedia.com/World\_of\_Warcraft\_API
+
 魔兽世界API，或者说WoW API，是暴雪提供的一组函数集，通过使用插件和宏来与魔兽世界界面及行为进行交互和修改。以下函数列表不完整，并通过用户贡献保持最新；您可能还对[手动更新的最新实时客户端中存在的所有API函数的详尽列表](https://wow.gamepedia.com/Global_functions)感兴趣。
 
 如果你考虑提供稳定，请阅读[如何编辑API页。](https://wow.gamepedia.com/Wowpedia:How_to_edit_API_pages) 综上：根据需要更新本页面（和链接页面），在[讨论页面](https://wow.gamepedia.com/Talk:World_of_Warcraft_API)讨论大规模改动，并且不要创建空存根页面。
