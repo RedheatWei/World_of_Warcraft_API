@@ -58,3 +58,41 @@ GetLatestUpdatedComparisonStats\(\) - 返回比较玩家的最新更新统计信
 
 GetLatestUpdatedStats\(\) -返回最近5个更新统计信息的ID。
 
+[GetNextAchievement](https://wow.gamepedia.com/API_GetNextAchievement)\(achievementID\) - 返回链中的下一个成就。
+
+[GetNumComparisonCompletedAchievements](https://wow.gamepedia.com/API_GetNumComparisonCompletedAchievements)\(\) - 返回比较玩家的已完成成就数。
+
+[GetNumCompletedAchievements](https://wow.gamepedia.com/API_GetNumCompletedAchievements)\(\) - 返回成就总数和完成数。
+
+[GetNumFilteredAchievements](https://wow.gamepedia.com/API_GetNumFilteredAchievements)  - 返回与搜索文本匹配的成就数。
+
+[GetPreviousAchievement](https://wow.gamepedia.com/API_GetPreviousAchievement)\(achievementID\) - 返回以前的相关成就。
+
+[GetStatistic](https://wow.gamepedia.com/API_GetStatistic)\(achievementID\) - 返回请求的统计信息的值。
+
+[GetStatisticsCategoryList](https://wow.gamepedia.com/API_GetStatisticsCategoryList)\(\) - 返回统计类别列表。
+
+[GetTotalAchievementPoints](https://wow.gamepedia.com/API_GetTotalAchievementPoints)\(\) - 返回获得的成就点总数。
+
+[GetTrackedAchievements](https://wow.gamepedia.com/API_GetTrackedAchievements)\(\) - 返回当前跟踪的成就的成就ID.
+
+[GetNumTrackedAchievements](https://wow.gamepedia.com/API_GetNumTrackedAchievements)\(\) -返回当前跟踪的成就总数.
+
+HasCompletedAnyAchievement\(achievementID\) -
+
+[IsAchievementEligible](https://wow.gamepedia.com/API_IsAchievementEligible)\(achievementID\) -
+
+IsTrackedAchievement\(achievementID\) -
+
+[RemoveTrackedAchievement](https://wow.gamepedia.com/API_RemoveTrackedAchievement)\(achievementID\) - 停止成就跟踪.
+
+SetAchievementComparisonPortrait\(texture\) -
+
+[SetAchievementComparisonUnit](https://wow.gamepedia.com/API_SetAchievementComparisonUnit)\(unitId\) - 设置要比较的单位。
+
+[SetAchievementSearchString](https://wow.gamepedia.com/API_SetAchievementSearchString)\(searchText\) - 开始搜索包含指定文本的成就。
+
+SetFocusedAchievement\(achievementID\) -
+
+[ShowAccountAchievements](https://wow.gamepedia.com/API_ShowAccountAchievements)\(\) -
+
