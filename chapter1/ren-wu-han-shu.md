@@ -14,25 +14,25 @@ PROTECTED [DestroyTotem](https://wow.gamepedia.com/API_DestroyTotem)\(slot\) - �
 
 [GetBindLocation](https://wow.gamepedia.com/API_GetBindLocation)\(\) - 获取炉石的位置名称。
 
-[GetComboPoints](https://wow.gamepedia.com/API_GetComboPoints)\(\) - Get the current number of combo points.
+[GetComboPoints](https://wow.gamepedia.com/API_GetComboPoints)\(\) - 获取当前的连击点数。
 
-GetCorpseRecoveryDelay\(\) - Time left before a player can accept a resurrection.
+GetCorpseRecoveryDelay\(\) - 在玩家复活剩余的时间。
 
-[GetCurrentTitle](https://wow.gamepedia.com/API_GetCurrentTitle)\(\) - Returns the player's current [titleId](https://wow.gamepedia.com/TitleId)
+[GetCurrentTitle](https://wow.gamepedia.com/API_GetCurrentTitle)\(\) - 返回玩家当前的[titleId](https://wow.gamepedia.com/TitleId)
 
-.[GetMirrorTimerInfo](https://wow.gamepedia.com/API_GetMirrorTimerInfo)\(id\) - returns information about a mirror timer \(exhaustion, breath and feign death timers\)
+.[GetMirrorTimerInfo](https://wow.gamepedia.com/API_GetMirrorTimerInfo)\(id\) - 返回有关镜像计时器的信息（耗尽，呼吸和假死亡计时器）
 
-[GetMirrorTimerProgress](https://wow.gamepedia.com/API_GetMirrorTimerProgress)\(id\) - returns the current value of a mirror timer \(exhaustion, breath and feign death timers\)
+[GetMirrorTimerProgress](https://wow.gamepedia.com/API_GetMirrorTimerProgress)\(id\) - 返回镜像计时器的当前值（耗尽，呼吸和假死亡计时器）
 
-[GetMoney](https://wow.gamepedia.com/API_GetMoney)\(\) - Returns an integer value of your held money in copper.
+[GetMoney](https://wow.gamepedia.com/API_GetMoney)\(\) - 返回您持有的铜币的整数值。
 
-[GetNumTitles](https://wow.gamepedia.com/API_GetNumTitles)\(\) - Returns the maximum [titleId](https://wow.gamepedia.com/TitleId).
+[GetNumTitles](https://wow.gamepedia.com/API_GetNumTitles)\(\) -返回最大[titleId](https://wow.gamepedia.com/TitleId).
 
-GetPowerRegen\(\) - Returns normal and combat power regeneration rates.
+GetPowerRegen\(\) - 返回正常和战斗力再生率。
 
-[GetPVPDesired](https://wow.gamepedia.com/API_GetPVPDesired)\(\) - Returns whether the player has permanently turned on their PvP flag.
+[GetPVPDesired](https://wow.gamepedia.com/API_GetPVPDesired)\(\) - 返回玩家是否已永久打开其PvP标志。
 
-[GetRangedCritChance](https://wow.gamepedia.com/API_GetRangedCritChance)\(\) - Returns the players ranged critical strike chance.
+[GetRangedCritChance](https://wow.gamepedia.com/API_GetRangedCritChance)\(\) -返回玩家远程爆击几率。
 
 GetReleaseTimeRemaining\(\) - Returns the amount of time left before your ghost is pulled from your body.
 
