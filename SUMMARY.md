@@ -11,4 +11,6 @@
   * [竞技场函数](chapter1/jing-ji-chang-han-shu.md)
   * [神器函数](chapter1/shen-qi-han-shu.md)
   * [拍卖函数](chapter1/pai-mai-han-shu.md)
+  * [银行函数](chapter1/yin-xing-han-shu.md)
+  * [理发店函数](chapter1/li-fa-dian-han-shu.md)
 
