@@ -18,4 +18,5 @@
   * [黑市函数](chapter1/hei-shi-han-shu.md)
   * [Buff/Debuff函数](chapter1/buffdebuffhan-shu.md)
   * [日历函数](chapter1/ri-li-han-shu.md)
+  * [视角函数](chapter1/shi-jiao-han-shu.md)
 
