@@ -82,9 +82,9 @@ IsXPUserDisabled\(\) - 如果角色已禁用经验增益，则返回1。
 
 ResurrectHasSickness\(\) - 似乎在接受复活时会使用会给你复活的情感。
 
-ResurrectHasTimer\(\) - Does the player have to wait before accepting a resurrection.
+ResurrectHasTimer\(\) - 玩家是否必须在接受复活前等待。
 
-ResurrectGetOfferer\(\) - Returns the name of the person offering to resurrect you.
+ResurrectGetOfferer\(\) - 返回提供给您复活的人的姓名。
 
 [RetrieveCorpse](https://wow.gamepedia.com/API_RetrieveCorpse)\(\) - Resurrects when near corpse. e.g., The "Accept" button one sees after running back to your body.
 
