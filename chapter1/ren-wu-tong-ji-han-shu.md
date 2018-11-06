@@ -1,14 +1,14 @@
 ### 人物统计函数
 
-[GetAttackPowerForStat](https://wow.gamepedia.com/API_GetAttackPowerForStat)\(stat, value\) - Returns the amount of attack power contributed by a specified amount of a particular stat.
+[GetAttackPowerForStat](https://wow.gamepedia.com/API_GetAttackPowerForStat)\(stat, value\) - 返回指定数量的特定stat所贡献的攻击力量。
 
-[GetBlockChance](https://wow.gamepedia.com/API_GetBlockChance)\(\) - Returns the player's percentage block chance.
+[GetBlockChance](https://wow.gamepedia.com/API_GetBlockChance)\(\) - 返回玩家的百分比阻止几率。
 
-[GetCombatRating](https://wow.gamepedia.com/API_GetCombatRating)\(ratingID\) - Returns the player's combat rating for a particular combat rating. \(2.0\)
+[GetCombatRating](https://wow.gamepedia.com/API_GetCombatRating)\(ratingID\) - 返回玩家对特定战斗等级的战斗等级。（2.0）
 
-[GetCombatRatingBonus](https://wow.gamepedia.com/API_GetCombatRatingBonus)\(ratingID\) - Returns the player's combat rating bonus for a particular combat rating. \(2.0\)
+[GetCombatRatingBonus](https://wow.gamepedia.com/API_GetCombatRatingBonus)\(ratingID\) - 返回特定战斗等级的玩家的战斗等级加值。（2.0）
 
-[GetCritChance](https://wow.gamepedia.com/API_GetCritChance)\(\) - Returns the player's melee critical hit chance.
+[GetCritChance](https://wow.gamepedia.com/API_GetCritChance)\(\) -返回玩家的近战爆击几率。
 
 REMOVED GetCritChanceFromAgility\("unit"\) - Returns the amount of your critical hit chance contributed by Agility.
 
@@ -59,8 +59,4 @@ REMOVED GetSpellCritChanceFromIntellect\("unit"\)
 [GetSpellHitModifier](https://wow.gamepedia.com/API_GetSpellHitModifier)\(\) -
 
 GetSpellPenetration\(\) -
-
-
-
-
 
