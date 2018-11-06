@@ -15,4 +15,5 @@
   * [理发店函数](chapter1/li-fa-dian-han-shu.md)
   * [战场函数](chapter1/zhan-chang-han-shu.md)
   * [绑定函数](chapter1/bang-ding-han-shu.md)
+  * [黑市函数](chapter1/hei-shi-han-shu.md)
 
