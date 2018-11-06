@@ -30,11 +30,11 @@ NOCOMBAT [SetBindingMacro](https://wow.gamepedia.com/API_SetBindingMacro)\("key"
 
 [SetConsoleKey](https://wow.gamepedia.com/API_SetConsoleKey)\("key"\) - Sets the console key \(normally ~ \).
 
-NOCOMBAT [SetOverrideBinding](https://wow.gamepedia.com/API_SetOverrideBinding)\(owner, isPriority, "key"\[, "command"\]\) - Set \(or clear\) an override key binding.
+NOCOMBAT [SetOverrideBinding](https://wow.gamepedia.com/API_SetOverrideBinding)\(owner, isPriority, "key"\[, "command"\]\) - 设置（或清除）覆盖键绑定。
 
 NOCOMBAT [SetOverrideBindingSpell](https://wow.gamepedia.com/API_SetOverrideBindingSpell)\(owner, isPriority, "key", "spellname"\) -
 
-NOCOMBAT [SetOverrideBindingClick](https://wow.gamepedia.com/API_SetOverrideBindingClick)\(owner, isPriority, "key", "buttonName" \[, "mouseClick"\]\) - Sets an override binding that acts like a mouse click on a button.
+NOCOMBAT [SetOverrideBindingClick](https://wow.gamepedia.com/API_SetOverrideBindingClick)\(owner, isPriority, "key", "buttonName" \[, "mouseClick"\]\) - 像鼠标单击按钮一样设置一个覆盖绑定。
 
 NOCOMBAT [SetOverrideBindingItem](https://wow.gamepedia.com/API_SetOverrideBindingItem)\(owner, isPriority, "key", "itemname"\) -
 
