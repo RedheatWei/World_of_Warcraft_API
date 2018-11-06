@@ -34,13 +34,11 @@ IsAddonVersionCheckEnabled\(\) -
 
 [RegisterAddonMessagePrefix](https://wow.gamepedia.com/API_RegisterAddonMessagePrefix)\(prefix\) -
 
-[ResetAddOns](https://wow.gamepedia.com/index.php?title=API_ResetAddOns&action=edit&redlink=1)\(\) -
+ResetAddOns\(\) -
 
-[ResetDisabledAddOns](https://wow.gamepedia.com/index.php?title=API_ResetDisabledAddOns&action=edit&redlink=1)\(\) -
+ResetDisabledAddOns\(\) -
 
-[SaveAddOns](https://wow.gamepedia.com/index.php?title=API_SaveAddOns&action=edit&redlink=1)\(\) -
+SaveAddOns\(\) -
 
-[SetAddonVersionCheck](https://wow.gamepedia.com/index.php?title=API_SetAddonVersionCheck&action=edit&redlink=1)\(boolean\) -
-
-
+SetAddonVersionCheck\(boolean\) -
 
