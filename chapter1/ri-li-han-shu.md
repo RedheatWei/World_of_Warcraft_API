@@ -2,17 +2,17 @@
 
 HW [CalendarAddEvent](https://wow.gamepedia.com/API_CalendarAddEvent)\(\) - 保存所选事件（仅限新事件，需要硬件输入才能调用）
 
-CalendarCanAddEvent\(\) - Returns true if player can add an event
+CalendarCanAddEvent\(\) - 如果玩家可以添加事件，则返回true
 
-CalendarCanSendInvite\(\) - Returns true if player can send invites
+CalendarCanSendInvite\(\) - 如果玩家可以发送邀请，则返回true
 
-CalendarCloseEvent\(\) - Closes the selected event without saving it
+CalendarCloseEvent\(\) - 关闭所选事件而不保存
 
-CalendarContextDeselectEvent\(\) - added in 3.0.8
+CalendarContextDeselectEvent\(\) - 添加于3.0.8
 
-CalendarContextEventCanComplain\(monthOffset, day, eventIndex\) - Returns true if player can report the event as spam
+CalendarContextEventCanComplain\(monthOffset, day, eventIndex\) - 如果玩家可以将事件报告为垃圾邮件，则返回true
 
-CalendarContextEventCanEdit\(monthOffset, day, eventIndex\) - Returns true if player can edit the event
+CalendarContextEventCanEdit\(monthOffset, day, eventIndex\) - 如果玩家可以编辑事件，则返回true
 
 CalendarContextEventCanRemove\(monthOffset, day, eventIndex\) - Returns true if player can remove event.
 
