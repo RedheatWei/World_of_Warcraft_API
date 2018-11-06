@@ -42,7 +42,7 @@ GetBattlefieldMapIconScale\(\) - 战场小地图地标刻度尺.
 
 GetNumBattlefieldFlagPositions\(\) - 获取GetBattlefieldFlagPosition\(\)中可用的标志位置数。
 
-[GetNumBattlefieldScores](https://wow.gamepedia.com/API_GetNumBattlefieldScores)\(\) - Returns the number of scores\(players\) listed in the battlefield scoreboard.
+[GetNumBattlefieldScores](https://wow.gamepedia.com/API_GetNumBattlefieldScores)\(\) -返回战场记分牌中分数\(玩家\)列表。
 
 [GetNumBattlefieldStats](https://wow.gamepedia.com/API_GetNumBattlefieldStats)\(\) - Get the number of battleground specific columns.
 
