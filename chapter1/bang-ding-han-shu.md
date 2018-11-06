@@ -10,17 +10,17 @@ UI [GetBindingText](https://wow.gamepedia.com/API_GetBindingText)\("key", "prefi
 
 [GetCurrentBindingSet](https://wow.gamepedia.com/API_GetCurrentBindingSet)\(\) - 查询当前的键绑定集是特定于字符还是帐户
 
-[GetNumBindings](https://wow.gamepedia.com/API_GetNumBindings)\(\) - Get total number key bindings and headers.
+[GetNumBindings](https://wow.gamepedia.com/API_GetNumBindings)\(\) - 返回键绑定窗口中列出的键绑定总数.
 
-[LoadBindings](https://wow.gamepedia.com/API_LoadBindings)\(which\) - Loads default, account or character specific key binding set into memory from disk.
+[LoadBindings](https://wow.gamepedia.com/API_LoadBindings)\(which\) - 在磁盘中加载默认，帐户或字符特定的键绑定集到内存.
 
-[RunBinding](https://wow.gamepedia.com/API_RunBinding)\("command"\[, "up"\]\) - Executes the key binding named "command"
+[RunBinding](https://wow.gamepedia.com/API_RunBinding)\("command"\[, "up"\]\) - 执行名为“command”的键绑定
 
-[SaveBindings](https://wow.gamepedia.com/API_SaveBindings)\(which\) - Saves account or character specific key bindings from memory to disk.
+[SaveBindings](https://wow.gamepedia.com/API_SaveBindings)\(which\) - 将帐户或字符特定的键绑定从内存保存到磁盘。
 
-NOCOMBAT [SetBinding](https://wow.gamepedia.com/API_SetBinding)\("key"\[, "command"\[, mode\]\]\) - Sets or unsets key bindings. \(2.0 - Can not be used in combat.\)
+NOCOMBAT [SetBinding](https://wow.gamepedia.com/API_SetBinding)\("key"\[, "command"\[, mode\]\]\) - 设置或取消设置键绑定。（2.0  - 不能在战斗中使用。）
 
-NOCOMBAT [SetBindingSpell](https://wow.gamepedia.com/API_SetBindingSpell)\("key", "Spell Name"\) - Set a key binding directly to a spell, uses the same spell name syntax as /cast.
+NOCOMBAT [SetBindingSpell](https://wow.gamepedia.com/API_SetBindingSpell)\("key", "Spell Name"\) - 直接将一个键绑定设置为一个法术，使用与/cast相同的拼写名称语法。
 
 NOCOMBAT [SetBindingClick](https://wow.gamepedia.com/API_SetBindingClick)\("key", "ButtonName" \[,"mouseButton"\]\) - Set a key binding directly to a Button object. The click sends a mouse down when the key is pressed, and a mouse up when it is released.
 
