@@ -8,15 +8,15 @@ ArchaeologyGetIconInfo\(index\)
 
 REMOVED ArcheologyGetVisibleBlobID\(index\) - 返回当前地图区域中的挖掘地点的BlobID（在[补丁7.1.0](https://wow.gamepedia.com/Patch_7.1.0)中删除）
 
-CanItemBeSocketedToArtifact\(itemID\) - 如果可以将项目添加到[selected](https://wow.gamepedia.com/API_SetSelectedArtifact)工件，则返回1。
+CanItemBeSocketedToArtifact\(itemID\) - 如果可以将项目添加到[selected](https://wow.gamepedia.com/API_SetSelectedArtifact)神器，则返回1。
 
 [CanScanResearchSite](https://wow.gamepedia.com/API_CanScanResearchSite)\(\) - 返回玩家当前是否在挖掘地点。
 
-CanSolveArtifact\(\) - 如果可以解决工件，则返回true。
+CanSolveArtifact\(\) - 如果可以解决神器，则返回true。
 
 CloseResearch\(\) -
 
-[GetActiveArtifactByRace](https://wow.gamepedia.com/API_GetActiveArtifactByRace)\(raceIndex\) - 返回种族索引的活动工件的信息。
+[GetActiveArtifactByRace](https://wow.gamepedia.com/API_GetActiveArtifactByRace)\(raceIndex\) - 返回种族索引的活动神器的信息。
 
 [GetArchaeologyInfo](https://wow.gamepedia.com/API_GetArchaeologyInfo)\(\) - 返回考古技能的本地化名称。
 
