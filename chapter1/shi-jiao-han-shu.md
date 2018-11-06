@@ -6,31 +6,31 @@ PROTECTED [CameraOrSelectOrMoveStart](https://wow.gamepedia.com/API_CameraOrSele
 
 PROTECTED [CameraOrSelectOrMoveStop](https://wow.gamepedia.com/API_CameraOrSelectOrMoveStop)\(\[stickyFlag\]\) - 在3D世界中停止左键点击.
 
-[CameraZoomIn](https://wow.gamepedia.com/API_CameraZoomIn)\(increment\) - 通过增量将摄像机放大到视图平面。
+[CameraZoomIn](https://wow.gamepedia.com/API_CameraZoomIn)\(increment\) - 通过增量将镜头放大到视图平面。
 
-[CameraZoomOut](https://wow.gamepedia.com/API_CameraZoomOut)\(increment\) - 通过增量将相机缩小到视图平面之外。
+[CameraZoomOut](https://wow.gamepedia.com/API_CameraZoomOut)\(increment\) - 通过增量将镜头缩小到视图平面之外。
 
-[FlipCameraYaw](https://wow.gamepedia.com/API_FlipCameraYaw)\(degrees\) - 以Z度指定的角度量以Z度轴旋转摄像机。
+[FlipCameraYaw](https://wow.gamepedia.com/API_FlipCameraYaw)\(degrees\) - 以Z度指定的角度量以Z度轴旋转镜头。
 
-[GetCameraZoom](https://wow.gamepedia.com/API_GetCameraZoom)\(\) - 返回当前缩放级别，忽略相机碰撞。
+[GetCameraZoom](https://wow.gamepedia.com/API_GetCameraZoom)\(\) - 返回当前缩放级别，忽略镜头碰撞。
 
-[IsMouselooking](https://wow.gamepedia.com/API_IsMouselooking)\(\) - 如果mouselook当前处于活动状态，则返回1，否则返回nil。
+[IsMouselooking](https://wow.gamepedia.com/API_IsMouselooking)\(\) - 如果鼠标查看当前处于活动状态，则返回1，否则返回nil。
 
 [MouselookStart](https://wow.gamepedia.com/API_MouselookStart)\(\) - 进入鼠标查看模式;鼠标移动用于调整移动/面向方向。
 
 [MouselookStop](https://wow.gamepedia.com/API_MouselookStop)\(\) - 退出鼠标查看模式;鼠标移动用于移动鼠标光标。
 
-[MoveViewDownStart](https://wow.gamepedia.com/API_MoveViewDownStart)\(\) - Begins rotating the camera downward.
+[MoveViewDownStart](https://wow.gamepedia.com/API_MoveViewDownStart)\(\) - 开始向下旋转镜头。
 
-[MoveViewDownStop](https://wow.gamepedia.com/API_MoveViewDownStop)\(\) - Stops rotating the camera after [MoveViewDownStart](https://wow.gamepedia.com/API_MoveViewDownStart)\(\) is called.
+[MoveViewDownStop](https://wow.gamepedia.com/API_MoveViewDownStop)\(\) - [MoveViewDownStart](https://wow.gamepedia.com/API_MoveViewDownStart)\(\)被调用后停止向下旋转镜头.
 
-[MoveViewInStart](https://wow.gamepedia.com/API_MoveViewInStart)\(\) - Begins zooming the camera in.
+[MoveViewInStart](https://wow.gamepedia.com/API_MoveViewInStart)\(\) - 开始缩放镜头。
 
-[MoveViewInStop](https://wow.gamepedia.com/API_MoveViewInStop)\(\) - Stops zooming the camera in after [MoveViewInStart](https://wow.gamepedia.com/API_MoveViewInStart)\(\) is called.
+[MoveViewInStop](https://wow.gamepedia.com/API_MoveViewInStop)\(\) - [MoveViewInStart](https://wow.gamepedia.com/API_MoveViewInStart)\(\) 被调用后停止缩放镜头.
 
-[MoveViewLeftStart](https://wow.gamepedia.com/API_MoveViewLeftStart)\(\) - Begins rotating the camera to the Left.
+[MoveViewLeftStart](https://wow.gamepedia.com/API_MoveViewLeftStart)\(\) - 开始将镜头向左旋转。
 
-[MoveViewLeftStop](https://wow.gamepedia.com/API_MoveViewLeftStop)\(\) - Stops rotating the camera after [MoveViewLeftStart](https://wow.gamepedia.com/API_MoveViewLeftStart)\(\) is called.
+[MoveViewLeftStop](https://wow.gamepedia.com/API_MoveViewLeftStop)\(\) - [MoveViewLeftStart](https://wow.gamepedia.com/API_MoveViewLeftStart)\(\) 被调用后停止向左旋转镜头.
 
 [MoveViewOutStart](https://wow.gamepedia.com/API_MoveViewOutStart)\(\) - Begins zooming the camera out.
 
