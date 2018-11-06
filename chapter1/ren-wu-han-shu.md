@@ -70,7 +70,7 @@ REMOVED [GetRuneType](https://wow.gamepedia.com/API_GetRuneType)\(id\) - 返回�
 
 [IsResting](https://wow.gamepedia.com/API_IsResting)\(\) - 如果你的角色当前正在休息，则返回1。
 
-[IsStealthed](https://wow.gamepedia.com/API_IsStealthed)\(\) - Returns 1 if stealthed or shadowmeld, otherwise nil.
+[IsStealthed](https://wow.gamepedia.com/API_IsStealthed)\(\) - 如果是潜行或阴影，则返回1，否则返回nil。
 
 [IsSwimming](https://wow.gamepedia.com/API_IsSwimming)\(\) - Returns 1 if your character is currently swimming.
 
