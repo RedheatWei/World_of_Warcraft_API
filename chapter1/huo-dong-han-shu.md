@@ -2,29 +2,29 @@
 
 ###### 此部分用于使玩家做某事的功能（并且在其他地方没有涉及，并且不仅仅是确认步骤）。
 
-[AcceptDuel](https://wow.gamepedia.com/API_AcceptDuel)\(\) - The player accepts the challenge to duel.
+[AcceptDuel](https://wow.gamepedia.com/API_AcceptDuel)\(\) - 玩家接受决斗。
 
-PROTECTED [AttackTarget](https://wow.gamepedia.com/API_AttackTarget)\(\) - Attacks the targetted unit.
+PROTECTED [AttackTarget](https://wow.gamepedia.com/API_AttackTarget)\(\) - 攻击目标单位。
 
-[CancelDuel](https://wow.gamepedia.com/API_CancelDuel)\(\) - Refuse the invitation to fight a duel.
+[CancelDuel](https://wow.gamepedia.com/API_CancelDuel)\(\) - 拒绝决斗的邀请。
 
-[CancelLogout](https://wow.gamepedia.com/API_CancelLogout)\(\) - Cancels the logout timer \(from camping or quitting\).
+[CancelLogout](https://wow.gamepedia.com/API_CancelLogout)\(\) - 取消退出计时器（从野外或退出）。
 
-[CancelSummon](https://wow.gamepedia.com/index.php?title=API_CancelSummon&action=edit&redlink=1)\(\) - Rejects a summon request.
+[CancelSummon](https://wow.gamepedia.com/index.php?title=API_CancelSummon&action=edit&redlink=1)\(\) - 拒绝召唤请求。
 
-[ConfirmSummon](https://wow.gamepedia.com/API_ConfirmSummon)\(\) - Accepts a summon request.
+[ConfirmSummon](https://wow.gamepedia.com/API_ConfirmSummon)\(\) - 接受召唤请求。
 
-PROTECTED [DescendStop](https://wow.gamepedia.com/API_DescendStop)\(\) - The player stops descending \(while swimming or flying\)
+PROTECTED [DescendStop](https://wow.gamepedia.com/API_DescendStop)\(\) - 玩家停止下降（游泳或飞行时）
 
-[Dismount](https://wow.gamepedia.com/API_Dismount)\(\) - The player dismounts the current mount.
+[Dismount](https://wow.gamepedia.com/API_Dismount)\(\) - 玩家卸下当前的坐骑。
 
-PROTECTED [ForceQuit](https://wow.gamepedia.com/API_ForceQuit)\(\) - Instantly quits the game, bypassing the timer.
+PROTECTED [ForceQuit](https://wow.gamepedia.com/API_ForceQuit)\(\) - 立即退出游戏，绕过计时器。
 
-[GetSheathState](https://wow.gamepedia.com/API_GetSheathState)\(\) - Returns the sheath state of the player's weapons.
+[GetSheathState](https://wow.gamepedia.com/API_GetSheathState)\(\) - 返回玩家武器的鞘状态。
 
-[GetPVPTimer](https://wow.gamepedia.com/API_GetPVPTimer)\(\) - Returns the amount of time until your PvP flag fades.
+[GetPVPTimer](https://wow.gamepedia.com/API_GetPVPTimer)\(\) - 返回PvP标志消失之前的时间量。
 
-[GetSummonConfirmAreaName](https://wow.gamepedia.com/index.php?title=API_GetSummonConfirmAreaName&action=edit&redlink=1)\(\) - Returns the name of the area you're being summoned to.
+[GetSummonConfirmAreaName](https://wow.gamepedia.com/index.php?title=API_GetSummonConfirmAreaName&action=edit&redlink=1)\(\) - 返回你被召唤的区域的名称。
 
 [GetSummonConfirmSummoner](https://wow.gamepedia.com/API_GetSummonConfirmSummoner)\(\) - Returns the name of the player summoning you.
 
