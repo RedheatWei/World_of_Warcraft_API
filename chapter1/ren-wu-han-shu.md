@@ -40,13 +40,13 @@ GetResSicknessDuration\(\)
 
 [GetRestState](https://wow.gamepedia.com/API_GetRestState)\(\) - 返回有关玩家休息状态的信息。（积攒经验奖励）
 
-[GetRuneCooldown](https://wow.gamepedia.com/API_GetRuneCooldown)\(id\) - Returns cooldown information about a given rune.
+[GetRuneCooldown](https://wow.gamepedia.com/API_GetRuneCooldown)\(id\) - 返回有关给定符文的冷却时间信息。
 
-GetRuneCount\(slot\) - Returns the number of Runes in the given slot. \(Death Knight\)
+GetRuneCount\(slot\) - 返回给定槽中的符文数。（死亡骑士）
 
-REMOVED [GetRuneType](https://wow.gamepedia.com/API_GetRuneType)\(id\) - Returns the type of rune with the given id.
+REMOVED [GetRuneType](https://wow.gamepedia.com/API_GetRuneType)\(id\) - 返回具有给定id的符文类型。
 
-[GetTitleName](https://wow.gamepedia.com/API_GetTitleName)\([titleId](https://wow.gamepedia.com/TitleId)\) - Returns the player's current title name.
+[GetTitleName](https://wow.gamepedia.com/API_GetTitleName)\([titleId](https://wow.gamepedia.com/TitleId)\) - 返回玩家当前的标题名称。
 
 [GetXPExhaustion](https://wow.gamepedia.com/API_GetXPExhaustion)\(\) - Returns your character's current rested XP, nil if character is not rested.
 
