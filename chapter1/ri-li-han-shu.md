@@ -44,27 +44,27 @@ CalendarContextInviteType - ?
 
 CalendarContextInviteModeratorStatus\(monthOffset, day, eventIndex\) - ?
 
-CalendarContextInviteRemove\(monthOffset, day, eventIndex\) - Removes the event from the calendar
+CalendarContextInviteRemove\(monthOffset, day, eventIndex\) - 从日历中删除事件
 
-CalendarContextInviteStatus\(monthOffset, day, eventIndex\) - returns inviteStatus
+CalendarContextInviteStatus\(monthOffset, day, eventIndex\) - 返回邀请状态
 
-CalendarContextSelectEvent\(monthOffset, day, eventIndex\) - added in 3.0.8
+CalendarContextSelectEvent\(monthOffset, day, eventIndex\) - 添加于3.0.8
 
-CalendarDefaultGuildFilter\(\) - returns minLevel, maxLevel
+CalendarDefaultGuildFilter\(\) - 返回最小等级和最大等级
 
-CalendarEventAvailable\(\) - Accepts the inviation to the currently open event
+CalendarEventAvailable\(\) - 接受当前公开活动的邀请
 
-CalendarEventCanEdit\(\) - Returns true if the event can be edited
+CalendarEventCanEdit\(\) - 如果可以编辑事件，则返回true
 
 CalendarEventCanModerate - ?
 
-CalendarEventClearAutoApprove\(\) - Turns off automatic confirmations
+CalendarEventClearAutoApprove\(\) - 关闭自动确认
 
-CalendarEventClearLocked\(\) - Unlocks the event
+CalendarEventClearLocked\(\) - 解锁事件
 
 CalendarEventClearModerator\(\)
 
-CalendarEventDecline\(\) - Declines the invitation to the currently open event
+CalendarEventDecline\(\) - 拒绝当前打开的事件的邀请
 
 CalendarEventGetCalendarType\(\) - ?
 
