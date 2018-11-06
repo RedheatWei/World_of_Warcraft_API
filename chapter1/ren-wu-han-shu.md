@@ -1,8 +1,8 @@
 ### 人物函数
 
-[AcceptResurrect](https://wow.gamepedia.com/API_AcceptResurrect)\(\) - The player accepts the request from another player to resurrect him/herself.
+[AcceptResurrect](https://wow.gamepedia.com/API_AcceptResurrect)\(\) - 玩家接受来自其他玩家的请求以使他自己复活。
 
-[AcceptXPLoss](https://wow.gamepedia.com/API_AcceptXPLoss)\(\) - Accept the durability loss to be reborn by a spirit healer. \(The name is a remnant from when sprit res was an XP loss instead.\)
+[AcceptXPLoss](https://wow.gamepedia.com/API_AcceptXPLoss)\(\) - 接受由灵魂医者重生的耐久性损失。（该名称是sprit res是XP丢失时的残余。）
 
 CheckBinderDist\(\) - Check whether the player is close enough to interact with the Hearthstone binder.
 
@@ -91,6 +91,4 @@ ResurrectGetOfferer\(\) - Returns the name of the person offering to resurrect y
 HW [SetCurrentTitle](https://wow.gamepedia.com/API_SetCurrentTitle)\([titleId](https://wow.gamepedia.com/TitleId)\) - Sets the player's current title by id.
 
 TargetTotem\(\) - Added in 3.0.8
-
-
 
