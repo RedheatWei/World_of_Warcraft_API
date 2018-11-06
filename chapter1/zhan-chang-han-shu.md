@@ -44,23 +44,23 @@ GetNumBattlefieldFlagPositions\(\) - 获取GetBattlefieldFlagPosition\(\)中可�
 
 [GetNumBattlefieldScores](https://wow.gamepedia.com/API_GetNumBattlefieldScores)\(\) -返回战场记分牌中分数\(玩家\)列表。
 
-[GetNumBattlefieldStats](https://wow.gamepedia.com/API_GetNumBattlefieldStats)\(\) - Get the number of battleground specific columns.
+[GetNumBattlefieldStats](https://wow.gamepedia.com/API_GetNumBattlefieldStats)\(\) -获取特定于战场的列数。
 
-[GetNumWorldStateUI](https://wow.gamepedia.com/API_GetNumWorldStateUI)\(\) - Get the number of WorldState UI's.
+[GetNumWorldStateUI](https://wow.gamepedia.com/API_GetNumWorldStateUI)\(\) - 获取WorldState UI的数量。
 
-[GetWorldStateUIInfo](https://wow.gamepedia.com/API_GetWorldStateUIInfo)\(index\) - Get score and flag status within a battlefield.
+[GetWorldStateUIInfo](https://wow.gamepedia.com/API_GetWorldStateUIInfo)\(index\) - 在战场中获得分数和旗帜状态。
 
 IsPVPTimerRunning\(\)
 
-PROTECTED [JoinBattlefield](https://wow.gamepedia.com/API_JoinBattlefield)\(index\[, joinAs\]\) - Queue for a battleground either solo or as a group.
+PROTECTED [JoinBattlefield](https://wow.gamepedia.com/API_JoinBattlefield)\(index\[, joinAs\]\) - 无论是单人还是团体，都可以为战场排队。
 
-[LeaveBattlefield](https://wow.gamepedia.com/API_LeaveBattlefield)\(\) - Leave the current battlefield
+[LeaveBattlefield](https://wow.gamepedia.com/API_LeaveBattlefield)\(\) - 离开现在的战场
 
-ReportPlayerIsPVPAFK\("unit"\) - Reports the specified player as AFK in a battleground.
+ReportPlayerIsPVPAFK\("unit"\) - 在战场中将指定的玩家报告为AFK。
 
-[RequestBattlefieldScoreData](https://wow.gamepedia.com/API_RequestBattlefieldScoreData)\(\) - Request new data for GetBattlefieldScore\(\).
+[RequestBattlefieldScoreData](https://wow.gamepedia.com/API_RequestBattlefieldScoreData)\(\) - 请求GetBattlefieldScore\(\)的新数据。
 
-[RequestBattlegroundInstanceInfo](https://wow.gamepedia.com/API_RequestBattlegroundInstanceInfo)\(index\) - Requests data about the available instances of a battleground.
+[RequestBattlegroundInstanceInfo](https://wow.gamepedia.com/API_RequestBattlegroundInstanceInfo)\(index\) - 请求有关战场可用实例的数据。
 
-[SetBattlefieldScoreFaction](https://wow.gamepedia.com/API_SetBattlefieldScoreFaction)\(\[faction\]\) - Set the faction to show on the battlefield scoreboard.
+[SetBattlefieldScoreFaction](https://wow.gamepedia.com/API_SetBattlefieldScoreFaction)\(\[faction\]\) - 将阵营设置为在战场记分牌上显示。
 
