@@ -34,11 +34,11 @@ GetPowerRegen\(\) - 返回正常和战斗力再生率。
 
 [GetRangedCritChance](https://wow.gamepedia.com/API_GetRangedCritChance)\(\) -返回玩家远程爆击几率。
 
-GetReleaseTimeRemaining\(\) - Returns the amount of time left before your ghost is pulled from your body.
+GetReleaseTimeRemaining\(\) - 返回灵魂被从身体中拉出之前剩余的时间。
 
 GetResSicknessDuration\(\)
 
-[GetRestState](https://wow.gamepedia.com/API_GetRestState)\(\) - Returns information about a player's rest state. \(saved up experience bonus\)
+[GetRestState](https://wow.gamepedia.com/API_GetRestState)\(\) - 返回有关玩家休息状态的信息。（积攒经验奖励）
 
 [GetRuneCooldown](https://wow.gamepedia.com/API_GetRuneCooldown)\(id\) - Returns cooldown information about a given rune.
 
