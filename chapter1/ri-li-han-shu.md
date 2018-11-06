@@ -1,6 +1,6 @@
 ### 日历函数
 
-HW [CalendarAddEvent](https://wow.gamepedia.com/API_CalendarAddEvent)\(\) - Saves the selected event \(new events only, requires hardware input to call\)
+HW [CalendarAddEvent](https://wow.gamepedia.com/API_CalendarAddEvent)\(\) - 保存所选事件（仅限新事件，需要硬件输入才能调用）
 
 CalendarCanAddEvent\(\) - Returns true if player can add an event
 
@@ -197,10 +197,4 @@ CalendarSetMonth\(monthOffset\)
 CalendarUpdateEvent\(\) - Saves the selected event \(existing events only, requires hardware input to call\)
 
 [OpenCalendar](https://wow.gamepedia.com/API_OpenCalendar)\(\) - Requests calendar information from the server. Does not open the calendar frame. \(added in 3.0.8\)
-
-  
-  
-
-
-
 
