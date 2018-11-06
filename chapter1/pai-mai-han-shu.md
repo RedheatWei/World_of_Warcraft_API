@@ -16,60 +16,57 @@ CanCancelAuction\(index\) - 如果可以取消拍卖，则返回1
 
 [CanSendAuctionQuery](https://wow.gamepedia.com/API_CanSendAuctionQuery)\(\) - 如果拍卖搜索按钮处于活动状态，则返回1，否则返回nil。
 
-CancelAuction\(index\) - Cancel the specified auction \(on the "owner" list\).
+CancelAuction\(index\) - 取消指定的拍卖（在“所有者”列表中）。
 
-[ClickAuctionSellItemButton](https://wow.gamepedia.com/API_ClickAuctionSellItemButton)\(\) - Puts the currently 'picked up' item into the 'create auction' slot.
+[ClickAuctionSellItemButton](https://wow.gamepedia.com/API_ClickAuctionSellItemButton)\(\) - 将当前“拾取”的项目放入“创建拍卖”广告位。
 
-[CloseAuctionHouse](https://wow.gamepedia.com/API_CloseAuctionHouse)\(\) - Will close the AuctionFrame if opened.
+[CloseAuctionHouse](https://wow.gamepedia.com/API_CloseAuctionHouse)\(\) - 如果打开，将关闭拍卖框。
 
-GetAuctionHouseDepositRate\(\) - Returns the deposit rate \(percentage\) for the currently open auction house \(Possibly out-dated by CalculateAuctionDeposit\).
+GetAuctionHouseDepositRate\(\) - 返回当前打开拍卖行的税率（百分比）（可能过时由[CalculateAuctionDeposit](https://wow.gamepedia.com/index.php?title=API_CalculateAuctionDeposit&action=edit&redlink=1)）。
 
-REMOVED [GetAuctionInvTypes](https://wow.gamepedia.com/API_GetAuctionInvTypes)\(classIndex, subclassIndex\) - Returns types of subcategories items.
+REMOVED [GetAuctionInvTypes](https://wow.gamepedia.com/API_GetAuctionInvTypes)\(classIndex, subclassIndex\) - 返回子类别项的类型。
 
-[GetAuctionItemBattlePetInfo](https://wow.gamepedia.com/API_GetAuctionItemBattlePetInfo)\("type", index\) - Returns model details about the specified Battle Pet auction item.
+[GetAuctionItemBattlePetInfo](https://wow.gamepedia.com/API_GetAuctionItemBattlePetInfo)\("type", index\) - 返回有关指定Battle Pet拍卖项目的模型详细信息。
 
-REMOVED [GetAuctionItemClasses](https://wow.gamepedia.com/API_GetAuctionItemClasses)\(\) - Returns major auction item categories.
+REMOVED [GetAuctionItemClasses](https://wow.gamepedia.com/API_GetAuctionItemClasses)\(\) - 返回主要拍卖品类别。
 
-[GetAuctionItemInfo](https://wow.gamepedia.com/API_GetAuctionItemInfo)\("type", index\) - Returns details about the specified auction item.
+[GetAuctionItemInfo](https://wow.gamepedia.com/API_GetAuctionItemInfo)\("type", index\) - 返回有关指定拍卖项目的详细信息。
 
-[GetAuctionItemLink](https://wow.gamepedia.com/API_GetAuctionItemLink)\("type", index\) - Returns an [itemLink](https://wow.gamepedia.com/ItemLink) for the specified auction item.
+[GetAuctionItemLink](https://wow.gamepedia.com/API_GetAuctionItemLink)\("type", index\) - 返回指定拍卖项目的[项目链接](https://wow.gamepedia.com/ItemLink)。
 
-[GetAuctionItemSubClasses](https://wow.gamepedia.com/API_GetAuctionItemSubClasses)\(classIndex\) - Returns subcategories in the nth auction category.
+[GetAuctionItemSubClasses](https://wow.gamepedia.com/API_GetAuctionItemSubClasses)\(classIndex\) - 返回第n个拍卖类别中的子类别。
 
-[GetAuctionItemTimeLeft](https://wow.gamepedia.com/API_GetAuctionItemTimeLeft)\("type", index\) - Returns the time left status of the specified auction item.
+[GetAuctionItemTimeLeft](https://wow.gamepedia.com/API_GetAuctionItemTimeLeft)\("type", index\) - 返回指定拍卖项目的剩余时间状态。
 
-[GetAuctionSellItemInfo](https://wow.gamepedia.com/API_GetAuctionSellItemInfo)\(\) - Returns information about the current selling item \(or nil if none selected\).
+[GetAuctionSellItemInfo](https://wow.gamepedia.com/API_GetAuctionSellItemInfo)\(\) - 返回有关当前销售项目的信息（如果未选择，则返回nil）。
 
 GetAuctionSort\(?\) -
 
-GetBidderAuctionItems\(\[page\]\) - Returns details about an auction item on which the user is bidding \(possibly out-dated by GetAuctionItemInfo\("bidder", item\)\)
+GetBidderAuctionItems\(\[page\]\) - 返回有关用户出价的拍卖项目的详细信息（可能过时由[GetAuctionItemInfo](https://wow.gamepedia.com/API_GetAuctionItemInfo)\(“bidder”，item\)时）
 
-[GetNumAuctionItems](https://wow.gamepedia.com/API_GetNumAuctionItems)\("type"\) - Returns the size of the specified auction item list.
+[GetNumAuctionItems](https://wow.gamepedia.com/API_GetNumAuctionItems)\("type"\) - 返回指定的拍卖项目列表的大小。
 
-GetOwnerAuctionItems\(\[page\]\) - Returns details about an auction item of which the user is the owner \(possibly out-dated by GetAuctionItemInfo\("owner", item\)\)
+GetOwnerAuctionItems\(\[page\]\) - 返回有关用户所有者的拍卖项目的详细信息（可能由[GetAuctionItemInfo](https://wow.gamepedia.com/API_GetAuctionItemInfo)\(“owner”，item\)过时）
 
-GetSelectedAuctionItem\("type"\) - Returns the index \(1-50\) of the selected auction item or 0 if none is selected.
+GetSelectedAuctionItem\("type"\) - 返回所选拍卖项目的索引（1-50），如果未选择，则返回0。
 
-[IsAuctionSortReversed](https://wow.gamepedia.com/API_IsAuctionSortReversed)\("type", "sort"\) - Returns 1 if the specified auction list and sort is reversed, nil otherwise.
+[IsAuctionSortReversed](https://wow.gamepedia.com/API_IsAuctionSortReversed)\("type", "sort"\) - 如果指定的拍卖列表和排序被反转，则返回1，否则返回nil。
 
-[PlaceAuctionBid](https://wow.gamepedia.com/API_PlaceAuctionBid)\("type", index, bid\) - Place a bid on the selected auction item.
+[PlaceAuctionBid](https://wow.gamepedia.com/API_PlaceAuctionBid)\("type", index, bid\) - 对所选拍卖物品进行出价。
 
-[QueryAuctionItems](https://wow.gamepedia.com/API_QueryAuctionItems)\("name", minLevel, maxLevel, invTypeIndex, classIndex, subclassIndex, page, isUsable, qualityIndex\) - Performs a search of the auction house with the specified characteristics.
+[QueryAuctionItems](https://wow.gamepedia.com/API_QueryAuctionItems)\("name", minLevel, maxLevel, invTypeIndex, classIndex, subclassIndex, page, isUsable, qualityIndex\) - 执行具有指定特征的拍卖行搜索。
 
-SetAuctionsTabShowing\(showing\) - Sets whether auction-related events should be delivered to the client. \(3.3.3\)
+SetAuctionsTabShowing\(showing\) - 设置是否应将与拍卖相关的事件传递给客户端。（3.3.3）
 
-[SetSelectedAuctionItem](https://wow.gamepedia.com/API_SetSelectedAuctionItem)\("type", index\) - Selects a specific item in the auction house.
+[SetSelectedAuctionItem](https://wow.gamepedia.com/API_SetSelectedAuctionItem)\("type", index\) -选择拍卖行中的特定项目。
 
 SortAuctionApplySort\(?\) -
 
 SortAuctionClearSort\(?\) -
 
-[SortAuctionItems](https://wow.gamepedia.com/API_SortAuctionItems)\("type", "sort"\) - Request that the specified auction list be sorted by a specific column.
+[SortAuctionItems](https://wow.gamepedia.com/API_SortAuctionItems)\("type", "sort"\) - 请求指定的拍卖列表按特定列排序。
 
 SortAuctionSetSort\(?\) -
 
-[StartAuction](https://wow.gamepedia.com/API_StartAuction)\(minBid, buyoutPrice, runTime, stackSize, numStacks\) - Starts the auction you have created in the Create Auction panel.
-
-  
-
+[StartAuction](https://wow.gamepedia.com/API_StartAuction)\(minBid, buyoutPrice, runTime, stackSize, numStacks\) - 开始您在“创建拍卖”面板中创建的拍卖。
 
