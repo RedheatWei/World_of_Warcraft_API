@@ -34,7 +34,7 @@ GetBattlefieldMapIconScale\(\) - 战场小地图地标刻度尺.
 
 [GetBattlefieldTimeWaited](https://wow.gamepedia.com/API_GetBattlefieldTimeWaited)\(index\) - 获取以毫秒为单位在队列中等待时间。
 
-[GetBattlefieldWinner](https://wow.gamepedia.com/API_GetBattlefieldWinner)\(\) - Get the battlefields winner.
+[GetBattlefieldWinner](https://wow.gamepedia.com/API_GetBattlefieldWinner)\(\) - 获取战场胜利者。
 
 [GetBattlegroundInfo](https://wow.gamepedia.com/API_GetBattlegroundInfo)\(index\) - Returns information about a battleground type.
 
