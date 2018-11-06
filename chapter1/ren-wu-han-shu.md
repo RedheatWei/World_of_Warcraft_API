@@ -86,9 +86,9 @@ ResurrectHasTimer\(\) - 玩家是否必须在接受复活前等待。
 
 ResurrectGetOfferer\(\) - 返回提供给您复活的人的姓名。
 
-[RetrieveCorpse](https://wow.gamepedia.com/API_RetrieveCorpse)\(\) - Resurrects when near corpse. e.g., The "Accept" button one sees after running back to your body.
+[RetrieveCorpse](https://wow.gamepedia.com/API_RetrieveCorpse)\(\) - 靠近尸体时复活。例如，跑回你身体后看到的“接受”按钮。
 
-HW [SetCurrentTitle](https://wow.gamepedia.com/API_SetCurrentTitle)\([titleId](https://wow.gamepedia.com/TitleId)\) - Sets the player's current title by id.
+HW [SetCurrentTitle](https://wow.gamepedia.com/API_SetCurrentTitle)\([titleId](https://wow.gamepedia.com/TitleId)\) - 按ID设置用户的当前标题。.
 
 TargetTotem\(\) - Added in 3.0.8
 
