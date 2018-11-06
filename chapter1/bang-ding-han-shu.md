@@ -40,13 +40,13 @@ NOCOMBAT [SetOverrideBindingItem](https://wow.gamepedia.com/API_SetOverrideBindi
 
 NOCOMBAT [SetOverrideBindingMacro](https://wow.gamepedia.com/API_SetOverrideBindingMacro)\(owner, isPriority, "key", "macroname" or macroId\) -
 
-NOCOMBAT [ClearOverrideBindings](https://wow.gamepedia.com/API_ClearOverrideBindings)\(owner\) - Reset all overrides belonging to an owner.
+NOCOMBAT [ClearOverrideBindings](https://wow.gamepedia.com/API_ClearOverrideBindings)\(owner\) - 重置属于所有者的所有覆盖。
 
 SetMouselookOverrideBinding\("key" \[,"command"\]\) -
 
-[IsModifierKeyDown](https://wow.gamepedia.com/API_IsModifierKeyDown)\(\) - equivalent to \(IsShiftKeyDown\(\) or IsControlKeyDown\(\) or IsAltKeyDown\(\)\).
+[IsModifierKeyDown](https://wow.gamepedia.com/API_IsModifierKeyDown)\(\) - 类似于 \(IsShiftKeyDown\(\) 或 IsControlKeyDown\(\) 或 IsAltKeyDown\(\)\).
 
-[IsModifiedClick](https://wow.gamepedia.com/API_IsModifiedClick)\("action"\) - Returns 1 if the keys for the specified action are down, nil otherwise.
+[IsModifiedClick](https://wow.gamepedia.com/API_IsModifiedClick)\("action"\) - 如果指定操作的键已关闭，则返回1，否则返回nil。
 
 [IsMouseButtonDown](https://wow.gamepedia.com/API_IsMouseButtonDown)\(\[button or "button"\]\) -
 
