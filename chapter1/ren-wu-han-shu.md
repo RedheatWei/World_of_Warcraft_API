@@ -80,7 +80,7 @@ IsXPUserDisabled\(\) - 如果角色已禁用经验增益，则返回1。
 
 [NotWhileDeadError](https://wow.gamepedia.com/API_NotWhileDeadError)\(\) - 生成一条错误消息，告诉您在死亡时无法执行此操作。
 
-ResurrectHasSickness\(\) - Appears to be used when accepting a resurrection will give you resurrection sickessness.
+ResurrectHasSickness\(\) - 似乎在接受复活时会使用会给你复活的情感。
 
 ResurrectHasTimer\(\) - Does the player have to wait before accepting a resurrection.
 
