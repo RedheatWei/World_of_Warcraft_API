@@ -74,7 +74,7 @@ REMOVED [GetRuneType](https://wow.gamepedia.com/API_GetRuneType)\(id\) - 返回�
 
 [IsSwimming](https://wow.gamepedia.com/API_IsSwimming)\(\) - 如果你的角色正在游泳，则返回1。
 
-IsTitleKnown\(index\) - Returns 1 if the title is valid for the player, otherwise 0.
+IsTitleKnown\(index\) - 如果标题对玩家有效，则返回1，否则返回0。
 
 IsXPUserDisabled\(\) - Returns 1 if the character has disabled experience gain.
 
