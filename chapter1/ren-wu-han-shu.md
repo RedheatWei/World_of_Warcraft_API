@@ -48,15 +48,15 @@ REMOVED [GetRuneType](https://wow.gamepedia.com/API_GetRuneType)\(id\) - 返回�
 
 [GetTitleName](https://wow.gamepedia.com/API_GetTitleName)\([titleId](https://wow.gamepedia.com/TitleId)\) - 返回玩家当前的标题名称。
 
-[GetXPExhaustion](https://wow.gamepedia.com/API_GetXPExhaustion)\(\) - Returns your character's current rested XP, nil if character is not rested.
+[GetXPExhaustion](https://wow.gamepedia.com/API_GetXPExhaustion)\(\) - 返回角色当前休息的XP，如果没有休息，则返回nil。
 
 [HasFullControl](https://wow.gamepedia.com/API_HasFullControl)\(\)
 
 [HasSoulstone](https://wow.gamepedia.com/API_HasSoulstone)\(\)
 
-[IsFalling](https://wow.gamepedia.com/API_IsFalling)\(\) - Returns 1 if your character is currently plummeting to their doom.
+[IsFalling](https://wow.gamepedia.com/API_IsFalling)\(\) - 如果你的角色目前正在直线下滑，则返回1。
 
-[IsFlying](https://wow.gamepedia.com/API_IsFlying)\(\) - Returns 1 if flying, otherwise nil.
+[IsFlying](https://wow.gamepedia.com/API_IsFlying)\(\) - 如果飞行则返回1，否则为零。
 
 [IsFlyableArea](https://wow.gamepedia.com/API_IsFlyableArea)\(\) - Returns 1 if it is possible to fly here, nil otherwise.
 
