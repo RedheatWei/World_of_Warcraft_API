@@ -44,7 +44,7 @@ ItemAddedToArtifact\(keystoneindex\) - 如果工件中存在梯形图，则返�
 
 [RequestArtifactCompletionHistory](https://wow.gamepedia.com/API_RequestArtifactCompletionHistory)\(\)
 
-[SocketItemToArtifact](https://wow.gamepedia.com/API_SocketItemToArtifact)\(\) - Add a keystone to the [selected](https://wow.gamepedia.com/API_SetSelectedArtifact) artifact.
+[SocketItemToArtifact](https://wow.gamepedia.com/API_SocketItemToArtifact)\(\) - 向[selected](https://wow.gamepedia.com/API_SetSelectedArtifact)工件添加一个梯形图。
 
-[SolveArtifact](https://wow.gamepedia.com/index.php?title=API_SolveArtifact&action=edit&redlink=1)\(\) - Solve the [selected](https://wow.gamepedia.com/API_SetSelectedArtifact) artifact.
+SolveArtifact\(\) - 解决[selected](https://wow.gamepedia.com/API_SetSelectedArtifact)工件。
 
