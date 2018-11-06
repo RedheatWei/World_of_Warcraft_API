@@ -22,7 +22,7 @@ NOCOMBAT [SetBinding](https://wow.gamepedia.com/API_SetBinding)\("key"\[, "comma
 
 NOCOMBAT [SetBindingSpell](https://wow.gamepedia.com/API_SetBindingSpell)\("key", "Spell Name"\) - 直接将一个键绑定设置为一个法术，使用与/cast相同的拼写名称语法。
 
-NOCOMBAT [SetBindingClick](https://wow.gamepedia.com/API_SetBindingClick)\("key", "ButtonName" \[,"mouseButton"\]\) - Set a key binding directly to a Button object. The click sends a mouse down when the key is pressed, and a mouse up when it is released.
+NOCOMBAT [SetBindingClick](https://wow.gamepedia.com/API_SetBindingClick)\("key", "ButtonName" \[,"mouseButton"\]\) - 直接将键绑定设置为按钮对象。按下该键时，发送一个鼠标按下信号，当释放该键时，发送鼠标按键松开信号。
 
 NOCOMBAT [SetBindingItem](https://wow.gamepedia.com/API_SetBindingItem)\("key", "itemname"\) -
 
