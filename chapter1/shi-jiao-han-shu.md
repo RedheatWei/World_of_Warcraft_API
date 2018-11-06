@@ -52,13 +52,13 @@ PROTECTED PitchUpStart\(\) - 开始向上倾斜镜头.
 
 PROTECTED PitchUpStop\(\) - PitchUpStart\(\) 被调用后停止向上倾斜镜头.
 
-NextView\(\) - Cycles forward through the five predefined camera positions.
+NextView\(\) - 通过5个预定义镜头位置向前循环.
 
-PrevView\(\) - Cycles backward through the five predefined camera positions.
+PrevView\(\) - 通过5个预定义镜头位置向后循环.
 
-ResetView\(index\) - Resets the specified \(1-5\) predefined camera position to it's default if it was changed using SaveView\(index\).
+ResetView\(index\) - 如果使用[SaveView](https://wow.gamepedia.com/API_SaveView)\(index\)更改指定的（1-5）预定义镜头位置，则将其重置为默认值。
 
-[SaveView](https://wow.gamepedia.com/API_SaveView)\(index\) - Replaces the specified \(1-5\) predefined camera positions with the current camera position.
+[SaveView](https://wow.gamepedia.com/API_SaveView)\(index\) -用当前镜头位置替换指定的（1-5）预定义镜头位置。
 
-[SetView](https://wow.gamepedia.com/API_SetView)\(index\) - Sets camera position to a specified \(1-5\) predefined camera position.
+[SetView](https://wow.gamepedia.com/API_SetView)\(index\) - 将摄像机位置设置为指定的（1-5）预定义摄像机位置。
 
