@@ -68,31 +68,31 @@ CalendarEventDecline\(\) - 拒绝当前打开的事件的邀请
 
 CalendarEventGetCalendarType\(\) - ?
 
-[CalendarEventGetInvite](https://wow.gamepedia.com/API_CalendarEventGetInvite)\(inviteIndex\) - Returns status information for an invitee for the currently opened event
+[CalendarEventGetInvite](https://wow.gamepedia.com/API_CalendarEventGetInvite)\(inviteIndex\) -  返回当前打开的事件的被邀请者的状态信息
 
 CalendarEventGetInviteResponseTime\(inviteIndex\) - ?
 
-CalendarEventGetInviteSortCriterion\(\) - returns criterion, reverse
+CalendarEventGetInviteSortCriterion\(\) - 返回标准，翻转
 
-[CalendarEventGetNumInvites](https://wow.gamepedia.com/API_CalendarEventGetNumInvites)\(\) - Returns the number of invitees for the currently opened event
+[CalendarEventGetNumInvites](https://wow.gamepedia.com/API_CalendarEventGetNumInvites)\(\) - 返回当前打开的事件的被邀请者数量
 
-CalendarEventGetRepeatOptions\(\) - Returns opt1, opt2
+CalendarEventGetRepeatOptions\(\) - 返回选项1,选项2
 
-CalendarEventGetSelectedInvite\(\) - returns inviteIndex
+CalendarEventGetSelectedInvite\(\) - 返回邀请索引
 
 CalendarEventGetStatusOptions\(\) - Returns ??
 
-CalendarEventGetTextures\(eventType\) - Returns title1, tex1, expLvl1, title2, tex2, expLvl2, ...
+CalendarEventGetTextures\(eventType\) - 返回标题1, 文本1, 经验等级1, 标题2, 文本2, 经验等级2, ...
 
-CalendarEventGetTypes\(\) - Returns name1, name2, ...
+CalendarEventGetTypes\(\) - 返回名称1,名称2, ...
 
 CalendarEventGetTypesDisplayOrdered\(\)
 
-CalendarEventHasPendingInvite\(\) - Returns true if the player has an unanswered invitation to the currently selected event
+CalendarEventHasPendingInvite\(\) - 如果玩家对当前所选事件有未答复的邀请，则返回true
 
-CalendarEventHaveSettingsChanged\(\) - Returns true if the currently open event has been modified
+CalendarEventHaveSettingsChanged\(\) - 如果已修改当前打开的事件，则返回true
 
-[CalendarEventInvite](https://wow.gamepedia.com/API_CalendarEventInvite)\("player"\) - Invite player to currently selected event
+[CalendarEventInvite](https://wow.gamepedia.com/API_CalendarEventInvite)\("player"\) - 邀请玩家参加当前选定的活动
 
 CalendarEventIsModerator\(\) - ?
 
@@ -118,7 +118,7 @@ CalendarEventSetRepeatOption\(repeatoption\)
 
 CalendarEventSetSize - ??
 
-CalendarEventSetStatus\(index, status\) - Sets the invitation status of a player to the current event
+CalendarEventSetStatus\(index, status\) - 将玩家的邀请状态设置为当前事件
 
 CalendarEventSetTextureID\(textureIndex\)
 
@@ -136,35 +136,35 @@ CalendarEventTentative\(\) - ?
 
 [CalendarGetAbsMonth](https://wow.gamepedia.com/API_CalendarGetAbsMonth)\(\) - returns month, year
 
-[CalendarGetDate](https://wow.gamepedia.com/API_CalendarGetDate)\(\) - Call this only after PLAYER\_ENTERING\_WORLD event
+[CalendarGetDate](https://wow.gamepedia.com/API_CalendarGetDate)\(\) - 只在PLAYER\_ENTERING\_WORLD事件后调用
 
 [CalendarGetDayEvent](https://wow.gamepedia.com/API_CalendarGetDayEvent)\(monthOffset, day, eventIndex\)
 
-[CalendarGetDayEventSequenceInfo](https://wow.gamepedia.com/API_CalendarGetDayEventSequenceInfo) - Retrieve information about the specified event.
+[CalendarGetDayEventSequenceInfo](https://wow.gamepedia.com/API_CalendarGetDayEventSequenceInfo) - 检索有关指定事件的信息。
 
-CalendarGetEventIndex\(\) - returns monthOffset, day, index
+CalendarGetEventIndex\(\) - 返回月偏移,天,索引
 
-[CalendarGetEventInfo](https://wow.gamepedia.com/API_CalendarGetEventInfo)\(\) - Returns detailed information about an event selected with CalendarOpenEvent\(\)
+[CalendarGetEventInfo](https://wow.gamepedia.com/API_CalendarGetEventInfo)\(\) - 返回有关使用CalendarOpenEvent\(\)选择的事件的详细信息
 
-CalendarGetFirstPendingInvite\(monthOffset, day\) - returns eventIndex
+CalendarGetFirstPendingInvite\(monthOffset, day\) - 返回事件索引
 
 CalendarGetGuildEventInfo\(eventId\) -
 
 CalendarGetGuildEventSelectionInfo\(index\)
 
-CalendarGetHolidayInfo\(monthOffset, day, eventIndex\) - Returns Holiday Name, Holiday Description, Calendar Icon
+CalendarGetHolidayInfo\(monthOffset, day, eventIndex\) - 返回假日名称，假日描述，日历图标
 
-CalendarGetMaxCreateDate\(\) - returns maxWeekday, maxMonth, maxDay, maxYear
+CalendarGetMaxCreateDate\(\) - 返回 maxWeekday, maxMonth, maxDay, maxYear
 
-CalendarGetMaxDate\(\) - returns maxWeekday, maxMonth, maxDay, maxYear
+CalendarGetMaxDate\(\) - 返回 maxWeekday, maxMonth, maxDay, maxYear
 
-[CalendarGetMinDate](https://wow.gamepedia.com/API_CalendarGetMinDate)\(\) - returns minWeekday, minMonth, minDay, minYear
+[CalendarGetMinDate](https://wow.gamepedia.com/API_CalendarGetMinDate)\(\) - 返回 minWeekday, minMonth, minDay, minYear
 
-CalendarGetMinHistoryDate\(\) - returns minWeekday, minMonth, minDay, minYear
+CalendarGetMinHistoryDate\(\) - 返回 minWeekday, minMonth, minDay, minYear
 
-[CalendarGetMonth](https://wow.gamepedia.com/API_CalendarGetMonth)\(\[monthOffset\]\) - returns month, year
+[CalendarGetMonth](https://wow.gamepedia.com/API_CalendarGetMonth)\(\[monthOffset\]\) - 返回 month, year
 
-[CalendarGetMonthNames](https://wow.gamepedia.com/API_CalendarGetMonthNames)\(\) - returns a list of the month names
+[CalendarGetMonthNames](https://wow.gamepedia.com/API_CalendarGetMonthNames)\(\) - 返回月份名称列表
 
 [CalendarGetNumDayEvents](https://wow.gamepedia.com/API_CalendarGetNumDayEvents)\(monthOffset\[, day\]\)
 
@@ -172,29 +172,29 @@ CalendarGetNumGuildEvents\(\)
 
 CalendarGetNumPendingInvites\(\) - returns count
 
-CalendarGetRaidInfo \(monthOffset, day, eventIndex\) - returns name, calendarType, raidID, hour, minute, difficulty
+CalendarGetRaidInfo \(monthOffset, day, eventIndex\) - 返回名称,日历类型, raidID, 时 分, 难度
 
-CalendarGetWeekdayNames\(\) - returns a list of the weekday names
+CalendarGetWeekdayNames\(\) - 返回工作日名称列表
 
-CalendarIsActionPending\(\) - returns isPending
+CalendarIsActionPending\(\) - 返回是否等待
 
 CalendarMassInviteGuild\(minLevel, maxLevel, rank\) - ?
 
-[CalendarNewEvent](https://wow.gamepedia.com/API_CalendarNewEvent)\(\) - Creates and selected a new event
+[CalendarNewEvent](https://wow.gamepedia.com/API_CalendarNewEvent)\(\) - 创建并选择一个新事件
 
 CalendarNewGuildAnnouncement\(\) - ?
 
-CalendarNewGuildEvent\(minLevel, maxLevel, minRank\) - Replaces the invite list of the selected new event with the specified guild members
+CalendarNewGuildEvent\(minLevel, maxLevel, minRank\) - 用指定的公会成员替换所选新事件的邀请列表
 
-[CalendarOpenEvent](https://wow.gamepedia.com/API_CalendarOpenEvent)\(monthOffset, day, eventIndex\) - Selects an existing event
+[CalendarOpenEvent](https://wow.gamepedia.com/API_CalendarOpenEvent)\(monthOffset, day, eventIndex\) - 选择一个已有的事件
 
-CalendarRemoveEvent\(\) - Removes the selected event from the calendar \(invitees only\)
+CalendarRemoveEvent\(\) - 在日历中移除选中的事件\(仅限受邀者\)
 
-CalendarSetAbsMonth\(month, year\) - Sets the reference month and year for functions which use a month offset
+CalendarSetAbsMonth\(month, year\) - 设置使用月份偏移的函数的引用月份和年份
 
 CalendarSetMonth\(monthOffset\)
 
-CalendarUpdateEvent\(\) - Saves the selected event \(existing events only, requires hardware input to call\)
+CalendarUpdateEvent\(\) - 保存选择的事件 \(仅限存在的事件,需要硬件输入调用\)
 
-[OpenCalendar](https://wow.gamepedia.com/API_OpenCalendar)\(\) - Requests calendar information from the server. Does not open the calendar frame. \(added in 3.0.8\)
+[OpenCalendar](https://wow.gamepedia.com/API_OpenCalendar)\(\) - 在服务器请求日历信息. 不启动日历框架. \(添加于3.0.8\)
 
