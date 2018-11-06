@@ -8,4 +8,5 @@
   * [活动函数](chapter1/huo-dong-han-shu.md)
   * [AddOn函数](chapter1/addonhan-shu.md)
   * [考古学函数](chapter1/kao-gu-xue-han-shu.md)
+  * [竞技场函数](chapter1/jing-ji-chang-han-shu.md)
 
