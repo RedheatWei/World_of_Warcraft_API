@@ -10,7 +10,7 @@ PROTECTED [AttackTarget](https://wow.gamepedia.com/API_AttackTarget)\(\) - 攻�
 
 [CancelLogout](https://wow.gamepedia.com/API_CancelLogout)\(\) - 取消退出计时器（从野外或退出）。
 
-[CancelSummon](https://wow.gamepedia.com/index.php?title=API_CancelSummon&action=edit&redlink=1)\(\) - 拒绝召唤请求。
+CancelSummon\(\) - 拒绝召唤请求。
 
 [ConfirmSummon](https://wow.gamepedia.com/API_ConfirmSummon)\(\) - 接受召唤请求。
 
@@ -24,27 +24,27 @@ PROTECTED [ForceQuit](https://wow.gamepedia.com/API_ForceQuit)\(\) - 立即退�
 
 [GetPVPTimer](https://wow.gamepedia.com/API_GetPVPTimer)\(\) - 返回PvP标志消失之前的时间量。
 
-[GetSummonConfirmAreaName](https://wow.gamepedia.com/index.php?title=API_GetSummonConfirmAreaName&action=edit&redlink=1)\(\) - 返回你被召唤的区域的名称。
+GetSummonConfirmAreaName\(\) - 返回你被召唤的区域的名称。
 
-[GetSummonConfirmSummoner](https://wow.gamepedia.com/API_GetSummonConfirmSummoner)\(\) - Returns the name of the player summoning you.
+[GetSummonConfirmSummoner](https://wow.gamepedia.com/API_GetSummonConfirmSummoner)\(\) - 返回召唤你的玩家的名字。
 
-[GetSummonConfirmTimeLeft](https://wow.gamepedia.com/index.php?title=API_GetSummonConfirmTimeLeft&action=edit&redlink=1)\(\) - Returns the amount of time left before the pending summon expires.
+GetSummonConfirmTimeLeft\(\) - 返回挂起的召唤到期之前剩余的时间量。
 
-PROTECTED [Logout](https://wow.gamepedia.com/API_Logout)\(\) - Logs the user out of the game.
+PROTECTED [Logout](https://wow.gamepedia.com/API_Logout)\(\) - 将用户退出游戏。
 
-PROTECTED [Quit](https://wow.gamepedia.com/API_Quit)\(\) - Quits the game, **not **the Lua script.
+PROTECTED [Quit](https://wow.gamepedia.com/API_Quit)\(\) - 退出游戏，不是Lua脚本。
 
-[RandomRoll](https://wow.gamepedia.com/API_RandomRoll)\(min, max\) - Does a random roll between the two values.
+[RandomRoll](https://wow.gamepedia.com/API_RandomRoll)\(min, max\) - 两个值之间是否随意滚动。
 
-[SetPVP](https://wow.gamepedia.com/API_SetPVP)\(enable\) - Sets the players PVP mode \(1 to enable, nil to toggle off eventually\).
+[SetPVP](https://wow.gamepedia.com/API_SetPVP)\(enable\) - 设置玩家PVP模式（1表示启用，nil最终关闭）。
 
-PROTECTED [SitStandOrDescendStart](https://wow.gamepedia.com/API_SitStandOrDescendStart)\(\) - The player sits, stands, or descends.
+PROTECTED [SitStandOrDescendStart](https://wow.gamepedia.com/API_SitStandOrDescendStart)\(\) - 玩家坐，站或下降。
 
-[StartDuel](https://wow.gamepedia.com/API_StartDuel)\("name"\) - Challenge someone to a duel \(by name\)
+[StartDuel](https://wow.gamepedia.com/API_StartDuel)\("name"\) - 挑战某人进行决斗（按名称）
 
-[TogglePVP](https://wow.gamepedia.com/API_TogglePVP)\(\) - Toggles PVP status
+[TogglePVP](https://wow.gamepedia.com/API_TogglePVP)\(\) - 切换PVP状态
 
-[ToggleSheath](https://wow.gamepedia.com/API_ToggleSheath)\(\) - Toggles sheathed or unsheathed weapons.
+[ToggleSheath](https://wow.gamepedia.com/API_ToggleSheath)\(\) - 切换护套或未护套武器。
 
-[UseSoulstone](https://wow.gamepedia.com/index.php?title=API_UseSoulstone&action=edit&redlink=1)\(\) - Use an active soulstone to resurrect yourself after death. Also works for Shamans with Reincarnation available.
+UseSoulstone\(\) - 使用活跃的灵魂石在死后复活自己。也适用于具有轮回的萨满祭司。
 
