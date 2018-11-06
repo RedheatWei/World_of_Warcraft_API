@@ -32,25 +32,25 @@ PROTECTED [CameraOrSelectOrMoveStop](https://wow.gamepedia.com/API_CameraOrSelec
 
 [MoveViewLeftStop](https://wow.gamepedia.com/API_MoveViewLeftStop)\(\) - [MoveViewLeftStart](https://wow.gamepedia.com/API_MoveViewLeftStart)\(\) 被调用后停止向左旋转镜头.
 
-[MoveViewOutStart](https://wow.gamepedia.com/API_MoveViewOutStart)\(\) - Begins zooming the camera out.
+[MoveViewOutStart](https://wow.gamepedia.com/API_MoveViewOutStart)\(\) - 开始缩小镜头。
 
-[MoveViewOutStop](https://wow.gamepedia.com/API_MoveViewOutStop)\(\) - Stops zooming the camera out after [MoveViewOutStart](https://wow.gamepedia.com/API_MoveViewOutStart)\(\) is called.
+[MoveViewOutStop](https://wow.gamepedia.com/API_MoveViewOutStop)\(\) - [MoveViewOutStart](https://wow.gamepedia.com/API_MoveViewOutStart)\(\) 被调用后停止缩小镜头.
 
-[MoveViewRightStart](https://wow.gamepedia.com/API_MoveViewRightStart)\(\) - Begins rotating the camera to the Right.
+[MoveViewRightStart](https://wow.gamepedia.com/API_MoveViewRightStart)\(\) - 开始将镜头向右旋转。
 
-[MoveViewRightStop](https://wow.gamepedia.com/API_MoveViewRightStop)\(\) - Stops rotating the camera after [MoveViewRightStart](https://wow.gamepedia.com/API_MoveViewRightStart)\(\) is called.
+[MoveViewRightStop](https://wow.gamepedia.com/API_MoveViewRightStop)\(\) - [MoveViewRightStart](https://wow.gamepedia.com/API_MoveViewRightStart)\(\) 被调用后停止向右旋转.
 
-[MoveViewUpStart](https://wow.gamepedia.com/API_MoveViewUpStart)\(\) - Begins rotating the camera upward.
+[MoveViewUpStart](https://wow.gamepedia.com/API_MoveViewUpStart)\(\) - 开始向上旋转镜头。
 
-[MoveViewUpStop](https://wow.gamepedia.com/API_MoveViewUpStop)\(\) - Stops rotating the camera after [MoveViewUpStart](https://wow.gamepedia.com/API_MoveViewUpStart)\(\) is called.
+[MoveViewUpStop](https://wow.gamepedia.com/API_MoveViewUpStop)\(\) - [MoveViewUpStart](https://wow.gamepedia.com/API_MoveViewUpStart)\(\)被调用后停止向上旋转镜头.
 
-PROTECTED PitchDownStart\(\) - Begins pitching the camera Downward.
+PROTECTED PitchDownStart\(\) - 开始向下倾斜镜头。
 
-PROTECTED PitchDownStop\(\) - Stops pitching the camera after PitchDownStart\(\) is called.
+PROTECTED PitchDownStop\(\) - PitchDownStart\(\) 被调用后停止向下倾斜镜头.
 
-PROTECTED PitchUpStart\(\) - Begins pitching the camera Upward.
+PROTECTED PitchUpStart\(\) - 开始向上倾斜镜头.
 
-PROTECTED PitchUpStop\(\) - Stops pitching the camera after PitchUpStart\(\) is called.
+PROTECTED PitchUpStop\(\) - PitchUpStart\(\) 被调用后停止向上倾斜镜头.
 
 NextView\(\) - Cycles forward through the five predefined camera positions.
 
