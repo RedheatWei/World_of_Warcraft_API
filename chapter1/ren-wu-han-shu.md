@@ -66,9 +66,9 @@ REMOVED [GetRuneType](https://wow.gamepedia.com/API_GetRuneType)\(id\) - 返回�
 
 [IsOutdoors](https://wow.gamepedia.com/API_IsOutdoors)\(\) -如果你在户外，则返回1，否则为零。对于仍然可以安装的室内区域，返回1。
 
-[IsOutOfBounds](https://wow.gamepedia.com/API_IsOutOfBounds)\(\) - Returns 1 if you fell off the map.
+[IsOutOfBounds](https://wow.gamepedia.com/API_IsOutOfBounds)\(\) - 如果你从地图上掉下来，则返回1。
 
-[IsResting](https://wow.gamepedia.com/API_IsResting)\(\) - Returns 1 if your character is currently resting.
+[IsResting](https://wow.gamepedia.com/API_IsResting)\(\) - 如果你的角色当前正在休息，则返回1。
 
 [IsStealthed](https://wow.gamepedia.com/API_IsStealthed)\(\) - Returns 1 if stealthed or shadowmeld, otherwise nil.
 
