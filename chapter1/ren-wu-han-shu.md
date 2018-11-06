@@ -4,15 +4,15 @@
 
 [AcceptXPLoss](https://wow.gamepedia.com/API_AcceptXPLoss)\(\) - 接受由灵魂医者重生的耐久性损失。（该名称是sprit res是XP丢失时的残余。）
 
-CheckBinderDist\(\) - Check whether the player is close enough to interact with the Hearthstone binder.
+CheckBinderDist\(\) - 检查玩家是否足够接近旅店老板
 
-ConfirmBinder\(\) - Confirm the request to set the binding of the player's Hearthstone.
+ConfirmBinder\(\) - 确认设置玩家炉石的绑定的请求。
 
-[DeclineResurrect](https://wow.gamepedia.com/API_DeclineResurrect)\(\) - Decline the request from another player to resurrect him/herself.
+[DeclineResurrect](https://wow.gamepedia.com/API_DeclineResurrect)\(\) - 拒绝其他玩家要求复活他自己的请求。
 
-PROTECTED [DestroyTotem](https://wow.gamepedia.com/API_DestroyTotem)\(slot\) - Destroys a totem/minion.
+PROTECTED [DestroyTotem](https://wow.gamepedia.com/API_DestroyTotem)\(slot\) - 摧毁图腾/仆从.
 
-[GetBindLocation](https://wow.gamepedia.com/API_GetBindLocation)\(\) - Get the name of the location for your Hearthstone.
+[GetBindLocation](https://wow.gamepedia.com/API_GetBindLocation)\(\) - 获取炉石的位置名称。
 
 [GetComboPoints](https://wow.gamepedia.com/API_GetComboPoints)\(\) - Get the current number of combo points.
 
