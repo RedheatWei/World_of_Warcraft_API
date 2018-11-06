@@ -104,9 +104,7 @@ C\_ArtifactUI.SetPreviewAppearance\(\[appearanceID\]\) -
 
 C\_ArtifactUI.ShouldSuppressForgeRotation\(\) -
 
-These functions were introduced in patch 7.3.0.
-
-
+这些功能在补丁[7.3.0](https://wow.gamepedia.com/Patch_7.3.0)中引入。
 
 C\_ArtifactRelicForgeUI.AddRelicTalent\(relicSlot, index\) -
 

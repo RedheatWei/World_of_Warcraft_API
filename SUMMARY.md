@@ -10,4 +10,5 @@
   * [考古学函数](chapter1/kao-gu-xue-han-shu.md)
   * [竞技场函数](chapter1/jing-ji-chang-han-shu.md)
   * [神器函数](chapter1/shen-qi-han-shu.md)
+  * [拍卖函数](chapter1/pai-mai-han-shu.md)
 
