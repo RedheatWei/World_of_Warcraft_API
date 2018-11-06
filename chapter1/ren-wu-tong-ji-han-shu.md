@@ -10,7 +10,7 @@
 
 [GetCritChance](https://wow.gamepedia.com/API_GetCritChance)\(\) -返回玩家的近战爆击几率。
 
-REMOVED GetCritChanceFromAgility\("unit"\) - Returns the amount of your critical hit chance contributed by Agility.
+REMOVED GetCritChanceFromAgility\("unit"\) -返回敏捷贡献的爆击几率。
 
 [GetDodgeChance](https://wow.gamepedia.com/API_GetDodgeChance)\(\) - Returns the player's percentage dodge chance.
 
