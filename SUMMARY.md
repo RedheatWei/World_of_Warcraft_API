@@ -21,4 +21,5 @@
   * [视角函数](chapter1/shi-jiao-han-shu.md)
   * [频道函数](chapter1/pin-dao-han-shu.md)
   * [人物函数](chapter1/ren-wu-han-shu.md)
+  * [人物统计函数](chapter1/ren-wu-tong-ji-han-shu.md)
 
