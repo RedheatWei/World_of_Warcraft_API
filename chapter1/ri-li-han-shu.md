@@ -14,29 +14,29 @@ CalendarContextEventCanComplain\(monthOffset, day, eventIndex\) - 如果玩家�
 
 CalendarContextEventCanEdit\(monthOffset, day, eventIndex\) - 如果玩家可以编辑事件，则返回true
 
-CalendarContextEventCanRemove\(monthOffset, day, eventIndex\) - Returns true if player can remove event.
+CalendarContextEventCanRemove\(monthOffset, day, eventIndex\) - 如果玩家可以移除事件，则返回true。
 
 CalendarContextEventClipboard\(\)
 
-CalendarContextEventComplain\(monthOffset, day, eventIndex\) - Reports the event as spam
+CalendarContextEventComplain\(monthOffset, day, eventIndex\) - 将该事件报告为垃圾邮件
 
-CalendarContextEventCopy\(monthOffset, day, eventIndex\) - Copies the event to the clipboard
+CalendarContextEventCopy\(monthOffset, day, eventIndex\) - 将事件复制到剪贴板
 
 CalendarContextEventGetCalendarType\(\) - ?
 
-CalendarContextEventPaste\(monthOffset, day\) - Pastes the clipboard event to the date
+CalendarContextEventPaste\(monthOffset, day\) - 将剪贴板事件粘贴到日期
 
-CalendarContextEventRemove\(monthOffset, day, eventIndex\) - Deletes the event
+CalendarContextEventRemove\(monthOffset, day, eventIndex\) - 删除事件
 
 CalendarContextEventSignUp\(\) - ?
 
-CalendarContextGetEventIndex\(\) - added in 3.0.8
+CalendarContextGetEventIndex\(\) - 添加于3.0.8
 
-CalendarContextInviteAvailable\(monthOffset, day, eventIndex\) - Accepts the invitation to the event
+CalendarContextInviteAvailable\(monthOffset, day, eventIndex\) - 接受邀请参加活动
 
-CalendarContextInviteDecline\(monthOffset, day, eventIndex\) - Declines the invitation to the event
+CalendarContextInviteDecline\(monthOffset, day, eventIndex\) - 拒绝活动的邀请
 
-CalendarContextInviteIsPending\(monthOffset, day, eventIndex\) - Returns true if the player hasn't responded to the event invite
+CalendarContextInviteIsPending\(monthOffset, day, eventIndex\) - 如果玩家未响应活动邀请，则返回true
 
 CalendarContextInviteTentative\(\) - ?
 
