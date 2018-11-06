@@ -8,7 +8,7 @@
 
 UI [GetBindingText](https://wow.gamepedia.com/API_GetBindingText)\("key", "prefix", returnAbbr\) - 获取键的字符串值。
 
-[GetCurrentBindingSet](https://wow.gamepedia.com/API_GetCurrentBindingSet)\(\) - Queries if current set of key bindings is character or account specific
+[GetCurrentBindingSet](https://wow.gamepedia.com/API_GetCurrentBindingSet)\(\) - 查询当前的键绑定集是特定于字符还是帐户
 
 [GetNumBindings](https://wow.gamepedia.com/API_GetNumBindings)\(\) - Get total number key bindings and headers.
 
@@ -49,6 +49,4 @@ SetMouselookOverrideBinding\("key" \[,"command"\]\) -
 [IsModifiedClick](https://wow.gamepedia.com/API_IsModifiedClick)\("action"\) - Returns 1 if the keys for the specified action are down, nil otherwise.
 
 [IsMouseButtonDown](https://wow.gamepedia.com/API_IsMouseButtonDown)\(\[button or "button"\]\) -
-
-
 
