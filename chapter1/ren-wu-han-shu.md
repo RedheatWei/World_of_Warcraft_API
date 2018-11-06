@@ -72,7 +72,7 @@ REMOVED [GetRuneType](https://wow.gamepedia.com/API_GetRuneType)\(id\) - 返回�
 
 [IsStealthed](https://wow.gamepedia.com/API_IsStealthed)\(\) - 如果是潜行或阴影，则返回1，否则返回nil。
 
-[IsSwimming](https://wow.gamepedia.com/API_IsSwimming)\(\) - Returns 1 if your character is currently swimming.
+[IsSwimming](https://wow.gamepedia.com/API_IsSwimming)\(\) - 如果你的角色正在游泳，则返回1。
 
 IsTitleKnown\(index\) - Returns 1 if the title is valid for the player, otherwise 0.
 
