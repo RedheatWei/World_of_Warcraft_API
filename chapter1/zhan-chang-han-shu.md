@@ -20,19 +20,19 @@ CheckSpiritHealerDist\(\) - 如果你在灵魂医者的范围内死亡，则返�
 
 [GetBattlefieldInstanceRunTime](https://wow.gamepedia.com/API_GetBattlefieldInstanceRunTime)\(\) - 以毫秒为单位，自战场开始以来的时间（似乎是从服务器查询，因为它与time\(\)不同步）。
 
-GetBattlefieldMapIconScale\(\) - Scale of the landmark icons on the battlefield minimap.
+GetBattlefieldMapIconScale\(\) - 战场小地图地标刻度尺.
 
-[GetBattlefieldPortExpiration](https://wow.gamepedia.com/API_GetBattlefieldPortExpiration)\(index\) - Get the remaining seconds before the battlefield port expires.
+[GetBattlefieldPortExpiration](https://wow.gamepedia.com/API_GetBattlefieldPortExpiration)\(index\) - 获取战场到期前的剩余秒数。
 
-[GetBattlefieldScore](https://wow.gamepedia.com/API_GetBattlefieldScore)\(index\) - Get score information about a player.
+[GetBattlefieldScore](https://wow.gamepedia.com/API_GetBattlefieldScore)\(index\) - 获取有关玩家的分数信息。
 
-[GetBattlefieldStatData](https://wow.gamepedia.com/API_GetBattlefieldStatData)\(playerIndex, slotIndex\) - Get information for a player from a column thats specific to a battleground \(like Warsong Gulch flag captures\).
+[GetBattlefieldStatData](https://wow.gamepedia.com/API_GetBattlefieldStatData)\(playerIndex, slotIndex\) - 从特定于战场的列中获取玩家的信息（如战歌峡谷旗帜捕获）。
 
-[GetBattlefieldStatInfo](https://wow.gamepedia.com/API_GetBattlefieldStatInfo)\(index\) - Get the battleground specific column for the score board.
+[GetBattlefieldStatInfo](https://wow.gamepedia.com/API_GetBattlefieldStatInfo)\(index\) - 获取记分板的战场特定列。
 
-[GetBattlefieldStatus](https://wow.gamepedia.com/API_GetBattlefieldStatus)\(index\) - Get the battlefield's current status.
+[GetBattlefieldStatus](https://wow.gamepedia.com/API_GetBattlefieldStatus)\(index\) - 获取战场的当前状态。
 
-[GetBattlefieldTimeWaited](https://wow.gamepedia.com/API_GetBattlefieldTimeWaited)\(index\) - Get time waited in queue in milliseconds.
+[GetBattlefieldTimeWaited](https://wow.gamepedia.com/API_GetBattlefieldTimeWaited)\(index\) - 获取以毫秒为单位在队列中等待时间。
 
 [GetBattlefieldWinner](https://wow.gamepedia.com/API_GetBattlefieldWinner)\(\) - Get the battlefields winner.
 
@@ -63,6 +63,4 @@ ReportPlayerIsPVPAFK\("unit"\) - Reports the specified player as AFK in a battle
 [RequestBattlegroundInstanceInfo](https://wow.gamepedia.com/API_RequestBattlegroundInstanceInfo)\(index\) - Requests data about the available instances of a battleground.
 
 [SetBattlefieldScoreFaction](https://wow.gamepedia.com/API_SetBattlefieldScoreFaction)\(\[faction\]\) - Set the faction to show on the battlefield scoreboard.
-
-
 
