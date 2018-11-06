@@ -76,7 +76,7 @@ REMOVED [GetRuneType](https://wow.gamepedia.com/API_GetRuneType)\(id\) - 返回�
 
 IsTitleKnown\(index\) - 如果标题对玩家有效，则返回1，否则返回0。
 
-IsXPUserDisabled\(\) - Returns 1 if the character has disabled experience gain.
+IsXPUserDisabled\(\) - 如果角色已禁用经验增益，则返回1。
 
 [NotWhileDeadError](https://wow.gamepedia.com/API_NotWhileDeadError)\(\) - Generates an error message saying you cannot do that while dead.
 
