@@ -38,9 +38,9 @@ GetBattlefieldMapIconScale\(\) - 战场小地图地标刻度尺.
 
 [GetBattlegroundInfo](https://wow.gamepedia.com/API_GetBattlegroundInfo)\(index\) - 返回战场类型的信息。
 
-[GetMaxBattlefieldID](https://wow.gamepedia.com/API_GetMaxBattlefieldID)\(\) - Returns the max number of battlefields you can queue for.
+[GetMaxBattlefieldID](https://wow.gamepedia.com/API_GetMaxBattlefieldID)\(\) - 返回可以排队的最大战场数。
 
-GetNumBattlefieldFlagPositions\(\) - Get the number of flag positions available from GetBattlefieldFlagPosition\(\).
+GetNumBattlefieldFlagPositions\(\) - 获取GetBattlefieldFlagPosition\(\)中可用的标志位置数。
 
 [GetNumBattlefieldScores](https://wow.gamepedia.com/API_GetNumBattlefieldScores)\(\) - Returns the number of scores\(players\) listed in the battlefield scoreboard.
 
