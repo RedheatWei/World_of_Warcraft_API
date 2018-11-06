@@ -58,11 +58,11 @@ REMOVED [GetRuneType](https://wow.gamepedia.com/API_GetRuneType)\(id\) - 返回�
 
 [IsFlying](https://wow.gamepedia.com/API_IsFlying)\(\) - 如果飞行则返回1，否则为零。
 
-[IsFlyableArea](https://wow.gamepedia.com/API_IsFlyableArea)\(\) - Returns 1 if it is possible to fly here, nil otherwise.
+[IsFlyableArea](https://wow.gamepedia.com/API_IsFlyableArea)\(\) - 如果可以在这里飞行则返回1，否则返回nil。
 
-[IsIndoors](https://wow.gamepedia.com/API_IsIndoors)\(\) - Returns 1 if you are indoors, otherwise nil. Returns nil for indoor areas where you can still mount.
+[IsIndoors](https://wow.gamepedia.com/API_IsIndoors)\(\) - 如果你在室内，则返回1，否则为零。对于仍然可以安装的室内区域，返回nil。
 
-[IsMounted](https://wow.gamepedia.com/API_IsMounted)\(\) - Returns 1 if mounted, otherwise nil.
+[IsMounted](https://wow.gamepedia.com/API_IsMounted)\(\) - 如果已挂载，则返回1，否则返回nil。
 
 [IsOutdoors](https://wow.gamepedia.com/API_IsOutdoors)\(\) - Returns 1 if you are outdoors, otherwise nil. Returns 1 for indoor areas where you can still mount.
 
