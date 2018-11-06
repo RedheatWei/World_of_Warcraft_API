@@ -78,7 +78,7 @@ IsTitleKnown\(index\) - 如果标题对玩家有效，则返回1，否则返回0
 
 IsXPUserDisabled\(\) - 如果角色已禁用经验增益，则返回1。
 
-[NotWhileDeadError](https://wow.gamepedia.com/API_NotWhileDeadError)\(\) - Generates an error message saying you cannot do that while dead.
+[NotWhileDeadError](https://wow.gamepedia.com/API_NotWhileDeadError)\(\) - 生成一条错误消息，告诉您在死亡时无法执行此操作。
 
 ResurrectHasSickness\(\) - Appears to be used when accepting a resurrection will give you resurrection sickessness.
 
