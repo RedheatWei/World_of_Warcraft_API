@@ -62,7 +62,7 @@ REMOVED [GetRuneType](https://wow.gamepedia.com/API_GetRuneType)\(id\) - 返回�
 
 [IsIndoors](https://wow.gamepedia.com/API_IsIndoors)\(\) - 如果你在室内，则返回1，否则为零。对于仍然可以安装的室内区域，返回nil。
 
-[IsMounted](https://wow.gamepedia.com/API_IsMounted)\(\) - 如果已挂载，则返回1，否则返回nil。
+[IsMounted](https://wow.gamepedia.com/API_IsMounted)\(\) - 如果已上坐骑，则返回1，否则返回nil。
 
 [IsOutdoors](https://wow.gamepedia.com/API_IsOutdoors)\(\) - Returns 1 if you are outdoors, otherwise nil. Returns 1 for indoor areas where you can still mount.
 
