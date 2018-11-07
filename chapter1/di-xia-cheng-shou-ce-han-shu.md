@@ -8,7 +8,7 @@ EJ\_EndSearch\(?\) -
 
 [EJ\_GetCurrentInstance](https://wow.gamepedia.com/API_EJ_GetCurrentInstance)\(\) - 返回角色当前位置的实例ID
 
-[EJ\_GetCurrentTier](https://wow.gamepedia.com/API_EJ_GetCurrentTier)\(\) - Returns the currently active tier index
+[EJ\_GetCurrentTier](https://wow.gamepedia.com/API_EJ_GetCurrentTier)\(\) - 返回当前活动的层索引
 
 EJ\_GetDifficulty\(\)
 
