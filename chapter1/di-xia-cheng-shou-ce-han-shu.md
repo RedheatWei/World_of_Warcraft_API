@@ -24,11 +24,11 @@ EJ\_GetInvTypeSortOrder\(?\) -
 
 EJ\_GetLootFilter\(\)
 
-[EJ\_GetLootInfo](https://wow.gamepedia.com/API_EJ_GetLootInfo)\(lootID\) - Returns Loot info
+[EJ\_GetLootInfo](https://wow.gamepedia.com/API_EJ_GetLootInfo)\(lootID\) - 返回掉落信息
 
-[EJ\_GetLootInfoByIndex](https://wow.gamepedia.com/API_EJ_GetLootInfoByIndex)\(index\) - Returns Loot info
+[EJ\_GetLootInfoByIndex](https://wow.gamepedia.com/API_EJ_GetLootInfoByIndex)\(index\) - 返回掉落信息
 
-[EJ\_GetMapEncounter](https://wow.gamepedia.com/API_EJ_GetMapEncounter)\(index\) - Returns Map Button info
+[EJ\_GetMapEncounter](https://wow.gamepedia.com/API_EJ_GetMapEncounter)\(index\) - 返回地图按钮信息
 
 EJ\_GetNumEncountersForLootByIndex\(?\) -
 
