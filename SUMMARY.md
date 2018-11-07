@@ -23,4 +23,5 @@
   * [人物函数](chapter1/ren-wu-han-shu.md)
   * [人物统计函数](chapter1/ren-wu-tong-ji-han-shu.md)
   * [聊天窗口函数](chapter1/liao-tian-chuang-kou-han-shu.md)
+  * [解说函数](chapter1/jie-shuo-han-shu.md)
 
