@@ -28,4 +28,5 @@
   * [伙伴函数](chapter1/huo-ban-han-shu.md)
   * [容器/包裹函数](chapter1/rong-5668-bao-guo-han-shu.md)
   * [捐献收集函数](chapter1/juan-xian-shou-ji-han-shu.md)
+  * [货币函数](chapter1/huo-bi-han-shu.md)
 
