@@ -44,9 +44,9 @@ EJ\_GetSearchProgress\(?\) -
 
 EJ\_GetSearchSize\(?\) -
 
-[EJ\_GetSectionInfo](https://wow.gamepedia.com/API_EJ_GetSectionInfo)\(sectionID\) - Returns Section info
+[EJ\_GetSectionInfo](https://wow.gamepedia.com/API_EJ_GetSectionInfo)\(sectionID\) - 返回部件信息.
 
-[EJ\_GetSectionPath](https://wow.gamepedia.com/API_EJ_GetSectionPath)\(sectionID\) - Returns the Parent Section ID if available
+[EJ\_GetSectionPath](https://wow.gamepedia.com/API_EJ_GetSectionPath)\(sectionID\) - 如果可用，返回父节ID
 
 [EJ\_GetTierInfo](https://wow.gamepedia.com/API_EJ_GetTierInfo)\(index\) - Returns some information about the tier for index
 
