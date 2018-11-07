@@ -38,21 +38,21 @@ UI [ChatFrame\_RemoveMessageEventFilter](https://wow.gamepedia.com/API_ChatFrame
 
 [RemoveChatWindowMessages](https://wow.gamepedia.com/API_RemoveChatWindowMessages)\(chatFrameIndex,"messageGroup"\) - 从此窗口中删除一组聊天消息。
 
-These functions get applied after Reload UI \(index 1 is General and index 2 is Combat Log\):
+这些函数在重新加载UI后应用（索引1为常规，索引2为战斗日志）：
 
-SetChatWindowAlpha\(index,alpha\) - Sets the Alpha value\(transparency\) of ChatFrame&lt;index&gt; \(alpha - 0-100\)
+SetChatWindowAlpha\(index,alpha\) - 设置聊天框 &lt;index&gt;的Alpha值（透明度）（alpha  -  0-100）
 
-SetChatWindowColor\(index, r, g, b\) - Sets the background color of a a chat window. \(r/g/b - 0-255\)
+SetChatWindowColor\(index, r, g, b\) - 设置聊天窗口的背景颜色。（r/g/b  -  0-255）
 
-SetChatWindowDocked\(index,docked\) - Set whether a chat window is docked. \(docked - 0/1\)
+SetChatWindowDocked\(index,docked\) - 设置是否停靠聊天窗口。（停靠 -  0/1）
 
-SetChatWindowLocked\(index,locked\) - Sets ChatFrame&lt;index&gt; so that it is or is not movable. \(locked - 0/1\)
+SetChatWindowLocked\(index,locked\) - 设置聊天框 &lt;index&gt;以使其可移动或不移动。（锁定 -  0/1）
 
-SetChatWindowName\(index,"name"\) - Sets the alpha value of ChatFrame.
+SetChatWindowName\(index,"name"\) - 设置聊天框的Alpha值。
 
-SetChatWindowShown\(index,shown\) - Shows or Hides ChatFrame&lt;index&gt; depending on value of &lt;shown&gt; \(shown - 0/1\)
+SetChatWindowShown\(index,shown\) - 显示或隐藏聊天框 &lt;index&gt;，具体取决于&lt;shown&gt;的值（显示为 -  0/1）
 
-SetChatWindowSize\(index,size\) - Sets the font size of a chat window. \(size - default 14\)
+SetChatWindowSize\(index,size\) - 设置聊天窗口的字体大小。（大小 - 默认14）
 
-SetChatWindowUninteractable\(id, isUninteractable\) - added in 3.0.8
+SetChatWindowUninteractable\(id, isUninteractable\) - 添加于3.0.8
 
