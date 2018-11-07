@@ -28,7 +28,7 @@ CursorHasSpell\(\) - 如果光标当前持有一个技能，则返回true。
 
 [HideRepairCursor](https://wow.gamepedia.com/API_HideRepairCursor)\(\) - 隐藏修复光标。
 
-[InRepairMode](https://wow.gamepedia.com/API_InRepairMode)\(\) - Returns true if your cursor is in repair mode.
+[InRepairMode](https://wow.gamepedia.com/API_InRepairMode)\(\) - 如果光标处于修复模式，则返回true。
 
 NOCOMBAT [PickupAction](https://wow.gamepedia.com/API_PickupAction)\(slot\) - Drags an action out of the specified quickbar slot and holds it on the cursor.
 
