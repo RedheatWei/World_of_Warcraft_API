@@ -44,7 +44,7 @@ NOCOMBAT [PickupMacro](https://wow.gamepedia.com/API_PickupMacro)\("macroName" o
 
 [PickupMerchantItem](https://wow.gamepedia.com/API_PickupMerchantItem)\(index\) - 将项目放在光标上。如果光标已有项目，则光标中的项目将被出售。
 
-NOCOMBAT [PickupPetAction](https://wow.gamepedia.com/API_PickupPetAction)\(slot\) - Drags an action from the specified pet action bar slot into the cursor.
+NOCOMBAT [PickupPetAction](https://wow.gamepedia.com/API_PickupPetAction)\(slot\) - 将指定宠物操作栏插槽中的操作拖动到光标中。
 
 [PickupPlayerMoney](https://wow.gamepedia.com/API_PickupPlayerMoney) - Picks up an amount of money from the player.
 
