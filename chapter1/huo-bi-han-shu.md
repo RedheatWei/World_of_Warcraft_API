@@ -10,17 +10,17 @@
 
 [GetCurrencyLink](https://wow.gamepedia.com/API_GetCurrencyLink)\(currencyID,currencyAmount\) - 返回指定货币ID的货币链接。
 
-[GetCurrencyListSize](https://wow.gamepedia.com/API_GetCurrencyListSize)\(\) - returns the number of elements \(both headers and currencies\) in the currency list.
+[GetCurrencyListSize](https://wow.gamepedia.com/API_GetCurrencyListSize)\(\) - 返回货币列表中的元素数（标题和货币）。
 
-[GetCurrencyListInfo](https://wow.gamepedia.com/API_GetCurrencyListInfo)\(index\) - return information about an element in the currency list.
+[GetCurrencyListInfo](https://wow.gamepedia.com/API_GetCurrencyListInfo)\(index\) - 返回有关货币列表中元素的信息。
 
-[ExpandCurrencyList](https://wow.gamepedia.com/API_ExpandCurrencyList)\(index, state\) - sets the expanded/collapsed state of a currency list header.
+[ExpandCurrencyList](https://wow.gamepedia.com/API_ExpandCurrencyList)\(index, state\) - 设置货币列表标题的展开/折叠状态。
 
-[SetCurrencyUnused](https://wow.gamepedia.com/API_SetCurrencyUnused)\(id, state\) - alters whether a currency is marked as unused.
+[SetCurrencyUnused](https://wow.gamepedia.com/API_SetCurrencyUnused)\(id, state\) - 改变货币是否标记为未使用。
 
-UI [GetNumWatchedTokens](https://wow.gamepedia.com/API_GetNumWatchedTokens)\(\) - returns the number of currently watched.
+UI [GetNumWatchedTokens](https://wow.gamepedia.com/API_GetNumWatchedTokens)\(\) - 返回当前观看的人数。
 
-[GetBackpackCurrencyInfo](https://wow.gamepedia.com/API_GetBackpackCurrencyInfo)\(index\) - returns information about a watched currency.
+[GetBackpackCurrencyInfo](https://wow.gamepedia.com/API_GetBackpackCurrencyInfo)\(index\) - 返回有关观看货币的信息。
 
-[SetCurrencyBackpack](https://wow.gamepedia.com/API_SetCurrencyBackpack)\(id, state\) - alters whether a currency is tracked.
+[SetCurrencyBackpack](https://wow.gamepedia.com/API_SetCurrencyBackpack)\(id, state\) - 改变是否跟踪货币。
 
