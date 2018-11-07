@@ -18,7 +18,7 @@ CursorHasSpell\(\) - 如果光标当前持有一个技能，则返回true。
 
 [DropItemOnUnit](https://wow.gamepedia.com/API_DropItemOnUnit)\("unit"\) - 将项目从光标拖放到单元上。
 
-[EquipCursorItem](https://wow.gamepedia.com/API_EquipCursorItem)\([invSlot](https://wow.gamepedia.com/InventorySlotId)\) - Equips the currently picked up item to a specific inventory slot.
+[EquipCursorItem](https://wow.gamepedia.com/API_EquipCursorItem)\([invSlot](https://wow.gamepedia.com/InventorySlotId)\) - 将当前拾取的项目装入特定的库存槽。
 
 [GetCursorInfo](https://wow.gamepedia.com/API_GetCursorInfo)\(\) - Returns information about what the cursor is holding.
 
@@ -50,7 +50,7 @@ NOCOMBAT [PickupPetAction](https://wow.gamepedia.com/API_PickupPetAction)\(slot\
 
 NOCOMBAT [PickupSpell](https://wow.gamepedia.com/API_PickupSpell)\(spellID\) - Places the specified spell onto the cursor.
 
-[PickupStablePet](https://wow.gamepedia.com/API_PickupStablePet)\(index\) - ?.
+[PickupStablePet](https://wow.gamepedia.com/API_PickupStablePet)\(index\) - ?.
 
 [PickupTradeMoney](https://wow.gamepedia.com/API_PickupTradeMoney)\(amount\)
 
@@ -75,6 +75,4 @@ REMOVED [ShowMerchantSellCursor](https://wow.gamepedia.com/API_ShowMerchantSellC
 [ShowRepairCursor](https://wow.gamepedia.com/API_ShowRepairCursor)\(\) -
 
 [SplitContainerItem](https://wow.gamepedia.com/API_SplitContainerItem)\(bagID, slot, amount\) - Picks up part of a stack.
-
-
 
