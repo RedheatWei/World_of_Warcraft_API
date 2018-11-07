@@ -66,7 +66,7 @@ NOCOMBAT [PickupSpell](https://wow.gamepedia.com/API_PickupSpell)\(spellID\) - �
 
 ShowContainerSellCursor\(index, slot\) -
 
-UI [ShowInspectCursor](https://wow.gamepedia.com/API_ShowInspectCursor)\(\) - Change the cursor to the magnifying glass inventory inspection cursor.
+UI [ShowInspectCursor](https://wow.gamepedia.com/API_ShowInspectCursor)\(\) - 将光标更改为放大镜库存检查光标。
 
 ShowInventorySellCursor\(\) - ?.
 
