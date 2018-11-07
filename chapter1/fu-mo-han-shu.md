@@ -4,9 +4,7 @@
 
 [ReplaceEnchant](https://wow.gamepedia.com/API_ReplaceEnchant)\(\)
 
-[ReplaceTradeEnchant](https://wow.gamepedia.com/API_ReplaceTradeEnchant)\(\) - Confirm the replacement of an enchantment via trade.
+[ReplaceTradeEnchant](https://wow.gamepedia.com/API_ReplaceTradeEnchant)\(\) - 通过交易确认更换结界。
 
-[BindEnchant](https://wow.gamepedia.com/API_BindEnchant)\(\) - Confirm the binding of the item when enchanting.
-
-
+[BindEnchant](https://wow.gamepedia.com/API_BindEnchant)\(\) - 附魔时确认物品的装订。
 

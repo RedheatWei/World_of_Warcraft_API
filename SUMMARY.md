@@ -33,4 +33,5 @@
   * [调试函数](chapter1/diao-shi-han-shu.md)
   * [试衣间函数](chapter1/shi-yi-jian-han-shu.md)
   * [附魔函数](chapter1/fu-mo-han-shu.md)
+  * [地下城手册函数](chapter1/di-xia-cheng-shou-ce-han-shu.md)
 
