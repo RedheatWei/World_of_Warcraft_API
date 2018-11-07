@@ -32,9 +32,9 @@ UI [getprinthandler](https://wow.gamepedia.com/API_getprinthandler)\(\) - 返回
 
 UI [print](https://wow.gamepedia.com/API_print)\(...\) - 使用提供的值调用当前打印输出处理程序;默认情况下，将值打印到默认聊天框架。
 
-UI [setprinthandler](https://wow.gamepedia.com/API_setprinthandler)\(func\) - Changes the function handling print\(\) output.
+UI [setprinthandler](https://wow.gamepedia.com/API_setprinthandler)\(func\) - 更改函数处理print\(\)输出。
 
-UI tostringall\(...\) - Converts and returns the passed arguments to string.
+UI tostringall\(...\) - 将传递的参数转换并返回给string。
 
-[wipe](https://wow.gamepedia.com/API_wipe)\(table\) - removes all key/value pairs from a table; also available as table.wipe\(\).
+[wipe](https://wow.gamepedia.com/API_wipe)\(table\) - 从表中删除所有键/值对;也可用作table.wipe（）。
 
