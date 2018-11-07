@@ -20,9 +20,9 @@ debugprint\(?\) -
 
 [debugprofilestart](https://wow.gamepedia.com/API_debugprofilestart)\(\) - 在调试期间启动一个用于分析的计时器。
 
-[debugprofilestop](https://wow.gamepedia.com/API_debugprofilestop)\(\) - return the time in milliseconds since the last call to debugprofilestart\(\)
+[debugprofilestop](https://wow.gamepedia.com/API_debugprofilestop)\(\) - 返回自上次调用debugprofilestart\(\)以来的时间（以毫秒为单位）
 
-[debugstack](https://wow.gamepedia.com/API_debugstack)\(start, count1, count2\) - Returns a string representation of the current calling stack \(as of 1.9\)
+[debugstack](https://wow.gamepedia.com/API_debugstack)\(start, count1, count2\) - 返回当前调用堆栈的字符串表示形式（从1.9开始）
 
 debugtimestamp\(?\) -
 
