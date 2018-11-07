@@ -30,7 +30,7 @@ CursorHasSpell\(\) - 如果光标当前持有一个技能，则返回true。
 
 [InRepairMode](https://wow.gamepedia.com/API_InRepairMode)\(\) - 如果光标处于修复模式，则返回true。
 
-NOCOMBAT [PickupAction](https://wow.gamepedia.com/API_PickupAction)\(slot\) - Drags an action out of the specified quickbar slot and holds it on the cursor.
+NOCOMBAT [PickupAction](https://wow.gamepedia.com/API_PickupAction)\(slot\) -从指定的快速栏槽中拖出一个动作并将其保持在光标上。
 
 [PickupBagFromSlot](https://wow.gamepedia.com/API_PickupBagFromSlot)\(slot\) - Picks up the bag from the specified slot, placing it in the cursor. If an item is already picked up, this places the item into the specified slot, swapping the items if needed.
 
