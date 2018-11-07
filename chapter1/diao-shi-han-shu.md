@@ -36,5 +36,5 @@ UI [setprinthandler](https://wow.gamepedia.com/API_setprinthandler)\(func\) - �
 
 UI tostringall\(...\) - 将传递的参数转换并返回给string。
 
-[wipe](https://wow.gamepedia.com/API_wipe)\(table\) - 从表中删除所有键/值对;也可用作table.wipe（）。
+[wipe](https://wow.gamepedia.com/API_wipe)\(table\) - 从表中删除所有键/值对;也可用作table.wipe\(\)。
 
