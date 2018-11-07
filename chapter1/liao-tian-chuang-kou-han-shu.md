@@ -24,19 +24,19 @@ UI [ChatFrame\_RemoveMessageEventFilter](https://wow.gamepedia.com/API_ChatFrame
 
 [GetChatWindowChannels](https://wow.gamepedia.com/API_GetChatWindowChannels)\(index\) - 获取聊天窗口收到的聊天频道。
 
-[GetChatWindowInfo](https://wow.gamepedia.com/API_GetChatWindowInfo)\(index\) - Get setup information about a chat window.
+[GetChatWindowInfo](https://wow.gamepedia.com/API_GetChatWindowInfo)\(index\) - 获取有关聊天窗口的设置信息。
 
-[GetChatWindowMessages](https://wow.gamepedia.com/API_GetChatWindowMessages)\(index\) - Get the chat message types received by a chat window.
+[GetChatWindowMessages](https://wow.gamepedia.com/API_GetChatWindowMessages)\(index\) - 获取聊天窗口收到的聊天消息类型。
 
-[JoinChannelByName](https://wow.gamepedia.com/API_JoinChannelByName)\("channel"\[, "password"\[, frameId\]\]\) - Join the specified chat channel. \(with optional password, and register for specified frame\) \(updated in 1.9\)
+[JoinChannelByName](https://wow.gamepedia.com/API_JoinChannelByName)\("channel"\[, "password"\[, frameId\]\]\) - 加入指定的聊天频道。（使用可选密码，并注册指定帧）（在1.9中更新）
 
-[LoggingChat](https://wow.gamepedia.com/API_LoggingChat)\(newState\) - Gets or sets whether logging chat to Logs\WoWChatLog.txt is enabled.
+[LoggingChat](https://wow.gamepedia.com/API_LoggingChat)\(newState\) - 获取或设置是否启用了对Logs\WoWChatLog.txt的日志记录聊天。
 
-[LoggingCombat](https://wow.gamepedia.com/API_LoggingCombat)\(newState\) - Gets or sets whether logging combat to Logs\WoWCombatLog.txt is enabled.
+[LoggingCombat](https://wow.gamepedia.com/API_LoggingCombat)\(newState\) - 获取或设置是否启用了对Logs\WoWCombatLog.txt的日志记录战斗。
 
-[RemoveChatWindowChannel](https://wow.gamepedia.com/API_RemoveChatWindowChannel)\(chatFrameIndex, "channel"\) - Make a chat channel invisible \(hidden\) in a specific ChatFrame.
+[RemoveChatWindowChannel](https://wow.gamepedia.com/API_RemoveChatWindowChannel)\(chatFrameIndex, "channel"\) - 使聊天频道在特定的聊天框中不可见（隐藏）。
 
-[RemoveChatWindowMessages](https://wow.gamepedia.com/API_RemoveChatWindowMessages)\(chatFrameIndex,"messageGroup"\) - Remove a set of chat messages from this window.
+[RemoveChatWindowMessages](https://wow.gamepedia.com/API_RemoveChatWindowMessages)\(chatFrameIndex,"messageGroup"\) - 从此窗口中删除一组聊天消息。
 
 These functions get applied after Reload UI \(index 1 is General and index 2 is Combat Log\):
 
