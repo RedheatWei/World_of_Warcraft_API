@@ -32,9 +32,9 @@ EJ\_GetLootFilter\(\)
 
 EJ\_GetNumEncountersForLootByIndex\(?\) -
 
-[EJ\_GetNumLoot](https://wow.gamepedia.com/API_EJ_GetNumLoot)\(\) - 返回当前查看的副本实例或场景战役物品掉落数量. 
+[EJ\_GetNumLoot](https://wow.gamepedia.com/API_EJ_GetNumLoot)\(\) - 返回当前查看的副本实例或场景战役物品掉落数量.
 
-[EJ\_GetNumSearchResults](https://wow.gamepedia.com/API_EJ_GetNumSearchResults)\(\) - Returns the number of search results
+[EJ\_GetNumSearchResults](https://wow.gamepedia.com/API_EJ_GetNumSearchResults)\(\) - 返回搜索结果的数量
 
 [EJ\_GetNumTiers](https://wow.gamepedia.com/API_EJ_GetNumTiers)\(\)
 
