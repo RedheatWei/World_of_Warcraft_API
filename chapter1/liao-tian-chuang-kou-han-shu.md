@@ -14,11 +14,11 @@ UI [ChatFrame\_AddMessageEventFilter](https://wow.gamepedia.com/API_ChatFrame_Ad
 
 UI [ChatFrame\_GetMessageEventFilters](https://wow.gamepedia.com/API_ChatFrame_GetMessageEventFilters)\("event"\) - 返回聊天消息过滤列表。（在2.4中添加）
 
-UI [ChatFrame\_OnHyperlinkShow](https://wow.gamepedia.com/API_ChatFrame_OnHyperlinkShow)\(reference, link, button\) - called when the user clicks on a chatlink.
+UI [ChatFrame\_OnHyperlinkShow](https://wow.gamepedia.com/API_ChatFrame_OnHyperlinkShow)\(reference, link, button\) - 当用户点击聊天链接时调用。
 
-UI [ChatFrame\_RemoveMessageEventFilter](https://wow.gamepedia.com/API_ChatFrame_RemoveMessageEventFilter)\("event", filterFunc\) - Unregister a chat message filtering function. \(added in 2.4\)
+UI [ChatFrame\_RemoveMessageEventFilter](https://wow.gamepedia.com/API_ChatFrame_RemoveMessageEventFilter)\("event", filterFunc\) - 注销聊天消息过滤。（在2.4中添加）
 
-[GetAutoCompleteResults](https://wow.gamepedia.com/API_GetAutoCompleteResults)\("text", include, exclude, maxResults\[, cursorPosition\]\) - Returns possible player names matching a given prefix string and specified requirements.
+[GetAutoCompleteResults](https://wow.gamepedia.com/API_GetAutoCompleteResults)\("text", include, exclude, maxResults\[, cursorPosition\]\) - 返回与给定前缀字符串和指定要求匹配的可能玩家名称。
 
 [GetChatTypeIndex](https://wow.gamepedia.com/API_GetChatTypeIndex)\(type\) - Get the numeric ID of a type of chat message.
 
