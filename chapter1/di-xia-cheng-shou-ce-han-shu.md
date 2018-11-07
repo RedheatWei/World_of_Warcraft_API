@@ -48,7 +48,7 @@ EJ\_GetSearchSize\(?\) -
 
 [EJ\_GetSectionPath](https://wow.gamepedia.com/API_EJ_GetSectionPath)\(sectionID\) - 如果可用，返回父节ID
 
-[EJ\_GetTierInfo](https://wow.gamepedia.com/API_EJ_GetTierInfo)\(index\) - Returns some information about the tier for index
+[EJ\_GetTierInfo](https://wow.gamepedia.com/API_EJ_GetTierInfo)\(index\) - 返回有关索引层的一些信息
 
 [EJ\_HandleLinkPath](https://wow.gamepedia.com/API_EJ_HandleLinkPath)\(jtype, id\) - Processes the
 
