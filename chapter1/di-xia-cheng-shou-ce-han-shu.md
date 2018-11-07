@@ -40,7 +40,7 @@ EJ\_GetNumEncountersForLootByIndex\(?\) -
 
 EJ\_GetSearchProgress\(?\) -
 
-[EJ\_GetSearchResult](https://wow.gamepedia.com/API_EJ_GetSearchResult)\(index\) - Returns Search info
+[EJ\_GetSearchResult](https://wow.gamepedia.com/API_EJ_GetSearchResult)\(index\) - 返回搜索信息
 
 EJ\_GetSearchSize\(?\) -
 
