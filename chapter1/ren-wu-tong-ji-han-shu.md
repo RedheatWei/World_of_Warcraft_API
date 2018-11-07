@@ -28,7 +28,7 @@ GetHaste\(\) - 返回玩家的急速百分比。
 
 GetMaxCombatRatingBonus\(ratingIndex\)
 
-GetMeleeHaste\(\) - Returns player's Melee attack haste.
+GetMeleeHaste\(\) - 返回玩家的近战攻击急速。
 
 GetModResilienceDamageReduction\(\) -
 
@@ -36,7 +36,7 @@ GetOverrideAPBySpellPower\(\) -
 
 GetOverrideSpellPowerByAP\(\) -
 
-[GetParryChance](https://wow.gamepedia.com/API_GetParryChance)\(\) - Returns the player's percentage parry chance.
+[GetParryChance](https://wow.gamepedia.com/API_GetParryChance)\(\) - 返回玩家的招架几率。
 
 GetPetMeleeHaste\(\) -
 
@@ -48,11 +48,11 @@ GetPowerRegenForPowerType\("POWER\_TYPE"\) -
 
 [GetShieldBlock](https://wow.gamepedia.com/API_GetShieldBlock)\(\) -
 
-[GetSpellBonusDamage](https://wow.gamepedia.com/API_GetSpellBonusDamage)\(spellTreeID\) - Returns the raw spell damage of the player for a given spell tree.
+[GetSpellBonusDamage](https://wow.gamepedia.com/API_GetSpellBonusDamage)\(spellTreeID\) - 返回给定法术树的玩家的原始法术伤害。
 
-[GetSpellBonusHealing](https://wow.gamepedia.com/API_GetSpellBonusHealing)\(\) - Returns the raw bonus healing of the player.
+[GetSpellBonusHealing](https://wow.gamepedia.com/API_GetSpellBonusHealing)\(\) - 返回玩家的原始奖励治疗。
 
-[GetSpellCritChance](https://wow.gamepedia.com/API_GetSpellCritChance)\(school\) - returns the players critical hit chance with a particular spell school.
+[GetSpellCritChance](https://wow.gamepedia.com/API_GetSpellCritChance)\(school\) - 通过特定的法术系\(物理,神圣,火焰等\)返回玩家的爆击几率。
 
 REMOVED GetSpellCritChanceFromIntellect\("unit"\)
 
