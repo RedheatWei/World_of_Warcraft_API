@@ -26,7 +26,7 @@ CursorHasSpell\(\) - 如果光标当前持有一个技能，则返回true。
 
 [GetCursorPosition](https://wow.gamepedia.com/API_GetCursorPosition)\(\) - 返回光标在屏幕上的位置。
 
-[HideRepairCursor](https://wow.gamepedia.com/API_HideRepairCursor)\(\) - Hides the repair cursor.
+[HideRepairCursor](https://wow.gamepedia.com/API_HideRepairCursor)\(\) - 隐藏修复光标。
 
 [InRepairMode](https://wow.gamepedia.com/API_InRepairMode)\(\) - Returns true if your cursor is in repair mode.
 
