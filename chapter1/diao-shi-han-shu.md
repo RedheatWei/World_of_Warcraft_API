@@ -30,7 +30,7 @@ FrameXML\_Debug\(flag\) - 设置输出到/ WoW Folder/Logs/FrameXML.log的FrameX
 
 UI [getprinthandler](https://wow.gamepedia.com/API_getprinthandler)\(\) - 返回当前处理print\(\)输出的函数。
 
-UI [print](https://wow.gamepedia.com/API_print)\(...\) - Calls the current print output handler with the provided values; by default printing the values to the default chat frame.
+UI [print](https://wow.gamepedia.com/API_print)\(...\) - 使用提供的值调用当前打印输出处理程序;默认情况下，将值打印到默认聊天框架。
 
 UI [setprinthandler](https://wow.gamepedia.com/API_setprinthandler)\(func\) - Changes the function handling print\(\) output.
 
