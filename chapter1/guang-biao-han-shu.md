@@ -32,11 +32,11 @@ CursorHasSpell\(\) - 如果光标当前持有一个技能，则返回true。
 
 NOCOMBAT [PickupAction](https://wow.gamepedia.com/API_PickupAction)\(slot\) -从指定的快速栏槽中拖出一个动作并将其保持在光标上。
 
-[PickupBagFromSlot](https://wow.gamepedia.com/API_PickupBagFromSlot)\(slot\) - Picks up the bag from the specified slot, placing it in the cursor. If an item is already picked up, this places the item into the specified slot, swapping the items if needed.
+[PickupBagFromSlot](https://wow.gamepedia.com/API_PickupBagFromSlot)\(slot\) - 从指定的插槽中取出物品，将其放在光标中。如果已拾取某个项目，则会将该项目放入指定的插槽中，并根据需要交换项目。
 
 [PickupContainerItem](https://wow.gamepedia.com/API_PickupContainerItem)\([bagID](https://wow.gamepedia.com/BagId), slot\) -
 
-[PickupInventoryItem](https://wow.gamepedia.com/API_PickupInventoryItem)\([invSlot](https://wow.gamepedia.com/InventorySlotId)\) - "Picks up" an item from the player's worn inventory.
+[PickupInventoryItem](https://wow.gamepedia.com/API_PickupInventoryItem)\([invSlot](https://wow.gamepedia.com/InventorySlotId)\) - 从玩家的磨损库存中“挑选”一件物品。
 
 [PickupItem](https://wow.gamepedia.com/API_PickupItem)\(itemId or "itemString" or "itemName" or "itemLink"\)
 
