@@ -4,9 +4,9 @@ EJ\_ClearSearch\(\)
 
 EJ\_EndSearch\(?\) -
 
-[EJ\_GetCreatureInfo](https://wow.gamepedia.com/API_EJ_GetCreatureInfo)\(index\[, encounterID\]\) - Returns Boss / Creature info
+[EJ\_GetCreatureInfo](https://wow.gamepedia.com/API_EJ_GetCreatureInfo)\(index\[, encounterID\]\) -返回boss/怪物信息
 
-[EJ\_GetCurrentInstance](https://wow.gamepedia.com/API_EJ_GetCurrentInstance)\(\) - Returns the Instance ID of your character's current location
+[EJ\_GetCurrentInstance](https://wow.gamepedia.com/API_EJ_GetCurrentInstance)\(\) - 返回角色当前位置的实例ID
 
 [EJ\_GetCurrentTier](https://wow.gamepedia.com/API_EJ_GetCurrentTier)\(\) - Returns the currently active tier index
 
@@ -79,8 +79,4 @@ EJ\_SetSearch\(text\)
 UI [EncounterJournal\_OpenJournal](https://wow.gamepedia.com/API_EncounterJournal_OpenJournal)\(\[difficulty, instanceID, encounterID, sectionID, creatureID, itemID\]\) - Opens the Encounter Journal, and optionally navigates to an entry
 
 UI EncounterJournal\_ResetHeaders\(\) - Resets all the Section Headers
-
-
-
-
 
