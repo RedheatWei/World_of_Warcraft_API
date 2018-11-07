@@ -12,19 +12,19 @@
 
 REMOVED GetCritChanceFromAgility\("unit"\) -返回敏捷贡献的爆击几率。
 
-[GetDodgeChance](https://wow.gamepedia.com/API_GetDodgeChance)\(\) - Returns the player's percentage dodge chance.
+[GetDodgeChance](https://wow.gamepedia.com/API_GetDodgeChance)\(\) - 返回玩家的闪避几率。
 
-[GetExpertise](https://wow.gamepedia.com/API_GetExpertise)\(\) - Returns the player's expertise percentage for main hand, offhand and ranged attacks.
+[GetExpertise](https://wow.gamepedia.com/API_GetExpertise)\(\) - 返回玩家在主手，副手和远程攻击中的专业技能百分比。
 
-GetHaste\(\) - Returns the player's haste percentage.
+GetHaste\(\) - 返回玩家的急速百分比。
 
 [GetHitModifier](https://wow.gamepedia.com/API_GetHitModifier)\(\) -
 
-[GetManaRegen](https://wow.gamepedia.com/API_GetManaRegen)\(\) - Returns the player's mana regeneration rates.
+[GetManaRegen](https://wow.gamepedia.com/API_GetManaRegen)\(\) - 返回玩家的法力恢复率。
 
-[GetMastery](https://wow.gamepedia.com/API_GetMastery)\(\) - Returns the player's mastery before mastery rating.
+[GetMastery](https://wow.gamepedia.com/API_GetMastery)\(\) - 获取玩家精通数值.
 
-[GetMasteryEffect](https://wow.gamepedia.com/API_GetMasteryEffect)\(\) Returns the player's buffed mastery in percentage and \(unknown number value\).
+[GetMasteryEffect](https://wow.gamepedia.com/API_GetMasteryEffect)\(\) 以百分比和（未知数值）返回玩家的精通。
 
 GetMaxCombatRatingBonus\(ratingIndex\)
 
