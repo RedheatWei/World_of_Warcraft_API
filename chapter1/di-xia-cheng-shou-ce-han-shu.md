@@ -50,11 +50,9 @@ EJ\_GetSearchSize\(?\) -
 
 [EJ\_GetTierInfo](https://wow.gamepedia.com/API_EJ_GetTierInfo)\(index\) - 返回有关索引层的一些信息
 
-[EJ\_HandleLinkPath](https://wow.gamepedia.com/API_EJ_HandleLinkPath)\(jtype, id\) - Processes the
+[EJ\_HandleLinkPath](https://wow.gamepedia.com/API_EJ_HandleLinkPath)\(jtype, id\) - 处理[手册链接](https://wow.gamepedia.com/Encounter_Journal_Dump#Journal_Link)
 
-[Journal Link](https://wow.gamepedia.com/Encounter_Journal_Dump#Journal_Link)
-
-[EJ\_InstanceIsRaid](https://wow.gamepedia.com/API_EJ_InstanceIsRaid)\(\) - Returns whether the currently viewed Instance is a raid instance
+[EJ\_InstanceIsRaid](https://wow.gamepedia.com/API_EJ_InstanceIsRaid)\(\) - 查看当前的实例是不是raid实例.
 
 EJ\_IsLootListOutOfDate\(?\)-
 
@@ -70,13 +68,13 @@ EJ\_SelectInstance\(instanceID\)
 
 EJ\_SelectTier\(tier\)
 
-[EJ\_SetDifficulty](https://wow.gamepedia.com/API_EJ_SetDifficulty)\(index\) - Sets the Encounter Journal's viewed difficulty
+[EJ\_SetDifficulty](https://wow.gamepedia.com/API_EJ_SetDifficulty)\(index\) - 设置地下城手册的查看难度.
 
 EJ\_SetLootFilter\(classID, specID\)
 
 EJ\_SetSearch\(text\)
 
-UI [EncounterJournal\_OpenJournal](https://wow.gamepedia.com/API_EncounterJournal_OpenJournal)\(\[difficulty, instanceID, encounterID, sectionID, creatureID, itemID\]\) - Opens the Encounter Journal, and optionally navigates to an entry
+UI [EncounterJournal\_OpenJournal](https://wow.gamepedia.com/API_EncounterJournal_OpenJournal)\(\[difficulty, instanceID, encounterID, sectionID, creatureID, itemID\]\) - 打开地下城手册，并可选择导航到条目
 
-UI EncounterJournal\_ResetHeaders\(\) - Resets all the Section Headers
+UI EncounterJournal\_ResetHeaders\(\) - 重置所有节标题.
 
