@@ -70,9 +70,9 @@ UI [ShowInspectCursor](https://wow.gamepedia.com/API_ShowInspectCursor)\(\) - �
 
 ShowInventorySellCursor\(\) - ?.
 
-REMOVED [ShowMerchantSellCursor](https://wow.gamepedia.com/API_ShowMerchantSellCursor)\(\) - Changes the cursor to the merchant sell cursor.
+REMOVED [ShowMerchantSellCursor](https://wow.gamepedia.com/API_ShowMerchantSellCursor)\(\) -将光标更改为商家销售光标。
 
 [ShowRepairCursor](https://wow.gamepedia.com/API_ShowRepairCursor)\(\) -
 
-[SplitContainerItem](https://wow.gamepedia.com/API_SplitContainerItem)\(bagID, slot, amount\) - Picks up part of a stack.
+[SplitContainerItem](https://wow.gamepedia.com/API_SplitContainerItem)\(bagID, slot, amount\) - 拾取堆的一部分。
 
