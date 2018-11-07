@@ -54,9 +54,9 @@ NOCOMBAT [PickupSpell](https://wow.gamepedia.com/API_PickupSpell)\(spellID\) - �
 
 [PickupTradeMoney](https://wow.gamepedia.com/API_PickupTradeMoney)\(amount\)
 
-[PlaceAction](https://wow.gamepedia.com/API_PlaceAction)\(slot\) - Drops an action from the cursor into the specified quickbar slot.
+[PlaceAction](https://wow.gamepedia.com/API_PlaceAction)\(slot\) -将光标中的操作拖放到指定的快捷方式插槽中。
 
-[PutItemInBackpack](https://wow.gamepedia.com/API_PutItemInBackpack)\(\) - attempts to place item in backpack \(bag slot 0\).
+[PutItemInBackpack](https://wow.gamepedia.com/API_PutItemInBackpack)\(\) - 试图将物品放入背包（袋槽0）。
 
 [PutItemInBag](https://wow.gamepedia.com/API_PutItemInBag)\(inventoryId\) - attempts to place item in a specific bag.
 
