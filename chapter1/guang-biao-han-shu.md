@@ -58,7 +58,7 @@ NOCOMBAT [PickupSpell](https://wow.gamepedia.com/API_PickupSpell)\(spellID\) - �
 
 [PutItemInBackpack](https://wow.gamepedia.com/API_PutItemInBackpack)\(\) - 试图将物品放入背包（袋槽0）。
 
-[PutItemInBag](https://wow.gamepedia.com/API_PutItemInBag)\(inventoryId\) - attempts to place item in a specific bag.
+[PutItemInBag](https://wow.gamepedia.com/API_PutItemInBag)\(inventoryId\) - 试图将物品放在特定的包里。
 
 [ResetCursor](https://wow.gamepedia.com/API_ResetCursor)\(\) -
 
