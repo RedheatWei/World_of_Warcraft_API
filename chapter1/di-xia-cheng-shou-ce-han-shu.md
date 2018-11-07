@@ -12,7 +12,7 @@ EJ\_EndSearch\(?\) -
 
 EJ\_GetDifficulty\(\)
 
-[EJ\_GetEncounterInfo](https://wow.gamepedia.com/API_EJ_GetEncounterInfo)\(encounterID\) - Returns Encounter info
+[EJ\_GetEncounterInfo](https://wow.gamepedia.com/API_EJ_GetEncounterInfo)\(encounterID\) - 返回遭遇信息
 
 [EJ\_GetEncounterInfoByIndex](https://wow.gamepedia.com/API_EJ_GetEncounterInfoByIndex)\(index\[, instanceID\]\) - Returns Encounter info
 
