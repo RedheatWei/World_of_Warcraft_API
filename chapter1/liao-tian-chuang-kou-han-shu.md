@@ -20,9 +20,9 @@ UI [ChatFrame\_RemoveMessageEventFilter](https://wow.gamepedia.com/API_ChatFrame
 
 [GetAutoCompleteResults](https://wow.gamepedia.com/API_GetAutoCompleteResults)\("text", include, exclude, maxResults\[, cursorPosition\]\) - 返回与给定前缀字符串和指定要求匹配的可能玩家名称。
 
-[GetChatTypeIndex](https://wow.gamepedia.com/API_GetChatTypeIndex)\(type\) - Get the numeric ID of a type of chat message.
+[GetChatTypeIndex](https://wow.gamepedia.com/API_GetChatTypeIndex)\(type\) - 获取某种聊天消息的数字ID。
 
-[GetChatWindowChannels](https://wow.gamepedia.com/API_GetChatWindowChannels)\(index\) - Get the chat channels received by a chat window.
+[GetChatWindowChannels](https://wow.gamepedia.com/API_GetChatWindowChannels)\(index\) - 获取聊天窗口收到的聊天频道。
 
 [GetChatWindowInfo](https://wow.gamepedia.com/API_GetChatWindowInfo)\(index\) - Get setup information about a chat window.
 
