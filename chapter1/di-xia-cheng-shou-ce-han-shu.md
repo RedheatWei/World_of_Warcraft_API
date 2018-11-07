@@ -14,11 +14,11 @@ EJ\_GetDifficulty\(\)
 
 [EJ\_GetEncounterInfo](https://wow.gamepedia.com/API_EJ_GetEncounterInfo)\(encounterID\) - 返回遭遇信息
 
-[EJ\_GetEncounterInfoByIndex](https://wow.gamepedia.com/API_EJ_GetEncounterInfoByIndex)\(index\[, instanceID\]\) - Returns Encounter info
+[EJ\_GetEncounterInfoByIndex](https://wow.gamepedia.com/API_EJ_GetEncounterInfoByIndex)\(index\[, instanceID\]\) - 返回遭遇信息
 
-[EJ\_GetInstanceByIndex](https://wow.gamepedia.com/API_EJ_GetInstanceByIndex)\(index, isRaid\) - Returns Instance info
+[EJ\_GetInstanceByIndex](https://wow.gamepedia.com/API_EJ_GetInstanceByIndex)\(index, isRaid\) - 返回实例信息
 
-[EJ\_GetInstanceInfo](https://wow.gamepedia.com/API_EJ_GetInstanceInfo)\(\[instanceID\]\) - Returns Instance info
+[EJ\_GetInstanceInfo](https://wow.gamepedia.com/API_EJ_GetInstanceInfo)\(\[instanceID\]\) - 返回实例信息
 
 EJ\_GetInvTypeSortOrder\(?\) -
 
