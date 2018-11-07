@@ -42,7 +42,7 @@ NOCOMBAT [PickupAction](https://wow.gamepedia.com/API_PickupAction)\(slot\) -从
 
 NOCOMBAT [PickupMacro](https://wow.gamepedia.com/API_PickupMacro)\("macroName" or index\) -将指定的宏放在光标上。
 
-[PickupMerchantItem](https://wow.gamepedia.com/API_PickupMerchantItem)\(index\) - Places the item onto the cursor. If the cursor already has an item, the item in the cursor will be sold.
+[PickupMerchantItem](https://wow.gamepedia.com/API_PickupMerchantItem)\(index\) - 将项目放在光标上。如果光标已有项目，则光标中的项目将被出售。
 
 NOCOMBAT [PickupPetAction](https://wow.gamepedia.com/API_PickupPetAction)\(slot\) - Drags an action from the specified pet action bar slot into the cursor.
 
