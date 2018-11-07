@@ -40,7 +40,7 @@ NOCOMBAT [PickupAction](https://wow.gamepedia.com/API_PickupAction)\(slot\) -从
 
 [PickupItem](https://wow.gamepedia.com/API_PickupItem)\(itemId or "itemString" or "itemName" or "itemLink"\)
 
-NOCOMBAT [PickupMacro](https://wow.gamepedia.com/API_PickupMacro)\("macroName" or index\) - Places the specified macro onto the cursor.
+NOCOMBAT [PickupMacro](https://wow.gamepedia.com/API_PickupMacro)\("macroName" or index\) -将指定的宏放在光标上。
 
 [PickupMerchantItem](https://wow.gamepedia.com/API_PickupMerchantItem)\(index\) - Places the item onto the cursor. If the cursor already has an item, the item in the cursor will be sold.
 
