@@ -62,7 +62,7 @@ NOCOMBAT [PickupSpell](https://wow.gamepedia.com/API_PickupSpell)\(spellID\) - �
 
 [ResetCursor](https://wow.gamepedia.com/API_ResetCursor)\(\) -
 
-[SetCursor](https://wow.gamepedia.com/API_SetCursor)\("cursor"\) - Path to a texture to use as the cursor image \(must be 32x32 pixels\) or one of the built-in cursor tokens or nil.
+[SetCursor](https://wow.gamepedia.com/API_SetCursor)\("cursor"\) - 用作光标图像（必须为32x32像素）的纹理的路径或内置光标标记之一或nil。
 
 ShowContainerSellCursor\(index, slot\) -
 
