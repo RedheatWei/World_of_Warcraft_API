@@ -20,7 +20,7 @@ CursorHasSpell\(\) - 如果光标当前持有一个技能，则返回true。
 
 [EquipCursorItem](https://wow.gamepedia.com/API_EquipCursorItem)\([invSlot](https://wow.gamepedia.com/InventorySlotId)\) - 将当前拾取的项目装入特定的库存槽。
 
-[GetCursorInfo](https://wow.gamepedia.com/API_GetCursorInfo)\(\) - Returns information about what the cursor is holding.
+[GetCursorInfo](https://wow.gamepedia.com/API_GetCursorInfo)\(\) - 返回有关游标持有内容的信息。
 
 [GetCursorMoney](https://wow.gamepedia.com/API_GetCursorMoney) - Returns the amount of money held by the cursor.
 
