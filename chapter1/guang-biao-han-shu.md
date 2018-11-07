@@ -48,7 +48,7 @@ NOCOMBAT [PickupPetAction](https://wow.gamepedia.com/API_PickupPetAction)\(slot\
 
 [PickupPlayerMoney](https://wow.gamepedia.com/API_PickupPlayerMoney) - 从玩家那里拿出一笔钱。
 
-NOCOMBAT [PickupSpell](https://wow.gamepedia.com/API_PickupSpell)\(spellID\) - Places the specified spell onto the cursor.
+NOCOMBAT [PickupSpell](https://wow.gamepedia.com/API_PickupSpell)\(spellID\) - 将指定的法术放置在光标上。
 
 [PickupStablePet](https://wow.gamepedia.com/API_PickupStablePet)\(index\) - ?.
 
