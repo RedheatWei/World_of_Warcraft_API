@@ -26,9 +26,9 @@ debugprint\(?\) -
 
 debugtimestamp\(?\) -
 
-FrameXML\_Debug\(flag\) - Sets FrameXML logging state which is output to /WoW Folder/Logs/FrameXML.log
+FrameXML\_Debug\(flag\) - 设置输出到/ WoW Folder/Logs/FrameXML.log的FrameXML日志记录状态
 
-UI [getprinthandler](https://wow.gamepedia.com/API_getprinthandler)\(\) - Returns the function currently handling print\(\) output.
+UI [getprinthandler](https://wow.gamepedia.com/API_getprinthandler)\(\) - 返回当前处理print\(\)输出的函数。
 
 UI [print](https://wow.gamepedia.com/API_print)\(...\) - Calls the current print output handler with the provided values; by default printing the values to the default chat frame.
 
