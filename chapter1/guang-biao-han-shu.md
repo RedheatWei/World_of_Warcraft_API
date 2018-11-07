@@ -24,7 +24,7 @@ CursorHasSpell\(\) - 如果光标当前持有一个技能，则返回true。
 
 [GetCursorMoney](https://wow.gamepedia.com/API_GetCursorMoney) - 返回光标持有的金额。
 
-[GetCursorPosition](https://wow.gamepedia.com/API_GetCursorPosition)\(\) - Returns the cursor's position on the screen.
+[GetCursorPosition](https://wow.gamepedia.com/API_GetCursorPosition)\(\) - 返回光标在屏幕上的位置。
 
 [HideRepairCursor](https://wow.gamepedia.com/API_HideRepairCursor)\(\) - Hides the repair cursor.
 
