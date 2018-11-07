@@ -26,4 +26,5 @@
   * [解说函数](chapter1/jie-shuo-han-shu.md)
   * [沟通函数](chapter1/gou-tong-han-shu.md)
   * [伙伴函数](chapter1/huo-ban-han-shu.md)
+  * [容器/包裹函数](chapter1/rong-5668-bao-guo-han-shu.md)
 
