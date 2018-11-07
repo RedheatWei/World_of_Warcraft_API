@@ -46,7 +46,7 @@ NOCOMBAT [PickupMacro](https://wow.gamepedia.com/API_PickupMacro)\("macroName" o
 
 NOCOMBAT [PickupPetAction](https://wow.gamepedia.com/API_PickupPetAction)\(slot\) - 将指定宠物操作栏插槽中的操作拖动到光标中。
 
-[PickupPlayerMoney](https://wow.gamepedia.com/API_PickupPlayerMoney) - Picks up an amount of money from the player.
+[PickupPlayerMoney](https://wow.gamepedia.com/API_PickupPlayerMoney) - 从玩家那里拿出一笔钱。
 
 NOCOMBAT [PickupSpell](https://wow.gamepedia.com/API_PickupSpell)\(spellID\) - Places the specified spell onto the cursor.
 
