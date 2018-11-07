@@ -22,7 +22,7 @@ CursorHasSpell\(\) - 如果光标当前持有一个技能，则返回true。
 
 [GetCursorInfo](https://wow.gamepedia.com/API_GetCursorInfo)\(\) - 返回有关游标持有内容的信息。
 
-[GetCursorMoney](https://wow.gamepedia.com/API_GetCursorMoney) - Returns the amount of money held by the cursor.
+[GetCursorMoney](https://wow.gamepedia.com/API_GetCursorMoney) - 返回光标持有的金额。
 
 [GetCursorPosition](https://wow.gamepedia.com/API_GetCursorPosition)\(\) - Returns the cursor's position on the screen.
 
