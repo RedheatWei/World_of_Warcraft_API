@@ -31,4 +31,5 @@
   * [货币函数](chapter1/huo-bi-han-shu.md)
   * [光标函数](chapter1/guang-biao-han-shu.md)
   * [调试函数](chapter1/diao-shi-han-shu.md)
+  * [试衣间函数](chapter1/shi-yi-jian-han-shu.md)
 
