@@ -35,4 +35,5 @@
   * [附魔函数](chapter1/fu-mo-han-shu.md)
   * [地下城手册函数](chapter1/di-xia-cheng-shou-ce-han-shu.md)
   * [设备管理函数](chapter1/she-bei-guan-li-han-shu.md)
+  * [阵营函数](chapter1/zhen-ying-han-shu.md)
 
