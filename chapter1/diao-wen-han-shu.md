@@ -14,16 +14,16 @@ REMOVED [GetGlyphClearInfo](https://wow.gamepedia.com/API_GetGlyphClearInfo)\(\)
 
 REMOVED [GetGlyphInfo](https://wow.gamepedia.com/API_GetGlyphInfo)\(index\) - 返回当前用户雕纹列表中所选雕纹的详细信息
 
-REMOVED GetGlyphLink\([socketID](https://wow.gamepedia.com/Glyph_SocketID)\[, talentGroup\]\) - Returns link text for a Glyph in the desired Socket.
+REMOVED GetGlyphLink\([socketID](https://wow.gamepedia.com/Glyph_SocketID)\[, talentGroup\]\) - 返回所需插槽中雕纹的链接文本。
 
 REMOVED GetGlyphLinkByID\(glyphID\)  
-REMOVED [GetGlyphSocketInfo](https://wow.gamepedia.com/API_GetGlyphSocketInfo)\([socketID](https://wow.gamepedia.com/Glyph_SocketID)\[, talentGroup\]\) - Returns info on a specific Glyph Socket.
+REMOVED [GetGlyphSocketInfo](https://wow.gamepedia.com/API_GetGlyphSocketInfo)\([socketID](https://wow.gamepedia.com/Glyph_SocketID)\[, talentGroup\]\) - 返回特定雕纹插槽的信息.
 
 GetInspectGlyph\(\)
 
-REMOVED [GetNumGlyphSockets](https://wow.gamepedia.com/API_GetNumGlyphSockets)\(\) - Returns the number of Glyph Sockets available at max level. \(Same result as NUM\_GLYPH\_SLOTS\)
+REMOVED [GetNumGlyphSockets](https://wow.gamepedia.com/API_GetNumGlyphSockets)\(\) - 返回最高级别可用的雕纹插槽数。（与NUM\_GLYPH\_SLOTS相同）
 
-REMOVED [GetNumGlyphs](https://wow.gamepedia.com/API_GetNumGlyphs)\(\) - Get the number of glyphs available for the character's class.
+REMOVED [GetNumGlyphs](https://wow.gamepedia.com/API_GetNumGlyphs)\(\) - 获取角色职业可用的雕纹数。
 
 GetPendingGlyphName\(?\)-
 
@@ -52,7 +52,4 @@ REMOVED SetGlyphNameFilter\(string\)
 REMOVED SpellCanTargetGlyph\(\)
 
 REMOVED [ToggleGlyphFilter](https://wow.gamepedia.com/API_ToggleGlyphFilter)\(filter\) - Toggles the state of the selected Glyph filter
-
-  
-
 
