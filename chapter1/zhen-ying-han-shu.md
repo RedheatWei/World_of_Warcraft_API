@@ -34,11 +34,11 @@ GetSelectedFaction\(\) - 返回信誉窗口中当前所选阵营的行索引。�
 
 SetSelectedFaction\(index\) - 在声望窗口中设置当前选定的阵营。（在1.10中添加）
 
-[SetWatchedFactionIndex](https://wow.gamepedia.com/API_SetWatchedFactionIndex)\(index\) - Sets which faction should be watched in Blizzard reputation bar.
+[SetWatchedFactionIndex](https://wow.gamepedia.com/API_SetWatchedFactionIndex)\(index\) - 设置在暴雪荣誉栏中应该观看哪个阵营。
 
-[C\_Reputation.GetFactionParagonInfo](https://wow.gamepedia.com/API_C_Reputation.GetFactionParagonInfo)\(factionID\) - Gets Paragon information. \(added in 7.2.0\)
+[C\_Reputation.GetFactionParagonInfo](https://wow.gamepedia.com/API_C_Reputation.GetFactionParagonInfo)\(factionID\) - 获取巅峰信息. \(添加于7.2.0\)
 
-[C\_Reputation.IsFactionParagon](https://wow.gamepedia.com/API_C_Reputation.IsFactionParagon)\(factionID\) - Returns true/false if a factionID is a Paragon. \(added in 7.2.0\)
+[C\_Reputation.IsFactionParagon](https://wow.gamepedia.com/API_C_Reputation.IsFactionParagon)\(factionID\) - 如果阵营ID是巅峰，则返回true / false。（在7.2.0中添加）
 
-C\_Reputation.RequestFactionParagonPreloadRewardData \(factionID\) - Queries the server to pre-load Paragon reward data. \(added in 7.2.0\)
+C\_Reputation.RequestFactionParagonPreloadRewardData \(factionID\) - 查询服务器以预加载巅峰奖励数据。（在7.2.0中添加）
 
