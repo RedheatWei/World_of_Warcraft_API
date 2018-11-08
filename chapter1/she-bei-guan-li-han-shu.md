@@ -4,19 +4,19 @@
 
 CanUseEquipmentSets\(\)
 
-DeleteEquipmentSet\("name"\) - Forgets an equipment set.
+DeleteEquipmentSet\("name"\) - 遗忘一套设备.
 
-EquipmentSetContainsLockedItems\("name"\) - Checks if some of the items in the set are currently locked \(pending client/server interaction\).
+EquipmentSetContainsLockedItems\("name"\) - 检查集合中的某些项目当前是否已锁定（待处理的客户端/服务器交互）。
 
-EquipmentManagerIgnoreSlotForSave\(slot\) - flags the slot to be ignored when saving an equipment set.
+EquipmentManagerIgnoreSlotForSave\(slot\) - 标记保存设备集时要忽略的插槽。
 
 EquipmentManagerIsSlotIgnoredForSave\(\) -
 
-EquipmentManagerUnignoreSlotForSave\(slot\) - removes the ignore flag from a slot when saving an equipment set.
+EquipmentManagerUnignoreSlotForSave\(slot\) - 保存设备集时从插槽中删除忽略标志。
 
-EquipmentManagerClearIgnoredSlotsForSave\(\) - removes the ignore flag from all slots when saving an equipment set.
+EquipmentManagerClearIgnoredSlotsForSave\(\) - 保存设备集时，从所有插槽中删除忽略标志。
 
-UI [EquipmentManager\_UnpackLocation](https://wow.gamepedia.com/API_EquipmentManager_UnpackLocation)\(location\) - Unpacks a location integer to determine the actual inventory location.
+UI [EquipmentManager\_UnpackLocation](https://wow.gamepedia.com/API_EquipmentManager_UnpackLocation)\(location\) - 解包位置整数以确定实际库存位置。
 
 GetContainerItemEquipmentSetInfo\(\)
 
