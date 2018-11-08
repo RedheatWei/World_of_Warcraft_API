@@ -37,4 +37,6 @@
   * [设备管理函数](chapter1/she-bei-guan-li-han-shu.md)
   * [阵营函数](chapter1/zhen-ying-han-shu.md)
   * [框架管理](chapter1/kuang-jia-guan-li.md)
+  * [FrameXML接口](chapter1/framexmljie-kou.md)
+  * [好友函数](chapter1/hao-you-han-shu.md)
 
