@@ -42,4 +42,5 @@
   * [营地函数](chapter1/ying-di-han-shu.md)
   * [雕纹函数](chapter1/diao-wen-han-shu.md)
   * [GM函数](chapter1/gmhan-shu.md)
+  * [对话框函数](chapter1/dui-hua-kuang-han-shu.md)
 
