@@ -39,4 +39,5 @@
   * [框架管理](chapter1/kuang-jia-guan-li.md)
   * [FrameXML接口](chapter1/framexmljie-kou.md)
   * [好友函数](chapter1/hao-you-han-shu.md)
+  * [营地函数](chapter1/ying-di-han-shu.md)
 

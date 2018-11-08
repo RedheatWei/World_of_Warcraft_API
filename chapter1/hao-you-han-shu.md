@@ -6,19 +6,17 @@
 
 [GetFriendInfo](https://wow.gamepedia.com/API_GetFriendInfo)\(index\) - 返回朋友的姓名，等级，种族，位置，已连接，状态和备注。
 
-[SetFriendNotes](https://wow.gamepedia.com/API_SetFriendNotes)\(index, "note"\) - Sets the note text for a friend.
+[SetFriendNotes](https://wow.gamepedia.com/API_SetFriendNotes)\(index, "note"\) - 设置好友备注.
 
-[GetNumFriends](https://wow.gamepedia.com/API_GetNumFriends)\(\) - Returns how many friends are on your friend list.
+[GetNumFriends](https://wow.gamepedia.com/API_GetNumFriends)\(\) - 返回好友列表中好友数量.
 
-[GetSelectedFriend](https://wow.gamepedia.com/API_GetSelectedFriend)\(\) - Returns the index of the current selected friend.
+[GetSelectedFriend](https://wow.gamepedia.com/API_GetSelectedFriend)\(\) -返回当前所选好友的索引。
 
-[RemoveFriend](https://wow.gamepedia.com/API_RemoveFriend)\("name" or index\) - Removes a friend from your friend list
+[RemoveFriend](https://wow.gamepedia.com/API_RemoveFriend)\("name" or index\) -删除好友.
 
-[SetSelectedFriend](https://wow.gamepedia.com/API_SetSelectedFriend)\(index\) - Update the current selected friend.
+[SetSelectedFriend](https://wow.gamepedia.com/API_SetSelectedFriend)\(index\) - 更新当前选中的好友.
 
-[ShowFriends](https://wow.gamepedia.com/API_ShowFriends)\(\) - Request updated friends information from server.
+[ShowFriends](https://wow.gamepedia.com/API_ShowFriends)\(\) - 从服务器请求更新好友信息。
 
-UI [ToggleFriendsFrame](https://wow.gamepedia.com/API_ToggleFriendsFrame)\(\[tabNumber\]\) - Opens/closes the friends pane \(possibly on a specific tab\).
-
-
+UI [ToggleFriendsFrame](https://wow.gamepedia.com/API_ToggleFriendsFrame)\(\[tabNumber\]\) - 打开/关闭好友窗格（可能在特定选项卡上）。
 
