@@ -20,9 +20,9 @@ UI [EquipmentManager\_UnpackLocation](https://wow.gamepedia.com/API_EquipmentMan
 
 GetContainerItemEquipmentSetInfo\(\)
 
-[GetNumEquipmentSets](https://wow.gamepedia.com/API_GetNumEquipmentSets)\(\) - Returns the number of saved equipment sets.
+[GetNumEquipmentSets](https://wow.gamepedia.com/API_GetNumEquipmentSets)\(\) - 返回已保存设备组的数量。
 
-UI GetEquipmentSetIconInfo\(index\) - Returns information about available icons.
+UI GetEquipmentSetIconInfo\(index\) - 返回有关可用图标的信息。
 
 GetEquipmentSetIgnoreSlots\(\)
 
