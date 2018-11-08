@@ -40,4 +40,5 @@
   * [FrameXML接口](chapter1/framexmljie-kou.md)
   * [好友函数](chapter1/hao-you-han-shu.md)
   * [营地函数](chapter1/ying-di-han-shu.md)
+  * [雕纹函数](chapter1/diao-wen-han-shu.md)
 
