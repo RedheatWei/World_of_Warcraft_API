@@ -1,5 +1,7 @@
 ### 阵营函数
 
+###### 这里的阵营应该属于各种派系,比如说暴风城声望,奥格瑞玛声望,水土派熊猫人声望,加基森声望等.
+
 [CollapseFactionHeader](https://wow.gamepedia.com/API_CollapseFactionHeader)\(index\) - 折叠阵营标题行.
 
 CollapseAllFactionHeaders\(\) - 折叠所有阵营标题行.
@@ -24,13 +26,13 @@ GetSelectedFaction\(\) - 返回信誉窗口中当前所选阵营的行索引。�
 
 [GetWatchedFactionInfo](https://wow.gamepedia.com/API_GetWatchedFactionInfo)\(\) - 返回有关当前查看的阵营的信息。
 
-[IsFactionInactive](https://wow.gamepedia.com/API_IsFactionInactive)\(index\) - Returns true if the faction is marked inactive.
+[IsFactionInactive](https://wow.gamepedia.com/API_IsFactionInactive)\(index\) - 如果阵营被标记为非活动，则返回true。
 
-[SetFactionActive](https://wow.gamepedia.com/API_SetFactionActive)\(index\) - Remove a faction from inactive group.
+[SetFactionActive](https://wow.gamepedia.com/API_SetFactionActive)\(index\) - 从非活动组中删除一个阵营。
 
-[SetFactionInactive](https://wow.gamepedia.com/API_SetFactionInactive)\(index\) - Move a faction to inactive group.
+[SetFactionInactive](https://wow.gamepedia.com/API_SetFactionInactive)\(index\) - 将阵营移动到非活动组。
 
-SetSelectedFaction\(index\) - Sets the currently selected faction in reputation window. \(added in 1.10\)
+SetSelectedFaction\(index\) - 在声望窗口中设置当前选定的阵营。（在1.10中添加）
 
 [SetWatchedFactionIndex](https://wow.gamepedia.com/API_SetWatchedFactionIndex)\(index\) - Sets which faction should be watched in Blizzard reputation bar.
 
@@ -39,8 +41,4 @@ SetSelectedFaction\(index\) - Sets the currently selected faction in reputation 
 [C\_Reputation.IsFactionParagon](https://wow.gamepedia.com/API_C_Reputation.IsFactionParagon)\(factionID\) - Returns true/false if a factionID is a Paragon. \(added in 7.2.0\)
 
 C\_Reputation.RequestFactionParagonPreloadRewardData \(factionID\) - Queries the server to pre-load Paragon reward data. \(added in 7.2.0\)
-
-
-
-
 
