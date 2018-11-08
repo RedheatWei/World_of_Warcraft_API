@@ -29,21 +29,21 @@ GetPendingGlyphName\(?\)-
 
 REMOVED GetSelectedGlyphSpellIndex\(\)
 
-REMOVED GlyphMatchesSocket\([socketID](https://wow.gamepedia.com/Glyph_SocketID)\) - See if the Glyph held by the cursor matches the desired Socket.
+REMOVED GlyphMatchesSocket\([socketID](https://wow.gamepedia.com/Glyph_SocketID)\) -查看光标所持有的雕纹是否与所需的插槽匹配。
 
 HasAttachedGlyph\(?\) -
 
 HasPendingGlyphCast\(?\) -
 
-REMOVED [IsGlyphFlagSet](https://wow.gamepedia.com/API_IsGlyphFlagSet)\(filter\) - Returns the current state of the selected Glyph filter
+REMOVED [IsGlyphFlagSet](https://wow.gamepedia.com/API_IsGlyphFlagSet)\(filter\) - 返回所选雕纹过滤器的当前状态
 
 IsPendingGlyphRemoval\(?\) -
 
 IsSpellValidForPendingGlyph\(?\) -
 
-REMOVED PlaceGlyphInSocket\([socketID](https://wow.gamepedia.com/Glyph_SocketID)\) - Places the Glyph held by the cursor into the desired Socket.
+REMOVED PlaceGlyphInSocket\([socketID](https://wow.gamepedia.com/Glyph_SocketID)\) - 将光标所持有的雕纹放入所需的插槽中。
 
-REMOVED RemoveGlyphFromSocket\([socketID](https://wow.gamepedia.com/Glyph_SocketID)\) - Removes the Glyph from the desired Socket.
+REMOVED RemoveGlyphFromSocket\([socketID](https://wow.gamepedia.com/Glyph_SocketID)\) - 在插槽中移除雕纹
 
 REMOVED SetGlyphFilter\(\)
 
@@ -51,5 +51,5 @@ REMOVED SetGlyphNameFilter\(string\)
 
 REMOVED SpellCanTargetGlyph\(\)
 
-REMOVED [ToggleGlyphFilter](https://wow.gamepedia.com/API_ToggleGlyphFilter)\(filter\) - Toggles the state of the selected Glyph filter
+REMOVED [ToggleGlyphFilter](https://wow.gamepedia.com/API_ToggleGlyphFilter)\(filter\) - 切换所选雕纹过滤器的状态
 
