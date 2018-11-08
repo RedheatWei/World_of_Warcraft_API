@@ -4,7 +4,7 @@
 
 [AddOrRemoveFriend](https://wow.gamepedia.com/API_AddOrRemoveFriend)\("playerName"\[, "note"\]\) - 添加或删除好友.
 
-[GetFriendInfo](https://wow.gamepedia.com/API_GetFriendInfo)\(index\) - 返回朋友的姓名，等级，种族，位置，已连接，状态和备注。
+[GetFriendInfo](https://wow.gamepedia.com/API_GetFriendInfo)\(index\) - 返回朋友的姓名，等级，职业，位置，已连接，状态和备注。
 
 [SetFriendNotes](https://wow.gamepedia.com/API_SetFriendNotes)\(index, "note"\) - 设置好友备注.
 
