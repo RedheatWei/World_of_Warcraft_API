@@ -32,15 +32,15 @@ GetEquipmentSetIgnoreSlots\(\)
 
 [GetEquipmentSetItemIDs](https://wow.gamepedia.com/API_GetEquipmentSetItemIDs)\("name"\[, returnTable\]\) - 使用物品ID填充并返回一个表。
 
-[GetEquipmentSetLocations](https://wow.gamepedia.com/API_GetEquipmentSetLocations)\("name"\[, returnTable\]\) - Populates and returns a table with the item locations.
+[GetEquipmentSetLocations](https://wow.gamepedia.com/API_GetEquipmentSetLocations)\("name"\[, returnTable\]\) - 填充并返回包含项位置的表。
 
 ModifyEquipmentSet\(\)
 
-[PickupEquipmentSet](https://wow.gamepedia.com/API_PickupEquipmentSet)\(index\) - Places an equipment set on the cursor.
+[PickupEquipmentSet](https://wow.gamepedia.com/API_PickupEquipmentSet)\(index\) - 在光标上放置一个设备。
 
-[PickupEquipmentSetByName](https://wow.gamepedia.com/API_PickupEquipmentSetByName)\("name"\) - Places an equipment set on the cursor.
+[PickupEquipmentSetByName](https://wow.gamepedia.com/API_PickupEquipmentSetByName)\("name"\) - 在光标上放置一个设备。
 
-[SaveEquipmentSet](https://wow.gamepedia.com/API_SaveEquipmentSet)\("name", iconIndex\) - Saves the currently equipped items in a set.
+[SaveEquipmentSet](https://wow.gamepedia.com/API_SaveEquipmentSet)\("name", iconIndex\) - 将当前配备的物品保存在一组中。
 
-NOCOMBAT [UseEquipmentSet](https://wow.gamepedia.com/API_UseEquipmentSet)\("name"\) - Equips an equipment set.
+NOCOMBAT [UseEquipmentSet](https://wow.gamepedia.com/API_UseEquipmentSet)\("name"\) - 配备一套设备。
 
