@@ -50,15 +50,13 @@ GMSurveyQuestion\(\) -
 
 GMSurveySubmit\(\) -
 
-UI [HelpReportLag](https://wow.gamepedia.com/API_HelpReportLag)\(type\) - Uses the Report Lag function on the help screen to report the specified type of lag
+UI [HelpReportLag](https://wow.gamepedia.com/API_HelpReportLag)\(type\) - 使用帮助屏幕上的报告延迟功能报告指定的延迟类型
 
 REMOVED PROTECTED NewGMTicket\(type,"text"\)
 
-PROTECTED [Stuck](https://wow.gamepedia.com/API_Stuck)\(\) - Informs the game engine that the player is Stuck.
+PROTECTED [Stuck](https://wow.gamepedia.com/API_Stuck)\(\) - 告知游戏引擎,玩家卡死.
 
 REMOVED PROTECTED UpdateGMTicket\(type,"text"\)
 
 [IsGMClient](https://wow.gamepedia.com/API_IsGMClient)\(\)
-
-
 
