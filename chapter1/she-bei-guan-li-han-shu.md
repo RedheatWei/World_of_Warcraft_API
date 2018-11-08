@@ -26,11 +26,11 @@ UI GetEquipmentSetIconInfo\(index\) - 返回有关可用图标的信息。
 
 GetEquipmentSetIgnoreSlots\(\)
 
-[GetEquipmentSetInfo](https://wow.gamepedia.com/API_GetEquipmentSetInfo)\(index\) - Returns information about an equipment set.
+[GetEquipmentSetInfo](https://wow.gamepedia.com/API_GetEquipmentSetInfo)\(index\) - 返回有关设备集的信息。
 
-[GetEquipmentSetInfoByName](https://wow.gamepedia.com/API_GetEquipmentSetInfoByName)\("name"\) - Returns information about an equipment set.
+[GetEquipmentSetInfoByName](https://wow.gamepedia.com/API_GetEquipmentSetInfoByName)\("name"\) - 返回有关设备集的信息。
 
-[GetEquipmentSetItemIDs](https://wow.gamepedia.com/API_GetEquipmentSetItemIDs)\("name"\[, returnTable\]\) - Populates and returns a table with the item IDs.
+[GetEquipmentSetItemIDs](https://wow.gamepedia.com/API_GetEquipmentSetItemIDs)\("name"\[, returnTable\]\) - 使用物品ID填充并返回一个表。
 
 [GetEquipmentSetLocations](https://wow.gamepedia.com/API_GetEquipmentSetLocations)\("name"\[, returnTable\]\) - Populates and returns a table with the item locations.
 
