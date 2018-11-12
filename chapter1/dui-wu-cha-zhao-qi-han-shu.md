@@ -2,7 +2,7 @@
 
 ###### 在[Patch 3.3.0](https://wow.gamepedia.com/Patch_3.3.0)中作为“地下城查找器”和“团队浏览器”推出，这个UI在[Patch 6.0.3](https://wow.gamepedia.com/Patch_6.0.3)中彻底改造并重命名为“组队查找器”。
 
-C\_LFGList.AcceptInvite\(resultID\) - 
+C\_LFGList.AcceptInvite\(resultID\) -
 
 [C\_LFGList.ApplyToGroup](https://wow.gamepedia.com/API_C_LFGList.ApplyToGroup)\(resultID, comment, tankOK, healerOK, damageOK\) -
 
@@ -12,9 +12,9 @@ C\_LFGList.CancelApplication\(resultID\) -
 
 [C\_LFGList.CreateListing](https://wow.gamepedia.com/API_C_LFGList.CreateListing)\("groupName", itemLevel, "voiceChat", "comment", autoAccept\)
 
-C\_LFGList.DeclineApplicant\(applicantID\) - 
+C\_LFGList.DeclineApplicant\(applicantID\) -
 
-C\_LFGList.DeclineInvite\(resultID\) - 
+C\_LFGList.DeclineInvite\(resultID\) -
 
 [C\_LFGList.GetActiveEntryInfo](https://wow.gamepedia.com/API_C_LFGList.GetActiveEntryInfo)\(\) - 返回当前列出队伍的信息.
 
@@ -38,13 +38,13 @@ C\_LFGList.GetApplications\(\) -
 
 [C\_LFGList.GetAvailableActivities](https://wow.gamepedia.com/API_C_LFGList.GetAvailableActivities)\(\[categoryID\[, groupID \[, filter\]\]\]\) - 返回可用的活动ID列表。
 
-[C\_LFGList.GetAvailableActivityGroups](https://wow.gamepedia.com/API_C_LFGList.GetAvailableActivityGroups)\(categoryID\[,filter\]\) - Returns a list of available groupIDs.
+[C\_LFGList.GetAvailableActivityGroups](https://wow.gamepedia.com/API_C_LFGList.GetAvailableActivityGroups)\(categoryID\[,filter\]\) - 返回可用groupID的列表。
 
-[C\_LFGList.GetAvailableCategories](https://wow.gamepedia.com/API_C_LFGList.GetAvailableCategories)\(\[filter\]\) - Returns a list of available categoryIDs.
+[C\_LFGList.GetAvailableCategories](https://wow.gamepedia.com/API_C_LFGList.GetAvailableCategories)\(\[filter\]\) - 返回可用类别ID的列表。
 
 C\_LFGList.GetAvailableRoles\(\)
 
-[C\_LFGList.GetCategoryInfo](https://wow.gamepedia.com/API_C_LFGList.GetCategoryInfo)\(categoryID\) - Returns information about a specific category.
+[C\_LFGList.GetCategoryInfo](https://wow.gamepedia.com/API_C_LFGList.GetCategoryInfo)\(categoryID\) - 返回有关特定类别的信息。
 
 C\_LFGList.GetNumApplicants\(\) -
 
@@ -66,7 +66,7 @@ C\_LFGList.GetSearchResultMemberCounts\(resultID\) -
 
 C\_LFGList.GetSearchResultMemberInfo\(resultID, memberIndex\) -
 
-[C\_LFGList.GetSearchResults](https://wow.gamepedia.com/API_C_LFGList.GetSearchResults)\(\) - returns numResultID, totalResultID
+[C\_LFGList.GetSearchResults](https://wow.gamepedia.com/API_C_LFGList.GetSearchResults)\(\) - 返回 numResultID, totalResultID
 
 C\_LFGList.HasActivityList\(\) -
 
