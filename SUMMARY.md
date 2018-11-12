@@ -45,4 +45,5 @@
   * [对话框函数](chapter1/dui-hua-kuang-han-shu.md)
   * [团队函数](chapter1/tuan-dui-han-shu.md)
   * [队伍查找器函数](chapter1/dui-wu-cha-zhao-qi-han-shu.md)
+  * [公会函数](chapter1/gong-hui-han-shu.md)
 
