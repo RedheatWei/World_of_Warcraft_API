@@ -92,11 +92,11 @@ C\_LFGList.SetApplicantMemberRole\(applicantID, memberIndex, "ROLE"\) -
 
 C\_LFGList.UpdateListing\(lfgID, "groupName", itemLevel, "voiceChat", "comment", autoAccept\) -
 
-The following are functions that were used by the old "Dungeon Finder" / "Raid Browser" UIs. They may still be in use in the Group Finder UI:
+以下是旧的“Dungeon Finder”/“Raid Browser”UI使用的功能。它们可能仍在Group Finder UI中使用：
 
 RefreshLFGList\(\)
 
-SearchLFGGetEncounterResults\(index, bossIndex\) - returns bossName, texture, isKilled
+SearchLFGGetEncounterResults\(index, bossIndex\) - 返回boss名称, texture, 是否击杀
 
 SearchLFGGetJoinedID\(\) - returns the currently selected raid ID or nil
 
