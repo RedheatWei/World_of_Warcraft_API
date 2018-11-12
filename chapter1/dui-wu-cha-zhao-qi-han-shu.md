@@ -96,9 +96,9 @@ C\_LFGList.UpdateListing\(lfgID, "groupName", itemLevel, "voiceChat", "comment",
 
 RefreshLFGList\(\)
 
-SearchLFGGetEncounterResults\(index, bossIndex\) - 返回boss名称, texture, 是否击杀
+SearchLFGGetEncounterResults\(index, bossIndex\) - 返回boss名称, 类型, 是否击杀
 
-SearchLFGGetJoinedID\(\) - returns the currently selected raid ID or nil
+SearchLFGGetJoinedID\(\) - 返回当前选中的raid ID或nil
 
 [SearchLFGGetNumResults](https://wow.gamepedia.com/API_SearchLFGGetNumResults)\(\) - returns numResults, totalResults
 
