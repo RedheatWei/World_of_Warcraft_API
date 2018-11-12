@@ -100,17 +100,17 @@ SearchLFGGetEncounterResults\(index, bossIndex\) - 返回boss名称, 类型, 是
 
 SearchLFGGetJoinedID\(\) - 返回当前选中的raid ID或nil
 
-[SearchLFGGetNumResults](https://wow.gamepedia.com/API_SearchLFGGetNumResults)\(\) - returns numResults, totalResults
+[SearchLFGGetNumResults](https://wow.gamepedia.com/API_SearchLFGGetNumResults)\(\) - 返回 numResults, totalResults
 
-[SearchLFGGetPartyResults](https://wow.gamepedia.com/API_SearchLFGGetPartyResults)\(index, partyMemberIndex\) - returns name, level, relationship, className, areaName, comment
+[SearchLFGGetPartyResults](https://wow.gamepedia.com/API_SearchLFGGetPartyResults)\(index, partyMemberIndex\) - 返回 name, level, relationship, className, areaName, comment
 
-[SearchLFGGetResults](https://wow.gamepedia.com/API_SearchLFGGetResults)\(index\) - returns name, level, areaName, className, comment, partyMembers, status, class, encountersTotal, encountersComplete, isLeader, isTank, isHealer, isDamage
+[SearchLFGGetResults](https://wow.gamepedia.com/API_SearchLFGGetResults)\(index\) - 返回 name, level, areaName, className, comment, partyMembers, status, class, encountersTotal, encountersComplete, isLeader, isTank, isHealer, isDamage
 
-HW [SearchLFGJoin](https://wow.gamepedia.com/API_SearchLFGJoin)\(typeID, raidID\) - enters a search into the Raid Browser
+HW [SearchLFGJoin](https://wow.gamepedia.com/API_SearchLFGJoin)\(typeID, raidID\) - 进入Raid浏览器搜索
 
-SearchLFGLeave\(\) - removes yourself from looking through the Raid Browser. Equivalent to selecting "none" in the Raid Browser
+SearchLFGLeave\(\) -从浏览Raid浏览器中删除自己。相当于在Raid浏览器中选择“无”
 
 SearchLFGSort\(sortType\)
 
-[SetLFGComment](https://wow.gamepedia.com/API_SetLFGComment)\(comment\) - sets the comment in the raid browser
+[SetLFGComment](https://wow.gamepedia.com/API_SetLFGComment)\(comment\) - 在raid浏览器中设置评论
 
