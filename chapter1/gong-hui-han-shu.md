@@ -62,13 +62,9 @@ GetGuildRosterLargestAchievementPoints\(\) - 返回最大成就点数。
 
 [GetGuildRosterShowOffline](https://wow.gamepedia.com/API_GetGuildRosterShowOffline)\(\) - 如果显示公会的脱机成员，则返回true。
 
-[GetGuildTradeSkillInfo](https://wow.gamepedia.com/API_GetGuildTradeSkillInfo)
+[GetGuildTradeSkillInfo](https://wow.gamepedia.com/API_GetGuildTradeSkillInfo)\(index\) - Returns the tradeskill index for a guild tradeskill using the index from GetNumGuildTradeSkill
 
-\(index\) - Returns the tradeskill index for a guild tradeskill using the index from GetNumGuildTradeSkill
-
-[GetNumGuildApplicants](https://wow.gamepedia.com/API_GetNumGuildApplicants)
-
-\(\) - Returns the total number of guild applicants.
+[GetNumGuildApplicants](https://wow.gamepedia.com/API_GetNumGuildApplicants)\(\) - 返回公会申请人的总数。
 
 GetNumGuildEvents\(\) - Returns the number of guild events. \(Added in 2.3\)
 
