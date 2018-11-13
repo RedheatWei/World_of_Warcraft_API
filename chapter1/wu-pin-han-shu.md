@@ -40,9 +40,9 @@
 
 [GetTradeSkillReagentItemLink](https://wow.gamepedia.com/API_GetTradeSkillReagentItemLink)\(index, reagentId\) - 返回制作给定项目所需的其中一种试剂的[itemLink](https://wow.gamepedia.com/ItemLink)
 
-[GetTradeTargetItemLink](https://wow.gamepedia.com/API_GetTradeTargetItemLink)\(id\) - Returns an [itemLink](https://wow.gamepedia.com/ItemLink) for the given item in the other player's side of the trade window \(if open\)
+[GetTradeTargetItemLink](https://wow.gamepedia.com/API_GetTradeTargetItemLink)\(id\) - 返回交易窗口另一个玩家一侧给定项目的[itemLink](https://wow.gamepedia.com/ItemLink)（如果打开）
 
-IsUsableItem\(item\) - Returns usable, noMana.
+IsUsableItem\(item\) - 返回是否可用 noMana.
 
 [IsConsumableItem](https://wow.gamepedia.com/API_IsConsumableItem)\(item\) -
 
@@ -50,17 +50,17 @@ IsCurrentItem\(item\) -
 
 [IsEquippedItem](https://wow.gamepedia.com/API_IsEquippedItem)\(item\) -
 
-[IsEquippableItem](https://wow.gamepedia.com/API_IsEquippableItem)\(itemId or "itemName" or "itemLink"\) - Returns whether an item can be equipped.
+[IsEquippableItem](https://wow.gamepedia.com/API_IsEquippableItem)\(itemId or "itemName" or "itemLink"\) - 返回是否可以装备物品。
 
-[IsEquippedItemType](https://wow.gamepedia.com/API_IsEquippedItemType)\("type"\) - Where "type" is any valid inventory type, item class, or item subclass.
+[IsEquippedItemType](https://wow.gamepedia.com/API_IsEquippedItemType)\("type"\) - 其中“type”是任何有效的库存类型，项目类或项目子类。
 
-[IsItemInRange](https://wow.gamepedia.com/API_IsItemInRange)\("itemName" or "itemLink", "unit"\) - Nil for invalid target, false for out of range, true for in range.
+[IsItemInRange](https://wow.gamepedia.com/API_IsItemInRange)\("itemName" or "itemLink", "unit"\) - Nil表示无效目标，false表示超出范围，true表示范围。
 
 ItemHasRange\(item\) -
 
-[SplitContainerItem](https://wow.gamepedia.com/API_SplitContainerItem)\(bagID,slot,amount\) - Picks up part of a stack.
+[SplitContainerItem](https://wow.gamepedia.com/API_SplitContainerItem)\(bagID,slot,amount\) - 拾取堆叠的一部分。
 
-UI [SetItemRef](https://wow.gamepedia.com/API_SetItemRef)\(link, text, button\) - Handles item link tooltips in chat.
+UI [SetItemRef](https://wow.gamepedia.com/API_SetItemRef)\(link, text, button\) - 处理聊天中的项目链接工具提示。
 
-PROTECTED [UseItemByName](https://wow.gamepedia.com/API_UseItemByName)\("itemName", "unit"\) - Use an item on the unit specified.
+PROTECTED [UseItemByName](https://wow.gamepedia.com/API_UseItemByName)\("itemName", "unit"\) - 使用指定单位上的项目。
 
