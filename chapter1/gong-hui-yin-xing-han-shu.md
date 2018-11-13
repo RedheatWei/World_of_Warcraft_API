@@ -46,11 +46,11 @@ GetGuildTabardFileNames\(\)
 
 GetNumGuildBankMoneyTransactions\(\) - 返回货币日志条目的数量
 
-GetNumGuildBankTabs\(\) - Integer count of bought tabs, &gt;= 0. No bank proximity required.
+GetNumGuildBankTabs\(\) - 已购买标签的整数计数，&gt; = 0.无需银行临近。
 
-GetNumGuildBankTransactions\(tab\) - Returns number of log transactions for tab "tab"
+GetNumGuildBankTransactions\(tab\) - 返回选项卡“tab”的日志事务数
 
-PickupGuildBankItem\(tab, slot\) - Picks up an item from the guild bank
+PickupGuildBankItem\(tab, slot\) - 从公会银行拿起一件物品
 
 PickupGuildBankMoney\(money\) - Picks up "money" copper from the guild bank
 
