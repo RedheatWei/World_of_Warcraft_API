@@ -128,9 +128,9 @@ QueryGuildEventLog\(\) - 获取公会事件列表并触发GUILD\_EVENT\_LOG\_UPD
 
 [SetGuildInfoText](https://wow.gamepedia.com/API_SetGuildInfoText)\(\) - 设置持久性公会信息数据。限制是500个字母（GuildInfo EditBox仅限于此数字）。可以使用更长的文本，但会在白天重置。（在1.9中添加）
 
-[SetGuildRosterSelection](https://wow.gamepedia.com/API_SetGuildRosterSelection)\(index\) - Selects/deselects a guild member according current sorting order.
+[SetGuildRosterSelection](https://wow.gamepedia.com/API_SetGuildRosterSelection)\(index\) - 根据当前排序顺序选择/取消选择公会成员。
 
-[SetGuildRosterShowOffline](https://wow.gamepedia.com/API_SetGuildRosterShowOffline)\(enabled\) - Sets/Resets the show offline members flag.
+[SetGuildRosterShowOffline](https://wow.gamepedia.com/API_SetGuildRosterShowOffline)\(enabled\) - 设置/重置显示离线标志。
 
-[SortGuildRoster](https://wow.gamepedia.com/API_SortGuildRoster)\("sort"\) - Sorts guildroster according "sort". Any unknown values sort on "name".
+[SortGuildRoster](https://wow.gamepedia.com/API_SortGuildRoster)\("sort"\) - 根据“排序”对guildroster进行排序。任何未知值都会在“名称”上排序。
 
