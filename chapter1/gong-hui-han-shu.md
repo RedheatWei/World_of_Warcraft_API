@@ -6,15 +6,15 @@
 
 CanEditGuildEvent\(\) - 如果允许您编辑公会事件（在日历中），则返回true，
 
-CanEditGuildInfo\(\) - Returns true if you are allowed to edit the guild info
+CanEditGuildInfo\(\) - 如果允许您编辑公会信息，则返回true
 
-[CanEditMOTD](https://wow.gamepedia.com/API_CanEditMOTD)\(\) - Returns true if you are allowed to edit the guild motd.
+[CanEditMOTD](https://wow.gamepedia.com/API_CanEditMOTD)\(\) - 如果允许您编辑公会motd，则返回true。
 
-CanEditOfficerNote\(\) - Returns true if you are allowed to edit a guild member's officer note.
+CanEditOfficerNote\(\) - 如果允许您编辑公会成员的官员记录，则返回true。
 
-CanEditPublicNote\(\) - Returns true if you are allowed to edit a guild member's public note.
+CanEditPublicNote\(\) - 如果允许您编辑公会成员的公共注释，则返回true。
 
-[CanGuildDemote](https://wow.gamepedia.com/API_CanGuildDemote)\(\) - Returns true if you are allowed to demote a guild member.
+[CanGuildDemote](https://wow.gamepedia.com/API_CanGuildDemote)\(\) - 如果允许降级公会成员，则返回true。
 
 [CanGuildInvite](https://wow.gamepedia.com/API_CanGuildInvite)\(\) - Returns true if you are allowed to invite a new member to the guild.
 
