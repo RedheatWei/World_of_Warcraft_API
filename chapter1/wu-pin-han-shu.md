@@ -10,33 +10,33 @@
 
 [GetDetailedItemLevelInfo](https://wow.gamepedia.com/API_GetDetailedItemLevelInfo)\(itemId or "itemName" or "itemLink"\) - 返回物品的物品等级
 
-[GetItemCooldown](https://wow.gamepedia.com/API_GetItemCooldown)\(itemId\) - Returns startTime, duration, enable.
+[GetItemCooldown](https://wow.gamepedia.com/API_GetItemCooldown)\(itemId\) - 返回开始时间,持续时间,是否可用.
 
-[GetItemCount](https://wow.gamepedia.com/API_GetItemCount)\(itemId or "itemName" or "itemLink"\[, includeBank\]\[, includeCharges\]\) - Returns number of such items in inventory\[, or charges instead if it has charges\]
+[GetItemCount](https://wow.gamepedia.com/API_GetItemCount)\(itemId or "itemName" or "itemLink"\[, includeBank\]\[, includeCharges\]\) - 返回库存中此类商品的数量\[或者如果收费则收费\]
 
-[GetItemFamily](https://wow.gamepedia.com/API_GetItemFamily)\(itemId or "itemName" or "itemLink"\) - Returns the bag type that an item can go into, or for bags the type of items that it can contain. \(added in [Patch 2.4](https://wow.gamepedia.com/Patch_2.4)\)
+[GetItemFamily](https://wow.gamepedia.com/API_GetItemFamily)\(itemId or "itemName" or "itemLink"\) - 返回物品可以进入的背包类型，或者包含可以包含该物品的背包类型。 \(添加于 [Patch 2.4](https://wow.gamepedia.com/Patch_2.4)\)
 
-[GetItemIcon](https://wow.gamepedia.com/API_GetItemIcon)\(itemId\) - Returns the icon for the item. Works for any valid item even if it's not in the cache. \(added in[Patch 2.4](https://wow.gamepedia.com/Patch_2.4)\)
+[GetItemIcon](https://wow.gamepedia.com/API_GetItemIcon)\(itemId\) - 返回物品的图标。适用于任何有效物品，即使它不在缓存中. \(添加于[Patch 2.4](https://wow.gamepedia.com/Patch_2.4)\)
 
-[GetItemInfo](https://wow.gamepedia.com/API_GetItemInfo)\(itemId or "itemString" or "itemName" or "itemLink"\) - Returns information about an item.
+[GetItemInfo](https://wow.gamepedia.com/API_GetItemInfo)\(itemId or "itemString" or "itemName" or "itemLink"\) - 返回物品信息
 
-[GetItemInfoInstant](https://wow.gamepedia.com/API_GetItemInfoInstant)\(itemId or "itemString" or "itemName" or "itemLink"\) - Returns basic information about an item.
+[GetItemInfoInstant](https://wow.gamepedia.com/API_GetItemInfoInstant)\(itemId or "itemString" or "itemName" or "itemLink"\) - 返回物品基本信息
 
-[GetItemQualityColor](https://wow.gamepedia.com/API_GetItemQualityColor)\(quality\) - Returns the RGB color codes for a quality.
+[GetItemQualityColor](https://wow.gamepedia.com/API_GetItemQualityColor)\(quality\) -  返回质量的RGB颜色.
 
-[GetItemSpell](https://wow.gamepedia.com/API_GetItemSpell)\(item\) - Returns name, rank.
+[GetItemSpell](https://wow.gamepedia.com/API_GetItemSpell)\(item\) - 返回名称,类别.
 
-[GetItemStats](https://wow.gamepedia.com/API_GetItemStats)\(itemLink, statTable\) - Returns a table of stats for an item.
+[GetItemStats](https://wow.gamepedia.com/API_GetItemStats)\(itemLink, statTable\) - 返回物品的状态表.
 
-[GetMerchantItemLink](https://wow.gamepedia.com/API_GetMerchantItemLink)\(index\) - Returns an [itemLink](https://wow.gamepedia.com/ItemLink) for the given purchasable item
+[GetMerchantItemLink](https://wow.gamepedia.com/API_GetMerchantItemLink)\(index\) - 返回给定可购买商品的[itemLink](https://wow.gamepedia.com/ItemLink)
 
-[GetQuestItemLink](https://wow.gamepedia.com/API_GetQuestItemLink)\("type", index\) - Returns an [itemLink](https://wow.gamepedia.com/ItemLink) for a quest reward item.
+[GetQuestItemLink](https://wow.gamepedia.com/API_GetQuestItemLink)\("type", index\) - 返回任务奖励项目的[itemLink](https://wow.gamepedia.com/ItemLink)。
 
-[GetQuestLogItemLink](https://wow.gamepedia.com/API_GetQuestLogItemLink)\("type", index\) - Returns an [itemLink](https://wow.gamepedia.com/ItemLink) for a quest reward item.
+[GetQuestLogItemLink](https://wow.gamepedia.com/API_GetQuestLogItemLink)\("type", index\) - 返回任务奖励项目的[itemLink](https://wow.gamepedia.com/ItemLink)。
 
-[GetTradePlayerItemLink](https://wow.gamepedia.com/API_GetTradePlayerItemLink)\(id\) - Returns an [itemLink](https://wow.gamepedia.com/ItemLink) for the given item in your side of the trade window \(if open\)
+[GetTradePlayerItemLink](https://wow.gamepedia.com/API_GetTradePlayerItemLink)\(id\) - 返回交易窗口一侧给定项目的[itemLink](https://wow.gamepedia.com/ItemLink)（如果已打开）
 
-[GetTradeSkillItemLink](https://wow.gamepedia.com/API_GetTradeSkillItemLink)\(index\) - Returns the [itemLink](https://wow.gamepedia.com/ItemLink) for a trade skill item.
+[GetTradeSkillItemLink](https://wow.gamepedia.com/API_GetTradeSkillItemLink)\(index\) - 返回交易技能项的[itemLink](https://wow.gamepedia.com/ItemLink)。
 
 [GetTradeSkillReagentItemLink](https://wow.gamepedia.com/API_GetTradeSkillReagentItemLink)\(index, reagentId\) - Returns the [itemLink](https://wow.gamepedia.com/ItemLink) for one of the reagents needed to craft the given item
 
