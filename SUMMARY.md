@@ -49,4 +49,5 @@
   * [公会银行函数](chapter1/gong-hui-yin-xing-han-shu.md)
   * [传家宝函数](chapter1/chuan-jia-bao-han-shu.md)
   * [屏蔽函数](chapter1/ping-bi-han-shu.md)
+  * [观察函数](chapter1/guan-cha-han-shu.md)
 
