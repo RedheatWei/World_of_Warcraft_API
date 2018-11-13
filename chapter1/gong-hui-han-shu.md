@@ -42,9 +42,9 @@ GetGuildEventInfo\(index\) - 返回事件信息。（在2.3中添加）
 
 [GetGuildFactionInfo](https://wow.gamepedia.com/API_GetGuildFactionInfo)\(\) - 返回玩家的公会名称和公会职位。
 
-[GetGuildInfo](https://wow.gamepedia.com/API_GetGuildInfo)\("unit"\) - This function returns the name of the guild unit belongs to.
+[GetGuildInfo](https://wow.gamepedia.com/API_GetGuildInfo)\("unit"\) - 此函数返回公会单位所属的名称。
 
-GetGuildInfoText\(\) - Returns the persistant Guild Information data. \(added in 1.9\)
+GetGuildInfoText\(\) - 返回持久的公会信息数据。（在1.9中添加）
 
 REMOVED GetGuildRosterContribution\(index\) - Returns weekly and total XP as well as weekly and total rank.
 
