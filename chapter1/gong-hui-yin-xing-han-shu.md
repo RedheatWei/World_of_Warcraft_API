@@ -52,7 +52,7 @@ GetNumGuildBankTransactions\(tab\) - 返回选项卡“tab”的日志事务数
 
 PickupGuildBankItem\(tab, slot\) - 从公会银行拿起一件物品
 
-PickupGuildBankMoney\(money\) - Picks up "money" copper from the guild bank
+PickupGuildBankMoney\(money\) - 从公会银行拿出“钱”铜
 
 QueryGuildBankLog\(tab\) - Updates bank log data from the server, called before all transaction functions. "Money tab" is MAX\_GUILDBANK\_TABS+1
 
