@@ -14,7 +14,7 @@ CanWithdrawGuildBankMoney\(\) - 布尔值，如果允许玩家提取资金，则
 
 CloseGuildBankFrame\(\) - 关闭公会银行框架
 
-DepositGuildBankMoney\(money\) - 用铜存入“钱”金额。
+DepositGuildBankMoney\(money\) - 用铜存入“money”金额。
 
 GetCurrentGuildBankTab\(\) - 选定选项卡的整数，&gt; = 1
 
@@ -52,7 +52,7 @@ GetNumGuildBankTransactions\(tab\) - 返回选项卡“tab”的日志事务数
 
 PickupGuildBankItem\(tab, slot\) - 从公会银行拿起一件物品
 
-PickupGuildBankMoney\(money\) - 从公会银行拿出“钱”铜
+PickupGuildBankMoney\(money\) - 从公会银行拿出“money”铜
 
 QueryGuildBankLog\(tab\) - 更新来自服务器的银行日志数据，在所有事务功能之前调用。“Money tab”是MAX\_GUILDBANK\_TABS + 1
 
@@ -74,5 +74,5 @@ SetGuildBankText\(\) -
 
 SplitGuildBankItem\(tab, slot, amount\) - 拾取堆叠的一部分
 
-WithdrawGuildBankMoney\(money\) - 从公会银行取出“钱”铜
+WithdrawGuildBankMoney\(money\) - 从公会银行取出“money”铜
 
