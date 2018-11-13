@@ -16,9 +16,9 @@ CanEditPublicNote\(\) - 如果允许您编辑公会成员的公共注释，则�
 
 [CanGuildDemote](https://wow.gamepedia.com/API_CanGuildDemote)\(\) - 如果允许降级公会成员，则返回true。
 
-[CanGuildInvite](https://wow.gamepedia.com/API_CanGuildInvite)\(\) - Returns true if you are allowed to invite a new member to the guild.
+[CanGuildInvite](https://wow.gamepedia.com/API_CanGuildInvite)\(\) - 如果允许您邀请新成员加入公会，则返回true。
 
-[CanGuildPromote](https://wow.gamepedia.com/API_CanGuildPromote)\(\) - Returns true if you are allowed to demote a guild member.
+[CanGuildPromote](https://wow.gamepedia.com/API_CanGuildPromote)\(\) - 如果允许降级公会成员，则返回true。
 
 CanGuildRemove\(\) - Returns true if you are allowed to remove a guild member.
 
