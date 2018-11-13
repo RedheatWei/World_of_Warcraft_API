@@ -20,9 +20,9 @@ CanEditPublicNote\(\) - 如果允许您编辑公会成员的公共注释，则�
 
 [CanGuildPromote](https://wow.gamepedia.com/API_CanGuildPromote)\(\) - 如果允许降级公会成员，则返回true。
 
-CanGuildRemove\(\) - Returns true if you are allowed to remove a guild member.
+CanGuildRemove\(\) - 如果允许删除公会成员，则返回true。
 
-[CanReplaceGuildMaster](https://wow.gamepedia.com/API_CanReplaceGuildMaster)\(\) - Returns whether you can impeach the Guild Master due to inactivity.
+[CanReplaceGuildMaster](https://wow.gamepedia.com/API_CanReplaceGuildMaster)\(\) - 返回是否可以因不活动而弹劾公会会长。
 
 [CanViewOfficerNote](https://wow.gamepedia.com/API_CanViewOfficerNote)\(\) - Returns true if you are allowed to view a Officer Note.
 
