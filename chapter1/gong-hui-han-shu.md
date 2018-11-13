@@ -104,11 +104,11 @@ GuildControlGetNumRanks\(\) - 返回公会框架打开后的排名数。任何�
 
 [GuildPromote](https://wow.gamepedia.com/API_GuildPromote)\("name"\) - 提升玩家“name”。
 
-[GuildRoster](https://wow.gamepedia.com/API_GuildRoster)\(\) - Fetches the guild list and fires a GUILD\_ROSTER\_UPDATE event.
+[GuildRoster](https://wow.gamepedia.com/API_GuildRoster)\(\) - 获取公会列表并触发GUILD\_ROSTER\_UPDATE事件。
 
-[GuildRosterSetOfficerNote](https://wow.gamepedia.com/API_GuildRosterSetOfficerNote)\(index, "note"\) - Sets the officer note at index to "note".
+[GuildRosterSetOfficerNote](https://wow.gamepedia.com/API_GuildRosterSetOfficerNote)\(index, "note"\) - 添加官员备注
 
-[GuildRosterSetPublicNote](https://wow.gamepedia.com/API_GuildRosterSetPublicNote)\(index, "note"\) - Sets the public note at index to "note".
+[GuildRosterSetPublicNote](https://wow.gamepedia.com/API_GuildRosterSetPublicNote)\(index, "note"\) - 添加公共备注
 
 [GuildSetMOTD](https://wow.gamepedia.com/API_GuildSetMOTD)\("note"\) - Set Guild Message of the Day to "note".
 
