@@ -14,13 +14,13 @@ CanWithdrawGuildBankMoney\(\) - 布尔值，如果允许玩家提取资金，则
 
 CloseGuildBankFrame\(\) - 关闭公会银行框架
 
-DepositGuildBankMoney\(money\) - Deposits "money" amount in copper.
+DepositGuildBankMoney\(money\) - 用铜存入“钱”金额。
 
-GetCurrentGuildBankTab\(\) - Integer of selected tab, &gt;= 1
+GetCurrentGuildBankTab\(\) - 选定选项卡的整数，&gt; = 1
 
 GetGuildBankBonusDepositMoney\(\) -
 
-[GetGuildBankItemInfo](https://wow.gamepedia.com/API_GetGuildBankItemInfo)\(tab, slot\) - Returns texture, amount and integer 1 or nil depending on locked state
+[GetGuildBankItemInfo](https://wow.gamepedia.com/API_GetGuildBankItemInfo)\(tab, slot\) - 返回纹理，数量和整数1或nil，具体取决于锁定状态
 
 [GetGuildBankItemLink](https://wow.gamepedia.com/API_GetGuildBankItemLink)\(tab, slot\) - Returns itemLink
 
