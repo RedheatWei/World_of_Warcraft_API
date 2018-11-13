@@ -47,4 +47,6 @@
   * [队伍查找器函数](chapter1/dui-wu-cha-zhao-qi-han-shu.md)
   * [公会函数](chapter1/gong-hui-han-shu.md)
   * [公会银行函数](chapter1/gong-hui-yin-xing-han-shu.md)
+  * [传家宝函数](chapter1/chuan-jia-bao-han-shu.md)
+  * [屏蔽函数](chapter1/ping-bi-han-shu.md)
 
