@@ -120,13 +120,13 @@ GuildUninvite\("name"\) - 踢出公会
 
 [IsInGuild](https://wow.gamepedia.com/API_IsInGuild)\(\) - 判断是否加入了公会
 
-QueryGuildEventLog\(\) - Fetches the guild event list and fires a GUILD\_EVENT\_LOG\_UPDATE event. \(Added in 2.3\)
+QueryGuildEventLog\(\) - 获取公会事件列表并触发GUILD\_EVENT\_LOG\_UPDATE事件。（在2.3中添加）
 
-[ReplaceGuildMaster](https://wow.gamepedia.com/API_ReplaceGuildMaster)\(\) - Impeaches the current Guild Master.
+[ReplaceGuildMaster](https://wow.gamepedia.com/API_ReplaceGuildMaster)\(\) - 弹劾会长.
 
-[RequestGuildApplicantsList](https://wow.gamepedia.com/API_RequestGuildApplicantsList)\(\) - Requests information about guild applicants.
+[RequestGuildApplicantsList](https://wow.gamepedia.com/API_RequestGuildApplicantsList)\(\) - 请求有关公会申请人的信息。
 
-[SetGuildInfoText](https://wow.gamepedia.com/API_SetGuildInfoText)\(\) - Sets the persistant Guild Information data. Limit is 500 letters \(GuildInfoEditBox is limited to this number\). Longer texts are possible, but will be reseted during the day. \(added in 1.9\)
+[SetGuildInfoText](https://wow.gamepedia.com/API_SetGuildInfoText)\(\) - 设置持久性公会信息数据。限制是500个字母（GuildInfo EditBox仅限于此数字）。可以使用更长的文本，但会在白天重置。（在1.9中添加）
 
 [SetGuildRosterSelection](https://wow.gamepedia.com/API_SetGuildRosterSelection)\(index\) - Selects/deselects a guild member according current sorting order.
 
