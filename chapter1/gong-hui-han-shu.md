@@ -92,7 +92,7 @@ GuildControlGetNumRanks\(\) - 返回公会框架打开后的排名数。任何�
 
 [GuildControlSetRankFlag](https://wow.gamepedia.com/API_GuildControlSetRankFlag)\(index, enabled\) - 启用/禁用索引处的操作权限。仅限公会会长。
 
-[GuildDemote](https://wow.gamepedia.com/API_GuildDemote)\("name"\) - Demotes a player "name".
+[GuildDemote](https://wow.gamepedia.com/API_GuildDemote)\("name"\) - 给指定玩家降级.
 
 [GuildDisband](https://wow.gamepedia.com/API_GuildDisband)\(\) - Disbands at once your guild. You must be the guild's leader to do so. Be careful, no warning is given prior disbanding.
 
