@@ -96,13 +96,13 @@ GuildControlGetNumRanks\(\) - 返回公会框架打开后的排名数。任何�
 
 [GuildDisband](https://wow.gamepedia.com/API_GuildDisband)\(\) - 解散公会。你必须是公会的领导者才能这样做。小心，在解散之前没有给出任何警告。
 
-[GuildInfo](https://wow.gamepedia.com/API_GuildInfo)\(\) - Displays information about the guild you are a member of.
+[GuildInfo](https://wow.gamepedia.com/API_GuildInfo)\(\) - 显示有关您所属的公会的信息。
 
-[GuildInvite](https://wow.gamepedia.com/API_GuildInvite)\("name"\) - Invites a player to your guild.
+[GuildInvite](https://wow.gamepedia.com/API_GuildInvite)\("name"\) - 邀请玩家加入你的公会。
 
-[GuildLeave](https://wow.gamepedia.com/API_GuildLeave)\(\) - Removes you from your current guild.
+[GuildLeave](https://wow.gamepedia.com/API_GuildLeave)\(\) - 退出公会.
 
-[GuildPromote](https://wow.gamepedia.com/API_GuildPromote)\("name"\) - Promotes a player "name".
+[GuildPromote](https://wow.gamepedia.com/API_GuildPromote)\("name"\) - 提升玩家“name”。
 
 [GuildRoster](https://wow.gamepedia.com/API_GuildRoster)\(\) - Fetches the guild list and fires a GUILD\_ROSTER\_UPDATE event.
 
