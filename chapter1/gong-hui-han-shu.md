@@ -1,6 +1,6 @@
 ### 公会函数
 
-[AcceptGuild](https://wow.gamepedia.com/API_AcceptGuild)\(\) - The player accepts the invitation to join a guild.
+[AcceptGuild](https://wow.gamepedia.com/API_AcceptGuild)\(\) - 玩家接受加入公会的邀请。
 
 [BuyGuildCharter](https://wow.gamepedia.com/API_BuyGuildCharter)\("guildName"\) - Purchases a guild charter for guildName.
 
