@@ -32,7 +32,7 @@ GetGuildBankTabCost\(\) - 整数或零 - 铜成本或没有可供购买的标签
 
 [GetGuildBankTabInfo](https://wow.gamepedia.com/API_GetGuildBankTabInfo)\(tab\) - 返回查询的公会银行标签的名称和图标。
 
-[GetGuildBankTabPermissions](https://wow.gamepedia.com/API_GetGuildBankTabPermissions)\(tab\) - Gets display / player's access info. Limited data available without bank proximity.
+[GetGuildBankTabPermissions](https://wow.gamepedia.com/API_GetGuildBankTabPermissions)\(tab\) - 获取显示/用户的访问信息。有限的数据，不需要接近银行。
 
 GetGuildBankText\(\) -
 
