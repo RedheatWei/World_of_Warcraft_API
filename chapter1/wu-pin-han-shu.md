@@ -38,7 +38,7 @@
 
 [GetTradeSkillItemLink](https://wow.gamepedia.com/API_GetTradeSkillItemLink)\(index\) - 返回交易技能项的[itemLink](https://wow.gamepedia.com/ItemLink)。
 
-[GetTradeSkillReagentItemLink](https://wow.gamepedia.com/API_GetTradeSkillReagentItemLink)\(index, reagentId\) - Returns the [itemLink](https://wow.gamepedia.com/ItemLink) for one of the reagents needed to craft the given item
+[GetTradeSkillReagentItemLink](https://wow.gamepedia.com/API_GetTradeSkillReagentItemLink)\(index, reagentId\) - 返回制作给定项目所需的其中一种试剂的[itemLink](https://wow.gamepedia.com/ItemLink)
 
 [GetTradeTargetItemLink](https://wow.gamepedia.com/API_GetTradeTargetItemLink)\(id\) - Returns an [itemLink](https://wow.gamepedia.com/ItemLink) for the given item in the other player's side of the trade window \(if open\)
 
