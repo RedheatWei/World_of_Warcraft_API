@@ -28,9 +28,9 @@ GetGuildBankBonusDepositMoney\(\) -
 
 [GetGuildBankMoneyTransaction](https://wow.gamepedia.com/API_GetGuildBankMoneyTransaction)\(index\) - 不需要银行接近，但QueryGuildBankLog功能需要接近。
 
-GetGuildBankTabCost\(\) - Integer OR nil - cost in copper OR no tabs available to buy
+GetGuildBankTabCost\(\) - 整数或零 - 铜成本或没有可供购买的标签
 
-[GetGuildBankTabInfo](https://wow.gamepedia.com/API_GetGuildBankTabInfo)\(tab\) - Returns the name and icon of the guild bank tab queried.
+[GetGuildBankTabInfo](https://wow.gamepedia.com/API_GetGuildBankTabInfo)\(tab\) - 返回查询的公会银行标签的名称和图标。
 
 [GetGuildBankTabPermissions](https://wow.gamepedia.com/API_GetGuildBankTabPermissions)\(tab\) - Gets display / player's access info. Limited data available without bank proximity.
 
