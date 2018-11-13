@@ -54,7 +54,7 @@ PickupGuildBankItem\(tab, slot\) - 从公会银行拿起一件物品
 
 PickupGuildBankMoney\(money\) - 从公会银行拿出“钱”铜
 
-QueryGuildBankLog\(tab\) - Updates bank log data from the server, called before all transaction functions. "Money tab" is MAX\_GUILDBANK\_TABS+1
+QueryGuildBankLog\(tab\) - 更新来自服务器的银行日志数据，在所有事务功能之前调用。“Money tab”是MAX\_GUILDBANK\_TABS + 1
 
 QueryGuildBankTab\(tab\) - Updates bank tab data from the server, called before all item functions.
 
