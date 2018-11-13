@@ -2,9 +2,9 @@
 
 [AcceptGuild](https://wow.gamepedia.com/API_AcceptGuild)\(\) - 玩家接受加入公会的邀请。
 
-[BuyGuildCharter](https://wow.gamepedia.com/API_BuyGuildCharter)\("guildName"\) - Purchases a guild charter for guildName.
+[BuyGuildCharter](https://wow.gamepedia.com/API_BuyGuildCharter)\("guildName"\) - 购买公会注册表
 
-CanEditGuildEvent\(\) - Returns true if you are allowed to edit guild events \(in the calendar\),
+CanEditGuildEvent\(\) - 如果允许您编辑公会事件（在日历中），则返回true，
 
 CanEditGuildInfo\(\) - Returns true if you are allowed to edit the guild info
 
