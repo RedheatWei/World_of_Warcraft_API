@@ -44,7 +44,7 @@ GetGuildBankWithdrawMoney\(\) -
 
 GetGuildTabardFileNames\(\)
 
-GetNumGuildBankMoneyTransactions\(\) - Returns number of money log entries
+GetNumGuildBankMoneyTransactions\(\) - 返回货币日志条目的数量
 
 GetNumGuildBankTabs\(\) - Integer count of bought tabs, &gt;= 0. No bank proximity required.
 
