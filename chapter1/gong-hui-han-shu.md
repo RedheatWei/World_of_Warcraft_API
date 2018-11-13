@@ -118,7 +118,7 @@ GuildUninvite\("name"\) - 踢出公会
 
 [IsGuildLeader](https://wow.gamepedia.com/API_IsGuildLeader)\("name"\) - 查看玩家是否为公会会长
 
-[IsInGuild](https://wow.gamepedia.com/API_IsInGuild)\(\) - Lets you know whether you are in a guild.
+[IsInGuild](https://wow.gamepedia.com/API_IsInGuild)\(\) - 判断是否加入了公会
 
 QueryGuildEventLog\(\) - Fetches the guild event list and fires a GUILD\_EVENT\_LOG\_UPDATE event. \(Added in 2.3\)
 
