@@ -24,7 +24,7 @@ CanGuildRemove\(\) - 如果允许删除公会成员，则返回true。
 
 [CanReplaceGuildMaster](https://wow.gamepedia.com/API_CanReplaceGuildMaster)\(\) - 返回是否可以因不活动而弹劾公会会长。
 
-[CanViewOfficerNote](https://wow.gamepedia.com/API_CanViewOfficerNote)\(\) - Returns true if you are allowed to view a Officer Note.
+[CanViewOfficerNote](https://wow.gamepedia.com/API_CanViewOfficerNote)\(\) - 如果允许您查看官员备注，则返回true。
 
 CloseGuildRegistrar\(\) - ?.
 
