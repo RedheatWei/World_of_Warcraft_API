@@ -80,9 +80,9 @@ GuildControlAddRank\("name"\) - 添加另一个名为“name”的排名。仅�
 
 [GuildControlDelRank](https://wow.gamepedia.com/API_GuildControlDelRank)\("name"\) - 删除排名“name”。仅限公会会长。
 
-GuildControlGetNumRanks\(\) - Returns number of ranks after guild frame open. Any guild member can use this.
+GuildControlGetNumRanks\(\) - 返回公会框架打开后的排名数。任何公会成员都可以使用它。
 
-[GuildControlGetRankFlags](https://wow.gamepedia.com/API_GuildControlGetRankFlags)\(\) - Returns list of values for each permission for a select rank \(default rank 1\).
+[GuildControlGetRankFlags](https://wow.gamepedia.com/API_GuildControlGetRankFlags)\(\) - 返回选择等级的每个权限的值列表（默认等级1）。
 
 [GuildControlGetRankName](https://wow.gamepedia.com/API_GuildControlGetRankName)\(index\) - Returns name of the rank at index. Any guild member can use this.
 
