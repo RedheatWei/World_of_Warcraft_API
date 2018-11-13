@@ -78,7 +78,7 @@ GetTabardInfo\(\) -?.
 
 GuildControlAddRank\("name"\) - 添加另一个名为“name”的排名。仅限公会会长。
 
-[GuildControlDelRank](https://wow.gamepedia.com/API_GuildControlDelRank)\("name"\) - 删除排名“名称”。仅限公会会长。
+[GuildControlDelRank](https://wow.gamepedia.com/API_GuildControlDelRank)\("name"\) - 删除排名“name”。仅限公会会长。
 
 GuildControlGetNumRanks\(\) - Returns number of ranks after guild frame open. Any guild member can use this.
 
