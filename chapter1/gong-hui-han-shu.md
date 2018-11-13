@@ -86,7 +86,7 @@ GuildControlGetNumRanks\(\) - 返回公会框架打开后的排名数。任何�
 
 [GuildControlGetRankName](https://wow.gamepedia.com/API_GuildControlGetRankName)\(index\) - 返回索引处的排名。任何公会成员都可以使用它。
 
-[GuildControlSaveRank](https://wow.gamepedia.com/API_GuildControlSaveRank)\("name"\) - Saves the permissions for rank "name". Only Guildmaster.
+[GuildControlSaveRank](https://wow.gamepedia.com/API_GuildControlSaveRank)\("name"\) - 保存排名“name”的权限。仅限公会会长。
 
 [GuildControlSetRank](https://wow.gamepedia.com/API_GuildControlSetRank)\(rank\) - Sets the currently selected rank to view.
 
