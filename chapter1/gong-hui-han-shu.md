@@ -112,7 +112,7 @@ GuildControlGetNumRanks\(\) - 返回公会框架打开后的排名数。任何�
 
 [GuildSetMOTD](https://wow.gamepedia.com/API_GuildSetMOTD)\("note"\) - 将当天的公会消息设置为“note”。
 
-[GuildSetLeader](https://wow.gamepedia.com/API_GuildSetLeader)\("name"\) - Transfers guild leadership to another character.
+[GuildSetLeader](https://wow.gamepedia.com/API_GuildSetLeader)\("name"\) - 转移公会会长
 
 GuildUninvite\("name"\) - Removes the member "name".
 
