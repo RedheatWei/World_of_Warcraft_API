@@ -84,7 +84,7 @@ GuildControlGetNumRanks\(\) - 返回公会框架打开后的排名数。任何�
 
 [GuildControlGetRankFlags](https://wow.gamepedia.com/API_GuildControlGetRankFlags)\(\) - 返回选择等级的每个权限的值列表（默认等级1）。
 
-[GuildControlGetRankName](https://wow.gamepedia.com/API_GuildControlGetRankName)\(index\) - Returns name of the rank at index. Any guild member can use this.
+[GuildControlGetRankName](https://wow.gamepedia.com/API_GuildControlGetRankName)\(index\) - 返回索引处的排名。任何公会成员都可以使用它。
 
 [GuildControlSaveRank](https://wow.gamepedia.com/API_GuildControlSaveRank)\("name"\) - Saves the permissions for rank "name". Only Guildmaster.
 
