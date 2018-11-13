@@ -34,11 +34,11 @@ CloseTabardCreation\(\) - ?.
 
 [DeclineGuild](https://wow.gamepedia.com/API_DeclineGuild)\(\) - 玩家拒绝加入公会的邀请。
 
-[GetGuildApplicantInfo](https://wow.gamepedia.com/API_GetGuildApplicantInfo)\(index\) - Returns information about a guild applicant.
+[GetGuildApplicantInfo](https://wow.gamepedia.com/API_GetGuildApplicantInfo)\(index\) - 返回有关公会申请人的信息。
 
-GetGuildCharterCost\(\) - Returns the cost of purchasing a guild charter.
+GetGuildCharterCost\(\) - 返回购买公会章程的费用。
 
-GetGuildEventInfo\(index\) - Returns the event information. \(Added in 2.3\)
+GetGuildEventInfo\(index\) - 返回事件信息。（在2.3中添加）
 
 [GetGuildFactionInfo](https://wow.gamepedia.com/API_GetGuildFactionInfo)\(\) - Returns the guild name and faction standing of the player.
 
