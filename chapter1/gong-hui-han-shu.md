@@ -32,7 +32,7 @@ CloseGuildRoster\(\) - ?.
 
 CloseTabardCreation\(\) - ?.
 
-[DeclineGuild](https://wow.gamepedia.com/API_DeclineGuild)\(\) - The player declines the invitation to join a guild.
+[DeclineGuild](https://wow.gamepedia.com/API_DeclineGuild)\(\) - 玩家拒绝加入公会的邀请。
 
 [GetGuildApplicantInfo](https://wow.gamepedia.com/API_GetGuildApplicantInfo)\(index\) - Returns information about a guild applicant.
 
