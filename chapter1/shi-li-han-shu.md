@@ -32,5 +32,5 @@ GetInstanceBootTimeRemaining\(\) - 获取用户从实例中弹出的时间（以
 
 [GetInstanceLockTimeRemaining](https://wow.gamepedia.com/API_GetInstanceLockTimeRemaining)\(\) - 返回有关玩家当前进入的实例的实例锁定计时器的信息。
 
-[GetInstanceLockTimeRemainingEncounter](https://wow.gamepedia.com/API_GetInstanceLockTimeRemainingEncounter)\(id\) - 返回有关玩家即将保存到的实例中的凸台的信息。
+[GetInstanceLockTimeRemainingEncounter](https://wow.gamepedia.com/API_GetInstanceLockTimeRemainingEncounter)\(id\) - 返回有关玩家即将保存到的实例中的boss的信息。
 
