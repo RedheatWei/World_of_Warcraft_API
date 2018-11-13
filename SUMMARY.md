@@ -52,4 +52,5 @@
   * [观察函数](chapter1/guan-cha-han-shu.md)
   * [实例函数](chapter1/shi-li-han-shu.md)
   * [装备函数](chapter1/zhuang-bei-han-shu.md)
+  * [物品函数](chapter1/wu-pin-han-shu.md)
 
