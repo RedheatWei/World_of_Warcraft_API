@@ -66,17 +66,17 @@ GetGuildRosterLargestAchievementPoints\(\) - 返回最大成就点数。
 
 [GetNumGuildApplicants](https://wow.gamepedia.com/API_GetNumGuildApplicants)\(\) - 返回公会申请人的总数。
 
-GetNumGuildEvents\(\) - Returns the number of guild events. \(Added in 2.3\)
+GetNumGuildEvents\(\) - 返回公会事件的数量。（在2.3中添加）
 
-[GetNumGuildMembers](https://wow.gamepedia.com/API_GetNumGuildMembers)\(\) - Returns the number of total and online guild members.
+[GetNumGuildMembers](https://wow.gamepedia.com/API_GetNumGuildMembers)\(\) - 返回总公会成员和在线公会成员的数量。
 
-GetNumGuildTradeSkill\(\) - Returns the number of tradeskills available to the guild UI
+GetNumGuildTradeSkill\(\) - 返回公会UI可用的交易技能数量
 
-GetTabardCreationCost\(\) - Returns cost in coppers.
+GetTabardCreationCost\(\) - 返回铜币的成本。
 
 GetTabardInfo\(\) -?.
 
-GuildControlAddRank\("name"\) - Add another rank called "name". Only Guildmaster.
+GuildControlAddRank\("name"\) - 添加另一个名为“name”的排名。仅限公会会长。
 
 [GuildControlDelRank](https://wow.gamepedia.com/API_GuildControlDelRank)\("name"\) - Delete rank "name". Only Guildmaster.
 
