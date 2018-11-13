@@ -110,7 +110,7 @@ GuildControlGetNumRanks\(\) - 返回公会框架打开后的排名数。任何�
 
 [GuildRosterSetPublicNote](https://wow.gamepedia.com/API_GuildRosterSetPublicNote)\(index, "note"\) - 添加公共备注
 
-[GuildSetMOTD](https://wow.gamepedia.com/API_GuildSetMOTD)\("note"\) - Set Guild Message of the Day to "note".
+[GuildSetMOTD](https://wow.gamepedia.com/API_GuildSetMOTD)\("note"\) - 将当天的公会消息设置为“note”。
 
 [GuildSetLeader](https://wow.gamepedia.com/API_GuildSetLeader)\("name"\) - Transfers guild leadership to another character.
 
