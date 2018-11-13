@@ -58,9 +58,9 @@ GetGuildRosterLargestAchievementPoints\(\) - 返回最大成就点数。
 
 [GetGuildRosterMOTD](https://wow.gamepedia.com/API_GetGuildRosterMOTD)\(\) - 返回公会的MOTD.
 
-[GetGuildRosterSelection](https://wow.gamepedia.com/API_GetGuildRosterSelection)\(\) - Returns the index of the current selected guild member.
+[GetGuildRosterSelection](https://wow.gamepedia.com/API_GetGuildRosterSelection)\(\) - 返回当前所选公会成员的索引。
 
-[GetGuildRosterShowOffline](https://wow.gamepedia.com/API_GetGuildRosterShowOffline)\(\) - Returns true if showing offline members of the guild.
+[GetGuildRosterShowOffline](https://wow.gamepedia.com/API_GetGuildRosterShowOffline)\(\) - 如果显示公会的脱机成员，则返回true。
 
 [GetGuildTradeSkillInfo](https://wow.gamepedia.com/API_GetGuildTradeSkillInfo)
 
