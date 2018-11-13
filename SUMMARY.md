@@ -50,4 +50,5 @@
   * [传家宝函数](chapter1/chuan-jia-bao-han-shu.md)
   * [屏蔽函数](chapter1/ping-bi-han-shu.md)
   * [观察函数](chapter1/guan-cha-han-shu.md)
+  * [实例函数](chapter1/shi-li-han-shu.md)
 
