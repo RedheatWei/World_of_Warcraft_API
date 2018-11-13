@@ -114,9 +114,9 @@ GuildControlGetNumRanks\(\) - 返回公会框架打开后的排名数。任何�
 
 [GuildSetLeader](https://wow.gamepedia.com/API_GuildSetLeader)\("name"\) - 转移公会会长
 
-GuildUninvite\("name"\) - Removes the member "name".
+GuildUninvite\("name"\) - 踢出公会
 
-[IsGuildLeader](https://wow.gamepedia.com/API_IsGuildLeader)\("name"\) - Determine if player "name" is a guild master.
+[IsGuildLeader](https://wow.gamepedia.com/API_IsGuildLeader)\("name"\) - 查看玩家是否为公会会长
 
 [IsInGuild](https://wow.gamepedia.com/API_IsInGuild)\(\) - Lets you know whether you are in a guild.
 
