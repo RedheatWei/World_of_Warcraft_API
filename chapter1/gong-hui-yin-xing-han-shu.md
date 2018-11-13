@@ -36,9 +36,9 @@ GetGuildBankTabCost\(\) - 整数或零 - 铜成本或没有可供购买的标签
 
 GetGuildBankText\(\) -
 
-[GetGuildBankTransaction](https://wow.gamepedia.com/API_GetGuildBankTransaction)\(tab, index\) - Requires Guild Bank Proximity
+[GetGuildBankTransaction](https://wow.gamepedia.com/API_GetGuildBankTransaction)\(tab, index\) - 要求公会银行邻近
 
-GetGuildBankWithdrawGoldLimit\(\) - Returns withdraw limit for currently selected rank in guild control
+GetGuildBankWithdrawGoldLimit\(\) - 返回公会控制中当前所选等级的撤回限制
 
 GetGuildBankWithdrawMoney\(\) -
 
