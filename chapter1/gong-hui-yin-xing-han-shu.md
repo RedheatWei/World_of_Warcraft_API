@@ -22,11 +22,11 @@ GetGuildBankBonusDepositMoney\(\) -
 
 [GetGuildBankItemInfo](https://wow.gamepedia.com/API_GetGuildBankItemInfo)\(tab, slot\) - 返回纹理，数量和整数1或nil，具体取决于锁定状态
 
-[GetGuildBankItemLink](https://wow.gamepedia.com/API_GetGuildBankItemLink)\(tab, slot\) - Returns itemLink
+[GetGuildBankItemLink](https://wow.gamepedia.com/API_GetGuildBankItemLink)\(tab, slot\) - 返回物品链接
 
-[GetGuildBankMoney](https://wow.gamepedia.com/API_GetGuildBankMoney)\(\) - Integer, funds available in copper.
+[GetGuildBankMoney](https://wow.gamepedia.com/API_GetGuildBankMoney)\(\) - 整数，铜可用资金。
 
-[GetGuildBankMoneyTransaction](https://wow.gamepedia.com/API_GetGuildBankMoneyTransaction)\(index\) - No bank proximity required, however QueryGuildBankLog function requires proximity.
+[GetGuildBankMoneyTransaction](https://wow.gamepedia.com/API_GetGuildBankMoneyTransaction)\(index\) - 不需要银行接近，但QueryGuildBankLog功能需要接近。
 
 GetGuildBankTabCost\(\) - Integer OR nil - cost in copper OR no tabs available to buy
 
