@@ -94,7 +94,7 @@ GuildControlGetNumRanks\(\) - 返回公会框架打开后的排名数。任何�
 
 [GuildDemote](https://wow.gamepedia.com/API_GuildDemote)\("name"\) - 给指定玩家降级.
 
-[GuildDisband](https://wow.gamepedia.com/API_GuildDisband)\(\) - Disbands at once your guild. You must be the guild's leader to do so. Be careful, no warning is given prior disbanding.
+[GuildDisband](https://wow.gamepedia.com/API_GuildDisband)\(\) - 解散公会。你必须是公会的领导者才能这样做。小心，在解散之前没有给出任何警告。
 
 [GuildInfo](https://wow.gamepedia.com/API_GuildInfo)\(\) - Displays information about the guild you are a member of.
 
