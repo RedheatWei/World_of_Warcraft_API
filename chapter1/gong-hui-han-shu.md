@@ -52,11 +52,11 @@ REMOVED GetGuildRosterLargestContribution\(\) - 返回最大每周XP和最大总
 
 GetGuildRosterLargestAchievementPoints\(\) - 返回最大成就点数。
 
-[GetGuildRosterInfo](https://wow.gamepedia.com/API_GetGuildRosterInfo)\(index\) - This function is used to get info on members in the guild.
+[GetGuildRosterInfo](https://wow.gamepedia.com/API_GetGuildRosterInfo)\(index\) - 此函数用于获取公会成员的信息。
 
-[GetGuildRosterLastOnline](https://wow.gamepedia.com/API_GetGuildRosterLastOnline)\(index\) - Returns time since last online for indexth member in current sort order.
+[GetGuildRosterLastOnline](https://wow.gamepedia.com/API_GetGuildRosterLastOnline)\(index\) - 返回当前排序顺序中indexth成员自上次联机以来的时间。
 
-[GetGuildRosterMOTD](https://wow.gamepedia.com/API_GetGuildRosterMOTD)\(\) - Returns guild's MOTD.
+[GetGuildRosterMOTD](https://wow.gamepedia.com/API_GetGuildRosterMOTD)\(\) - 返回公会的MOTD.
 
 [GetGuildRosterSelection](https://wow.gamepedia.com/API_GetGuildRosterSelection)\(\) - Returns the index of the current selected guild member.
 
