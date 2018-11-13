@@ -40,7 +40,7 @@ GetGuildCharterCost\(\) - 返回购买公会章程的费用。
 
 GetGuildEventInfo\(index\) - 返回事件信息。（在2.3中添加）
 
-[GetGuildFactionInfo](https://wow.gamepedia.com/API_GetGuildFactionInfo)\(\) - Returns the guild name and faction standing of the player.
+[GetGuildFactionInfo](https://wow.gamepedia.com/API_GetGuildFactionInfo)\(\) - 返回玩家的公会名称和公会职位。
 
 [GetGuildInfo](https://wow.gamepedia.com/API_GetGuildInfo)\("unit"\) - This function returns the name of the guild unit belongs to.
 
