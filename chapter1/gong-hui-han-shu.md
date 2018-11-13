@@ -46,11 +46,11 @@ GetGuildEventInfo\(index\) - 返回事件信息。（在2.3中添加）
 
 GetGuildInfoText\(\) - 返回持久的公会信息数据。（在1.9中添加）
 
-REMOVED GetGuildRosterContribution\(index\) - Returns weekly and total XP as well as weekly and total rank.
+REMOVED GetGuildRosterContribution\(index\) - 返回每周和总XP以及每周和总排名。
 
-REMOVED GetGuildRosterLargestContribution\(\) - Returns max weekly XP and max total XP.
+REMOVED GetGuildRosterLargestContribution\(\) - 返回最大每周XP和最大总XP。
 
-GetGuildRosterLargestAchievementPoints\(\) - Returns max achievements points.
+GetGuildRosterLargestAchievementPoints\(\) - 返回最大成就点数。
 
 [GetGuildRosterInfo](https://wow.gamepedia.com/API_GetGuildRosterInfo)\(index\) - This function is used to get info on members in the guild.
 
