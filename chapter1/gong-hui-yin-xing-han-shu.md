@@ -60,19 +60,19 @@ QueryGuildBankTab\(tab\) - 更新服务器中的银行选项卡数据，在所�
 
 QueryGuildBankText\(\) -
 
-SetCurrentGuildBankTab\(tab\) - Select different bank tab in the UI
+SetCurrentGuildBankTab\(tab\) - 在UI中选择不同的银行选项卡
 
-SetGuildBankTabInfo\(tab, name, iconIndex\) - Modifies name and icon for tab
+SetGuildBankTabInfo\(tab, name, iconIndex\) - 修改选项卡的名称和图标
 
 SetGuildBankTabItemWithdraw\(\) -
 
-[SetGuildBankTabPermissions](https://wow.gamepedia.com/API_SetGuildBankTabPermissions)\(tab, index, enabled\) - Modifies the permissions for the GuildBankTab. Guild Leader Only.
+[SetGuildBankTabPermissions](https://wow.gamepedia.com/API_SetGuildBankTabPermissions)\(tab, index, enabled\) - 修改GuildBankTab的权限。仅限公会领袖。
 
 SetGuildBankText\(\) -
 
-[SetGuildBankWithdrawGoldLimit](https://wow.gamepedia.com/API_SetGuildBankWithdrawGoldLimit)\(amount\) - Sets the gold withdraw limit from the guild bank. Guild Leader Only.
+[SetGuildBankWithdrawGoldLimit](https://wow.gamepedia.com/API_SetGuildBankWithdrawGoldLimit)\(amount\) - 设置公会银行的黄金提取限额。仅限公会领袖。
 
-SplitGuildBankItem\(tab, slot, amount\) - Picks up part of a stack
+SplitGuildBankItem\(tab, slot, amount\) - 拾取堆叠的一部分
 
-WithdrawGuildBankMoney\(money\) - Withdraws "money" copper from the guild bank
+WithdrawGuildBankMoney\(money\) - 从公会银行取出“钱”铜
 
