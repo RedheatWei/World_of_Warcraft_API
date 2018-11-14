@@ -53,4 +53,5 @@
   * [实例函数](chapter1/shi-li-han-shu.md)
   * [装备函数](chapter1/zhuang-bei-han-shu.md)
   * [物品函数](chapter1/wu-pin-han-shu.md)
+  * [物品插槽函数](chapter1/wu-pin-cha-cao-han-shu.md)
 
