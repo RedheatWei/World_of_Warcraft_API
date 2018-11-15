@@ -74,11 +74,11 @@ GetLFGProposal\(\)
 
 GetLFGProposalMember\(playerNumber\) - 在LFG提案中返回有关玩家（数字1-5）的信息：是否队长，角色，级别，应答，接受，名字，职业
 
-[GetLFGQueueStats](https://wow.gamepedia.com/API_GetLFGQueueStats)\(\) - returns current state and wait times for being in queue
+[GetLFGQueueStats](https://wow.gamepedia.com/API_GetLFGQueueStats)\(\) - 返回队列中的当前状态和等待时间
 
 GetLFGQueuedList\(\)
 
-[GetLFGRandomCooldownExpiration](https://wow.gamepedia.com/API_GetLFGRandomCooldownExpiration)\(\) - Returns the time at which you may once again queue for a random dungeon.
+[GetLFGRandomCooldownExpiration](https://wow.gamepedia.com/API_GetLFGRandomCooldownExpiration)\(\) - 返回您可能再次为随机地下城排队的时间。
 
 GetLFGRandomDungeonInfo\(index\) - Returns information about a random dungeon queue: id, name
 
