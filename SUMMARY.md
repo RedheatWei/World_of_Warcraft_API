@@ -56,7 +56,7 @@
   * [物品插槽函数](chapter1/wu-pin-cha-cao-han-shu.md)
   * [物品文本函数](chapter1/wu-pin-wen-ben-han-shu.md)
   * [知识库函数](chapter1/zhi-shi-ku-han-shu.md)
-  * 区域函数
+  * [区域函数](chapter1/qu-yu-han-shu.md)
   * [查找队伍函数](chapter1/cha-zhao-dui-wu-han-shu.md)
   * [RAID查找函数](chapter1/raidcha-zhao-han-shu.md)
   * [战利品函数](chapter1/zhan-li-pin-han-shu.md)
