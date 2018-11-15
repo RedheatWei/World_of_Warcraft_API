@@ -132,7 +132,7 @@ LeaveSingleLFG\(\)
 
 PartyLFGStartBackfill\(\)
 
-[RejectProposal](https://wow.gamepedia.com/API_RejectProposal)\(\) - Reject an LFD group invite and exit the queue.
+[RejectProposal](https://wow.gamepedia.com/API_RejectProposal)\(\) - 拒绝LFD组邀请并退出队列。
 
 RequestLFDPartyLockInfo\(\)
 
@@ -140,7 +140,7 @@ RequestLFDPlayerLockInfo\(\)
 
 [SetLFGBonusFactionID](https://wow.gamepedia.com/API_SetLFGBonusFactionID)\(\)
 
-SetLFGBootVote\(vote\) - responds to a vote-kick.
+SetLFGBootVote\(vote\) - 回应投票。
 
 SetLFGDungeon\(id\)
 
@@ -148,13 +148,13 @@ SetLFGDungeonEnabled\(dungeonID, isEnabled\)
 
 SetLFGHeaderCollapsed\(headerID, isCollapsed\)
 
-SetLFGRoles\(isLeader, isTank, isHealer, isDPS\) - changes the selected roles
+SetLFGRoles\(isLeader, isTank, isHealer, isDPS\) - 更改所选角色
 
-[UninviteUnit](https://wow.gamepedia.com/API_UninviteUnit)\("name" \[, "reason"\]\) - initiate a kick vote in a LFD group.
+[UninviteUnit](https://wow.gamepedia.com/API_UninviteUnit)\("name" \[, "reason"\]\) - 在LFD小组中发起反对票。
 
-[UnitGroupRolesAssigned](https://wow.gamepedia.com/API_UnitGroupRolesAssigned)\("unit"\) - Return's the targeted unit's assigned role.
+[UnitGroupRolesAssigned](https://wow.gamepedia.com/API_UnitGroupRolesAssigned)\("unit"\) - 返回目标单位的指定角色。
 
-[UnitHasLFGDeserter](https://wow.gamepedia.com/API_UnitHasLFGDeserter)\("unit"\) - returns whether the specified unit has recently deserted
+[UnitHasLFGDeserter](https://wow.gamepedia.com/API_UnitHasLFGDeserter)\("unit"\) - 返回指定单位最近是否已离开
 
-[UnitHasLFGRandomCooldown](https://wow.gamepedia.com/API_UnitHasLFGRandomCooldown)\("unit"\) - returns whether the specified unit has recently queued for a random
+[UnitHasLFGRandomCooldown](https://wow.gamepedia.com/API_UnitHasLFGRandomCooldown)\("unit"\) - 返回指定的单位最近是否排队等待随机
 
