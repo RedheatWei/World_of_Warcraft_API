@@ -2,33 +2,33 @@
 
 ###### 用于“寻找队伍”工具的功能。另请参阅：[组查找器功能](https://wow.gamepedia.com/World_of_Warcraft_API#Group_Finder_Functions)和[查找Raid功能](https://wow.gamepedia.com/World_of_Warcraft_API#Looking_for_Raid_Functions)
 
-HW [AcceptProposal](https://wow.gamepedia.com/API_AcceptProposal)\(\) - Accept an LFD group invite and enter the dungeon.
+HW [AcceptProposal](https://wow.gamepedia.com/API_AcceptProposal)\(\) - 接受LFD组邀请并进入地下城。
 
-CanPartyLFGBackfill\(\) - Returns whether the party is eligible to recruit additional members from the LFG pool.
+CanPartyLFGBackfill\(\) - 返回该方是否有资格从LFG池中招募更多成员。
 
 ClearAllLFGDungeons\(\)
 
-CompleteLFGRoleCheck\(boolean\) - boolean = false means declining the roleCheck. The returned boolean seems to indicate that the roleCheck was successful?
+CompleteLFGRoleCheck\(boolean\) - boolean = false表示拒绝roleCheck。返回的布尔值似乎表明roleCheck是否成功
 
 CompleteLFGReadyCheck\(\)
 
-[GetInstanceLockTimeRemainingEncounter](https://wow.gamepedia.com/API_GetInstanceLockTimeRemainingEncounter)\(index\) - returns bossName, texture, isKilled
+[GetInstanceLockTimeRemainingEncounter](https://wow.gamepedia.com/API_GetInstanceLockTimeRemainingEncounter)\(index\) - 返回boss名称,组织,是否击杀.
 
-GetLFDChoiceCollapseState\(nil or table\) - returns LFGCollapseList
+GetLFDChoiceCollapseState\(nil or table\) - 返回LFGCollapseList
 
-GetLFDChoiceEnabledState\(nil or table\) - returns LFGEnabledList
+GetLFDChoiceEnabledState\(nil or table\) - 返回LFGEnabledList
 
-GetLFDChoiceLockedState\(nil or table\) - Returns a table mapping dungeonID to isLocked \(in LFD UI\)
+GetLFDChoiceLockedState\(nil or table\) - 返回将地下城ID映射到是否锁定的表（在LFD UI中）
 
-GetLFDChoiceOrder\(nil or table\) - returns LFDDungeonList
+GetLFDChoiceOrder\(nil or table\) - 返回 LFDDungeonList
 
-GetLFDLockInfo\(dungeonID, lockedPlayerNumber\) - returns playerName, lockedReason; lockedPlayerNumber is from 1 to GetLFDLockPlayerCount\(\); lockedReason is found in LFG\_INSTANCE\_INVALID\_CODES
+GetLFDLockInfo\(dungeonID, lockedPlayerNumber\) - 返回玩家名称, 锁定原因; 从1到GetLFDLockPlayerCount\(\)的锁定用户数 ;锁定原因在LFG\_INSTANCE\_INVALID\_CODES中查找
 
-GetLFDLockPlayerCount\(\) - returns the number of locks in a dungeon group
+GetLFDLockPlayerCount\(\) - 返回地下城组中的锁数
 
 [GetLFGBonusFactionID](https://wow.gamepedia.com/API_GetLFGBonusFactionID)\(\)
 
-[GetLFGBootProposal](https://wow.gamepedia.com/API_GetLFGBootProposal)\(\) - Returns information about an LFG Kick vote in progress.
+[GetLFGBootProposal](https://wow.gamepedia.com/API_GetLFGBootProposal)\(\) - 返回有关正在进行的LFG Kick投票的信息。
 
 GetLFGCategoryForID\(\)
 
@@ -36,11 +36,11 @@ GetLFGCompletionReward\(\)
 
 GetLFGCompletionRewardItem\(\)
 
-[GetLFGDeserterExpiration](https://wow.gamepedia.com/API_GetLFGDeserterExpiration)\(\) - Returns the time at which you may once again use the dungeon finder after prematurely leaving a group.
+[GetLFGDeserterExpiration](https://wow.gamepedia.com/API_GetLFGDeserterExpiration)\(\) - 返回在过早离开组后再次使用地下城查找器的时间。
 
 [GetLFGDungeonEncounterInfo](https://wow.gamepedia.com/API_GetLFGDungeonEncounterInfo)\(\)
 
-[GetLFGDungeonInfo](https://wow.gamepedia.com/API_GetLFGDungeonInfo)\(dungeonId\) - Returns information about a particular dungeon in the list: dungeonName, typeID, minLevel, maxLevel, recLevel, minRecLevel, maxRecLevel, expansionLevel, groupID, textureFilename, difficulty, maxPlayers, dungeonDescription, isHoliday
+[GetLFGDungeonInfo](https://wow.gamepedia.com/API_GetLFGDungeonInfo)\(dungeonId\) - 返回列表中特定地下城的信息：dungeonName，typeID，minLevel，maxLevel，recLevel，minRecLevel，maxRecLevel，expansionLevel，groupID，textureFilename，difficulty，maxPlayers，dungeonDescription，isHoliday
 
 [GetLFGDungeonNumEncounters](https://wow.gamepedia.com/API_GetLFGDungeonNumEncounters)\(\)
 
