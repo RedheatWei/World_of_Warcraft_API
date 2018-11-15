@@ -58,4 +58,5 @@
   * [知识库函数](chapter1/zhi-shi-ku-han-shu.md)
   * 区域函数
   * [查找队伍函数](chapter1/cha-zhao-dui-wu-han-shu.md)
+  * [RAID查找函数](chapter1/raidcha-zhao-han-shu.md)
 
