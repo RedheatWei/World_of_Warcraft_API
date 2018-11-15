@@ -44,13 +44,13 @@ GetLFGCompletionRewardItem\(\)
 
 [GetLFGDungeonNumEncounters](https://wow.gamepedia.com/API_GetLFGDungeonNumEncounters)\(\)
 
-GetLFGDungeonRewards\(dungeontype\) - dungeontype = 261 \(normal\) or 262 \(heroic\), returns doneToday, moneyBase, moneyVar, experienceBase, experienceVar, numRewards
+GetLFGDungeonRewards\(dungeontype\) - dungeontype = 261（正常）或262（英雄），返回doneToday，moneyBase，moneyVar，experienceBase，experienceVar，numRewards
 
-[GetLFGDungeonRewardCapBarInfo](https://wow.gamepedia.com/API_GetLFGDungeonRewardCapBarInfo)\(dungeontype\) - returns information on the weekly point limits
+[GetLFGDungeonRewardCapBarInfo](https://wow.gamepedia.com/API_GetLFGDungeonRewardCapBarInfo)\(dungeontype\) - 返回有关每周点数限制的信息
 
 GetLFGDungeonRewardCapInfo\(\)
 
-GetLFGDungeonRewardInfo\(dungeonID, rewardIndex\) - returns name, texturePath, quantity. rewardIndex matches 1 through numRewards from GetLFGDungeonRewards
+GetLFGDungeonRewardInfo\(dungeonID, rewardIndex\) - 返回name，texturePath，quantity。rewardIndex匹配来自GetLFGDungeonRewards的1到numRewards
 
 GetLFGDungeonRewardLink\(\)
 
@@ -58,7 +58,7 @@ GetLFGDungeonShortageRewardInfo\(\)
 
 GetLFGDungeonShortageRewardLink\(\)
 
-GetLFGInfoServer\(\) - returns inParty, joined, queued, noPartialClear, achievements, lfgComment, slotCount
+GetLFGInfoServer\(\) - 返回 inParty, joined, queued, noPartialClear, achievements, lfgComment, slotCount
 
 GetLFGInviteRoleAvailability\(\)
 
