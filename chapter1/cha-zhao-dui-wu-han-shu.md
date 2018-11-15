@@ -68,11 +68,11 @@ UI [GetLFGMode](https://wow.gamepedia.com/API_GetLFGMode)\(\) - 返回模式，s
 
 [GetLFGProposal](https://wow.gamepedia.com/API_GetLFGProposal)\(\) - 返回有关LFD组邀请的信息。
 
-[GetLFGProposalEncounter](https://wow.gamepedia.com/index.php?title=API_GetLFGProposalEncounter&action=edit&redlink=1)\(encounterNumber\) - returns bossName, texture, isKilled. encounterNumber is from 1 to totalEncounters from
+[GetLFGProposalEncounter](https://wow.gamepedia.com/index.php?title=API_GetLFGProposalEncounter&action=edit&redlink=1)\(encounterNumber\) - 返回 bossName, texture, isKilled. encounterNumber is from 1 to totalEncounters from
 
 GetLFGProposal\(\)
 
-GetLFGProposalMember\(playerNumber\) - returns info about players \(numbers 1-5\) in the LFG proposal: isLeader, role, level, responded, accepted, name, class
+GetLFGProposalMember\(playerNumber\) - 在LFG提案中返回有关玩家（数字1-5）的信息：是否队长，角色，级别，应答，接受，名字，职业
 
 [GetLFGQueueStats](https://wow.gamepedia.com/API_GetLFGQueueStats)\(\) - returns current state and wait times for being in queue
 
