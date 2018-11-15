@@ -86,25 +86,25 @@ GetLFGReadyCheckUpdate\(\)
 
 GetLFGReadyCheckUpdateBattlegroundInfo\(\)
 
-[GetLFGRoles](https://wow.gamepedia.com/API_GetLFGRoles)\(\) - returns isLeader, isTank, isHealer, isDPS - Returns the roles you signed up as, not the role you were assigned.
+[GetLFGRoles](https://wow.gamepedia.com/API_GetLFGRoles)\(\) - 返回isLeader，isTank，isHealer，isDPS  - 返回您注册的角色，而不是您分配的角色。
 
-[GetLFGRoleShortageRewards](https://wow.gamepedia.com/API_GetLFGRoleShortageRewards)\(dungeonID, shortageSeverity\) - returns information about the LFG Call to Arms rewards
+[GetLFGRoleShortageRewards](https://wow.gamepedia.com/API_GetLFGRoleShortageRewards)\(dungeonID, shortageSeverity\) -返回有关LFG Call to Arms奖励的信息
 
-GetLFGRoleUpdate\(\) - returns roleCheckInProgress, slots, members
+GetLFGRoleUpdate\(\) - 返回roleCheckInProgress, slots, members
 
 [GetLFGRoleUpdateBattlegroundInfo](https://wow.gamepedia.com/API_GetLFGRoleUpdateBattlegroundInfo)\(\)
 
 GetLFGRoleUpdateMember\(\)
 
-[GetLFGRoleUpdateSlot](https://wow.gamepedia.com/API_GetLFGRoleUpdateSlot)\(slot\) - returns dungeonType, dungeonID for a particular role slot \(integer\)
+[GetLFGRoleUpdateSlot](https://wow.gamepedia.com/API_GetLFGRoleUpdateSlot)\(slot\) - 返回特定角色位的地下城类型，地下城ID（整数）
 
 GetLFGSuspendedPlayers\(\)
 
-[GetLFGTypes](https://wow.gamepedia.com/API_GetLFGTypes)\(\) - Returns all available LFG categories
+[GetLFGTypes](https://wow.gamepedia.com/API_GetLFGTypes)\(\) - 返回所有可用的LFG类别
 
-GetNumRandomDungeons\(\) - returns the number of specific dungeons that can be queued for
+GetNumRandomDungeons\(\) - 返回可以排队的特定地下城的数量
 
-GetPartyLFGBackfillInfo\(\) - Returns information about the dungeon for which you may currently recruit additional members from the LFG pool.
+GetPartyLFGBackfillInfo\(\) - 返回有关您当前可以从LFG池中招募其他成员的地下城的信息。
 
 GetPartyLFGID\(\)
 
