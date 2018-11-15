@@ -64,9 +64,9 @@ GetLFGInviteRoleAvailability\(\)
 
 GetLFGInviteRoleRestrictions\(\)
 
-UI [GetLFGMode](https://wow.gamepedia.com/API_GetLFGMode)\(\) - returns mode, subMode \(sometimes empty result\)
+UI [GetLFGMode](https://wow.gamepedia.com/API_GetLFGMode)\(\) - 返回模式，subMode（有时是空结果）
 
-[GetLFGProposal](https://wow.gamepedia.com/API_GetLFGProposal)\(\) - Returns information about a LFD group invite.
+[GetLFGProposal](https://wow.gamepedia.com/API_GetLFGProposal)\(\) - 返回有关LFD组邀请的信息。
 
 [GetLFGProposalEncounter](https://wow.gamepedia.com/index.php?title=API_GetLFGProposalEncounter&action=edit&redlink=1)\(encounterNumber\) - returns bossName, texture, isKilled. encounterNumber is from 1 to totalEncounters from
 
