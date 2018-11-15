@@ -59,4 +59,5 @@
   * 区域函数
   * [查找队伍函数](chapter1/cha-zhao-dui-wu-han-shu.md)
   * [RAID查找函数](chapter1/raidcha-zhao-han-shu.md)
+  * [战利品函数](chapter1/zhan-li-pin-han-shu.md)
 
