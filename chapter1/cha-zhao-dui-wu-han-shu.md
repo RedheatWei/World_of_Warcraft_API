@@ -110,13 +110,13 @@ GetPartyLFGID\(\)
 
 GetRandomDungeonBestChoice\(\) - 返回建议的随机地下城ID。
 
-[HasLFGRestrictions](https://wow.gamepedia.com/API_HasLFGRestrictions)\(\) - Returns whether the player is in a random party formed by the dungeon finder system.
+[HasLFGRestrictions](https://wow.gamepedia.com/API_HasLFGRestrictions)\(\) - 返回玩家是否在由地下城查找器系统形成的随机队伍中。
 
 IsInLFGDungeon\(\)
 
-[IsLFGComplete](https://wow.gamepedia.com/API_IsLFGComplete)\(\) - Returns whether you have currently finished a Dungeon Finder instance.
+[IsLFGComplete](https://wow.gamepedia.com/API_IsLFGComplete)\(\) - 返回您当前是否已完成地下城查找实例。
 
-IsLFGDungeonJoinable\(dungeonId\) - Returns whether you can queue for a particular dungeon; dungeonId is from GetLFGRandomDungeonInfo
+IsLFGDungeonJoinable\(dungeonId\) - 返回是否可以为特定地下城排队;地下城Id来自GetLFGRandomDungeonInfo
 
 IsPartyLFG\(\)
 
@@ -128,7 +128,7 @@ LeaveLFG\(\)
 
 LeaveSingleLFG\(\)
 
-[LFGTeleport](https://wow.gamepedia.com/API_LFGTeleport)\(\[toSafety\]\) - Teleports the player to \(toSafety = nil\) or from \(toSafety = true\) a dungeon
+[LFGTeleport](https://wow.gamepedia.com/API_LFGTeleport)\(\[toSafety\]\) - 将玩家传送到（toSafety = nil）或从（toSafety = true）传送地下城
 
 PartyLFGStartBackfill\(\)
 
