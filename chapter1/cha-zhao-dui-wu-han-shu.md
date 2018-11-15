@@ -80,7 +80,7 @@ GetLFGQueuedList\(\)
 
 [GetLFGRandomCooldownExpiration](https://wow.gamepedia.com/API_GetLFGRandomCooldownExpiration)\(\) - 返回您可能再次为随机地下城排队的时间。
 
-GetLFGRandomDungeonInfo\(index\) - Returns information about a random dungeon queue: id, name
+GetLFGRandomDungeonInfo\(index\) - 返回有关随机地下城队列的信息：id，name
 
 GetLFGReadyCheckUpdate\(\)
 
