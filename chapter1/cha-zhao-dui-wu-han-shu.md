@@ -108,7 +108,7 @@ GetPartyLFGBackfillInfo\(\) - 返回有关您当前可以从LFG池中招募其�
 
 GetPartyLFGID\(\)
 
-GetRandomDungeonBestChoice\(\) - Returns suggested random dungeon ID.
+GetRandomDungeonBestChoice\(\) - 返回建议的随机地下城ID。
 
 [HasLFGRestrictions](https://wow.gamepedia.com/API_HasLFGRestrictions)\(\) - Returns whether the player is in a random party formed by the dungeon finder system.
 
