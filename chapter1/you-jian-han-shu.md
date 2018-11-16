@@ -52,29 +52,27 @@ HasInboxItem\(?\) -
 
 HasNewMail\(\) -如果没有新邮件则返回nil.
 
-HasSendMailItem\(index\) - returns boolean if item is attached to send mail frame in specified slot.
+HasSendMailItem\(index\) - 如果附加了项目，则返回布尔值以在指定的插槽中发送邮件。
 
-[InboxItemCanDelete](https://wow.gamepedia.com/API_InboxItemCanDelete)\(index\) - Boolean check for whether a message is returnable to the sender.
+[InboxItemCanDelete](https://wow.gamepedia.com/API_InboxItemCanDelete)\(index\) - 布尔检查邮件是否可返回给发件人。
 
-RespondMailLockSendItem\(slot, keepItem\) - Confirm item wont be refunded, keepItem boolean.
+RespondMailLockSendItem\(slot, keepItem\) - 确认项目不会被退款，保留项目布尔值。
 
-ReturnInboxItem\(index\) - Returns to the sender the attached item in the mail message at the specified index.
+ReturnInboxItem\(index\) - 将指定索引处的邮件消息中的附加项返回给发件人。
 
-REMOVED[SelectStationery](https://wow.gamepedia.com/API_SelectStationery)\(index\) - Not yet fully implemented. It does nothing visible.
+REMOVED [SelectStationery](https://wow.gamepedia.com/API_SelectStationery)\(index\) - 
 
-[SendMail](https://wow.gamepedia.com/API_SendMail)\("target", "subject", "body"\) - If the mailbox is open, this sends mail.
+[SendMail](https://wow.gamepedia.com/API_SendMail)\("target", "subject", "body"\) - 如果邮箱已打开，则会发送邮件。
 
-PROTECTED SetSendMailCOD\(amount\) - Make next mail sent using SendMail\(\) COD target for amount. -- Protected as of 2.0
+PROTECTED SetSendMailCOD\(amount\) - 使用SendMail\(\) COD目标发送下一封邮件以获取金额。- 自2.0起受保护
 
-PROTECTED SetSendMailMoney\(amount\) - Add money to next mail sent using SendMail\(\). -- Protected as of 2.0
+PROTECTED SetSendMailMoney\(amount\) - 使用SendMail\(\)向下一封邮件添加资金。- 自2.0起受保护
 
 SetSendMailShowing\(?\) -
 
-[TakeInboxItem](https://wow.gamepedia.com/API_TakeInboxItem)\(index, itemIndex\) - Take the attached item from the mailbox message at index.
+[TakeInboxItem](https://wow.gamepedia.com/API_TakeInboxItem)\(index, itemIndex\) - 从索引处的邮箱消息中获取附加项。
 
-[TakeInboxMoney](https://wow.gamepedia.com/API_TakeInboxMoney)\(index\) - Take the attached money from the mailbox message at index.
+[TakeInboxMoney](https://wow.gamepedia.com/API_TakeInboxMoney)\(index\) - 从索引处的邮箱消息中获取附加的钱。
 
-TakeInboxTextItem\(index\) - Creates a permanent copy of letter \(readable "Plain Letter"\).
-
-
+TakeInboxTextItem\(index\) - 创建一个永久的信件副本（可读“普通信”）。
 
