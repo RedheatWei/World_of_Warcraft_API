@@ -1,46 +1,42 @@
 ### 专精函数
 
-[GetActiveSpecGroup](https://wow.gamepedia.com/API_GetActiveSpecGroup)\(\[isInspect\]\) - Returns the index of the current active specialization/talent/glyph group.
+[GetActiveSpecGroup](https://wow.gamepedia.com/API_GetActiveSpecGroup)\(\[isInspect\]\) - 返回当前活动的专精/天赋/glyph组的索引。
 
 GetArenaOpponentSpec\(\) -
 
-[GetInspectSpecialization](https://wow.gamepedia.com/API_GetInspectSpecialization)\("unit"\) - Returns a number representing the current active specialization of a given unit.
+[GetInspectSpecialization](https://wow.gamepedia.com/API_GetInspectSpecialization)\("unit"\) - 返回表示给定单元的当前活动特化的数字。
 
 GetNumArenaOpponentSpecs\(\) -
 
-[GetNumSpecGroups](https://wow.gamepedia.com/API_GetNumSpecGroups)\(\[isInspect\]\) - Returns the number of specialization group \(dual specs\) the player has.
+[GetNumSpecGroups](https://wow.gamepedia.com/API_GetNumSpecGroups)\(\[isInspect\]\) - 返回玩家拥有的专精组数量（双重规格）。
 
-[GetNumSpecializations](https://wow.gamepedia.com/API_GetNumSpecializations)\(\[isInspect\[, isPet\]\]\) - Returns the number of available specializations.
+[GetNumSpecializations](https://wow.gamepedia.com/API_GetNumSpecializations)\(\[isInspect\[, isPet\]\]\) - 返回可用专精的数量。
 
-[GetNumSpecializationsForClassID](https://wow.gamepedia.com/API_GetNumSpecializationsForClassID)\(classID\) - Returns the number of specializations available to a particular class.
+[GetNumSpecializationsForClassID](https://wow.gamepedia.com/API_GetNumSpecializationsForClassID)\(classID\) - 返回特定职业可用的专精数。
 
-[GetSpecialization](https://wow.gamepedia.com/API_GetSpecialization)\(\[isInspect\[, isPet\[, specGroup\]\]\]\) - Returns the index of the player's current specialization.
+[GetSpecialization](https://wow.gamepedia.com/API_GetSpecialization)\(\[isInspect\[, isPet\[, specGroup\]\]\]\) - 返回玩家当前专精的索引。
 
-[GetSpecializationInfo](https://wow.gamepedia.com/API_GetSpecializationInfo)\(specIndex\[, isInspect\[, isPet\]\]\) - Returns information about the player's specializations.
+[GetSpecializationInfo](https://wow.gamepedia.com/API_GetSpecializationInfo)\(specIndex\[, isInspect\[, isPet\]\]\) - 返回有关玩家专精的信息。
 
-[GetSpecializationInfoByID](https://wow.gamepedia.com/API_GetSpecializationInfoByID)\(specID\) - Returns information about the specified specialization.
+[GetSpecializationInfoByID](https://wow.gamepedia.com/API_GetSpecializationInfoByID)\(specID\) - 返回有关指定专精的信息。
 
-[GetSpecializationInfoForClassID](https://wow.gamepedia.com/API_GetSpecializationInfoForClassID)\(classID, specIndex\) - Returns information about the specified specialization.
+[GetSpecializationInfoForClassID](https://wow.gamepedia.com/API_GetSpecializationInfoForClassID)\(classID, specIndex\) - 返回有关指定的专精信息。
 
-[GetSpecializationMasterySpells](https://wow.gamepedia.com/API_GetSpecializationMasterySpells)\(specIndex\[, isInspect\[, isPet\]\]\) - Returns the mastery spellID of the current player's specialization.
+[GetSpecializationMasterySpells](https://wow.gamepedia.com/API_GetSpecializationMasterySpells)\(specIndex\[, isInspect\[, isPet\]\]\) - 返回当前玩家专精的掌握spellID。
 
-[GetSpecializationRole](https://wow.gamepedia.com/API_GetSpecializationRole)\(specIndex\[, isInspect\[, isPet\]\]\) - Returns the role a specialization is intended to perform.
+[GetSpecializationRole](https://wow.gamepedia.com/API_GetSpecializationRole)\(specIndex\[, isInspect\[, isPet\]\]\) - 返回专精要执行的角色。
 
-[GetSpecializationRoleByID](https://wow.gamepedia.com/API_GetSpecializationRoleByID)\(specID\) - Returns the role a specialization is intended to perform.
+[GetSpecializationRoleByID](https://wow.gamepedia.com/API_GetSpecializationRoleByID)\(specID\) - 返回专精要执行的角色。
 
-[GetSpecializationSpells](https://wow.gamepedia.com/API_GetSpecializationSpells)\(specIndex\[, isInspect\[, isPet\]\]\) - Returns the spellID of key abilities used by the specified specialization.
+[GetSpecializationSpells](https://wow.gamepedia.com/API_GetSpecializationSpells)\(specIndex\[, isInspect\[, isPet\]\]\) - 返回指定专精所使用的关键异能的spellID。
 
-GetSpecsForSpell\("spellName" or spellIndex, "bookType"\) - Returns the specs for which the specified spell can be used.
+GetSpecsForSpell\("spellName" or spellIndex, "bookType"\) - 返回可以使用指定技能的规范。
 
-[IsSpellClassOrSpec](https://wow.gamepedia.com/API_IsSpellClassOrSpec)\("spellName" or spellIndex, "bookType"\) - Returns whether a given spell is specific to a specialization and/or class.
+[IsSpellClassOrSpec](https://wow.gamepedia.com/API_IsSpellClassOrSpec)\("spellName" or spellIndex, "bookType"\) - 返回给定法术是否特定于专精和/或职业。
 
-REMOVED NOCOMBAT [SetActiveSpecGroup](https://wow.gamepedia.com/API_SetActiveSpecGroup)\(groupIndex\) - Changes the active specialization group.
+REMOVED NOCOMBAT [SetActiveSpecGroup](https://wow.gamepedia.com/API_SetActiveSpecGroup)\(groupIndex\) - 更改活动的专业化组。
 
-NOCOMBAT [SetSpecialization](https://wow.gamepedia.com/API_SetSpecialization)\(specIndex \[, isPet\]\) - Selects a specialization.
+NOCOMBAT [SetSpecialization](https://wow.gamepedia.com/API_SetSpecialization)\(specIndex \[, isPet\]\) - 选择一个专精.
 
 NOCOMBAT UnlearnSpecialization\(specIndex \[, isPet\]\) -
-
-
-
-
 
