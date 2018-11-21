@@ -34,7 +34,7 @@ GetSpecsForSpell\("spellName" or spellIndex, "bookType"\) - 返回可以使用�
 
 [IsSpellClassOrSpec](https://wow.gamepedia.com/API_IsSpellClassOrSpec)\("spellName" or spellIndex, "bookType"\) - 返回给定法术是否特定于专精和/或职业。
 
-REMOVED NOCOMBAT [SetActiveSpecGroup](https://wow.gamepedia.com/API_SetActiveSpecGroup)\(groupIndex\) - 更改活动的专业化组。
+REMOVED NOCOMBAT [SetActiveSpecGroup](https://wow.gamepedia.com/API_SetActiveSpecGroup)\(groupIndex\) - 更改活动的专精组。
 
 NOCOMBAT [SetSpecialization](https://wow.gamepedia.com/API_SetSpecialization)\(specIndex \[, isPet\]\) - 选择一个专精.
 

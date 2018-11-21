@@ -81,4 +81,5 @@
   * [安全和保护函数](chapter1/an-quan-he-bao-hu-han-shu.md)
   * [设置函数](chapter1/she-zhi-han-shu.md)
   * [专精函数](chapter1/zhuan-jing-han-shu.md)
+  * [技能函数](chapter1/ji-neng-han-shu.md)
 
