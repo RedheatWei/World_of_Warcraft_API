@@ -75,4 +75,6 @@
   * [PVP函数](chapter1/pvphan-shu.md)
   * [任务相关函数](chapter1/ren-wu-xiang-guan-han-shu.md)
   * [Raid函数](chapter1/raidhan-shu.md)
+  * [真实ID\(战网\)函数](chapter1/zhen-shi-id-zhan-7f5129-han-shu.md)
+  * [战友招募函数](chapter1/zhan-you-zhao-mu-han-shu.md)
 
