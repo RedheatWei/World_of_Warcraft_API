@@ -65,4 +65,5 @@
   * [地图函数](chapter1/di-tu-han-shu.md)
   * [商人函数](chapter1/shang-ren-han-shu.md)
   * [移动函数](chapter1/yi-dong-han-shu.md)
+  * [坐骑手册函数](chapter1/zuo-qi-shou-ce-han-shu.md)
 
