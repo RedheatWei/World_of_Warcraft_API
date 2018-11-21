@@ -120,69 +120,69 @@ GetQuestMoneyToGet - 返回当前在面板中显示的任务所需的金额。
 
 [GetQuestResetTime](https://wow.gamepedia.com/API_GetQuestResetTime) - 返回任务重置前的秒数。
 
-[GetQuestReward](https://wow.gamepedia.com/API_GetQuestReward)\(rewardIndex\) - Completes the quest with the specified quest reward.
+[GetQuestReward](https://wow.gamepedia.com/API_GetQuestReward)\(rewardIndex\) - 用指定的任务奖励完成任务。
 
-[GetQuestsCompleted](https://wow.gamepedia.com/API_GetQuestsCompleted)\(\[table\]\) - Returns table of completed quests.
+[GetQuestsCompleted](https://wow.gamepedia.com/API_GetQuestsCompleted)\(\[table\]\) - 返回已完成任务的表。
 
-[GetQuestTagInfo](https://wow.gamepedia.com/API_GetQuestTagInfo)\(questID\) - Returns tag information about the specified quest.
+[GetQuestTagInfo](https://wow.gamepedia.com/API_GetQuestTagInfo)\(questID\) - 返回有关指定任务的标记信息。
 
-GetQuestText - Gets the description of the current quest.
+GetQuestText - 获取当前任务的描述。
 
-[GetQuestTimers](https://wow.gamepedia.com/API_GetQuestTimers) - Returns all of the quest timers currently in progress.
+[GetQuestTimers](https://wow.gamepedia.com/API_GetQuestTimers) - 返回当前正在进行的所有任务计时器。
 
-GetRewardMoney\(\) - Returns a amount of copper rewarded for completion of quest displayed in gossip.
+GetRewardMoney\(\) - 返回完成面板中显示的任务所奖励的铜金额。
 
-[GetRewardSpell](https://wow.gamepedia.com/API_GetRewardSpell)\(\) - Returns name and texture of spell awarded for quest completion for quest currently in gossip window.
+[GetRewardSpell](https://wow.gamepedia.com/API_GetRewardSpell)\(\) - 返回当前在面板窗口中为任务完成查询所获得的技能的名称和纹理。
 
-REMOVED GetRewardTalents\(\) - Returns number of talents awarded for quest completion for quest currently in gossip window.
+REMOVED GetRewardTalents\(\) - 返回当前面板窗口中任务完成任务的人数。 
 
-[GetRewardText](https://wow.gamepedia.com/API_GetRewardText)\(\) - Returns quest reward text, displayed by the NPC before the player hits "Complete Quest".
+[GetRewardText](https://wow.gamepedia.com/API_GetRewardText)\(\) - 返回在玩家点击“完成任务”之前由NPC显示的任务奖励文本。
 
-GetRewardTitle\(\) - Returns the title awarded by the currently displayed quest.
+GetRewardTitle\(\) - 返回当前显示的任务授予的标题。
 
-[GetRewardXP](https://wow.gamepedia.com/API_GetRewardXP)\(\) - Returns the amount of experience awarded by the currently displayed text.
+[GetRewardXP](https://wow.gamepedia.com/API_GetRewardXP)\(\) - 返回当前显示的文本授予的经验数量。
 
-[GetTitleText](https://wow.gamepedia.com/API_GetTitleText) - Retrieves the title of the quest while talking to the NPC about it.
+[GetTitleText](https://wow.gamepedia.com/API_GetTitleText) - 在与NPC谈论它时，检索任务的标题。
 
 IsCurrentQuestFailed - ?.
 
-[IsQuestCompletable](https://wow.gamepedia.com/API_IsQuestCompletable) - Returns true if a quest is possible to complete.
+[IsQuestCompletable](https://wow.gamepedia.com/API_IsQuestCompletable) - 如果可以完成任务，则返回true。
 
-[IsQuestFlaggedCompleted](https://wow.gamepedia.com/API_IsQuestFlaggedCompleted)\(questID\) - Determine if a quest has been completed.
+[IsQuestFlaggedCompleted](https://wow.gamepedia.com/API_IsQuestFlaggedCompleted)\(questID\) - 确定任务是否已完成。
 
-IsQuestWatched\(questIndex\) - Determine if the specified quest is watched.
+IsQuestWatched\(questIndex\) - 确定是否监视指定的任务。
 
-[IsUnitOnQuest](https://wow.gamepedia.com/API_IsUnitOnQuest)\(questIndex, "unit"\) - Determine if the specified unit is on the given quest.
+[IsUnitOnQuest](https://wow.gamepedia.com/API_IsUnitOnQuest)\(questIndex, "unit"\) - 确定指定的单位是否在给定的任务中。
 
-IsWorldQuestWatched\(questId\) - Determine if the world quest id is tracked
+IsWorldQuestWatched\(questId\) - 确定是否跟踪了世界任务ID
 
-IsUnitOnQuestByQuestID\(questId, "unit"\) - Determine if the specified unit is on the given quest.
+IsUnitOnQuestByQuestID\(questId, "unit"\) - 确定指定的单位是否在给定的任务中。
 
-[QuestChooseRewardError](https://wow.gamepedia.com/API_QuestChooseRewardError) - Throws an error when the quest choose reward method doesn't work.
+[QuestChooseRewardError](https://wow.gamepedia.com/API_QuestChooseRewardError) - 当任务选择奖励方法不起作用时引发错误。
 
-QuestFlagsPVP\(\) - Determine if the quest will flag you you for PvP when accepted.
+QuestFlagsPVP\(\) - 确定任务是否会在接受时标记您的PvP。
 
-[QuestGetAutoAccept](https://wow.gamepedia.com/API_QuestGetAutoAccept)\(\) - Returns whether the last-offered quest was automatically accepted. \(3.3.0\)
+[QuestGetAutoAccept](https://wow.gamepedia.com/API_QuestGetAutoAccept)\(\) - 返回是否自动接受最后提供的任务。（3.3.0）
 
-[QuestIsDaily](https://wow.gamepedia.com/API_QuestIsDaily)\(\) - Returns whether the offered quest is a daily quest. \(3.3.3\)
+[QuestIsDaily](https://wow.gamepedia.com/API_QuestIsDaily)\(\) - 返回提供的任务是否为每日任务。（3.3.3）
 
-[QuestIsWeekly](https://wow.gamepedia.com/API_QuestIsWeekly)\(\) - Returns whether the offered quest is a weekly quest. \(3.3.3\)
+[QuestIsWeekly](https://wow.gamepedia.com/API_QuestIsWeekly)\(\) - 返回提供的任务是否为每周任务。（3.3.3）
 
-[QuestLogPushQuest](https://wow.gamepedia.com/API_QuestLogPushQuest) - Initiates the sharing of the currently viewed quest in the quest log.
+[QuestLogPushQuest](https://wow.gamepedia.com/API_QuestLogPushQuest) - 在任务日志中启动当前查看的任务的共享。
 
-[RemoveQuestWatch](https://wow.gamepedia.com/API_RemoveQuestWatch)\(questIndex\) - Removes a quest watch by questIndex.
+[RemoveQuestWatch](https://wow.gamepedia.com/API_RemoveQuestWatch)\(questIndex\) - 通过questIndex删除任务监视。
 
-RemoveWorldQuestWatch\(questId\) - Removes a world quest from the watch.
+RemoveWorldQuestWatch\(questId\) - 从监视器中移除世界任务。
 
-SelectActiveQuest - Selects an active quest from the NPC \(only available after QUEST\_GREETING event\).
+SelectActiveQuest - 从NPC中选择一个活动任务（仅在QUEST\_GREETING事件之后可用）。
 
-SelectAvailableQuest - Selects an available quest from the NPC \(only available after QUEST\_GREETING event\).
+SelectAvailableQuest - 从NPC中选择一个可用的任务（仅在QUEST\_GREETING事件后可用）。
 
-[SelectQuestLogEntry](https://wow.gamepedia.com/API_SelectQuestLogEntry) - Sets the selected quest, required for most GetQuest functions.
+[SelectQuestLogEntry](https://wow.gamepedia.com/API_SelectQuestLogEntry) - 设置大多数GetQuest函数所需的选定任务。
 
-[SetAbandonQuest](https://wow.gamepedia.com/API_SetAbandonQuest) - Called before [AbandonQuest](https://wow.gamepedia.com/API_AbandonQuest).
+[SetAbandonQuest](https://wow.gamepedia.com/API_SetAbandonQuest) - [AbandonQuest](https://wow.gamepedia.com/API_AbandonQuest) 前调用
 
-REMOVED [ShiftQuestWatches](https://wow.gamepedia.com/API_ShiftQuestWatches)\(id1, id2\) - Exchanges the order of two watched quests. \(3.3.3\)
+REMOVED [ShiftQuestWatches](https://wow.gamepedia.com/API_ShiftQuestWatches)\(id1, id2\) - 交换两个观察任务的顺序。（3.3.3）
 
-[SortQuestWatches](https://wow.gamepedia.com/API_SortQuestWatches)\(\) - Sorts the watched quests according to proximity and returns whether the order changed since last sorting. \(3.3.3\)
+[SortQuestWatches](https://wow.gamepedia.com/API_SortQuestWatches)\(\) - 根据接近度对观察到的任务进行排序，并返回自上次排序后订单是否发生变化。（3.3.3）
 
