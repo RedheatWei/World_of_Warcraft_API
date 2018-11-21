@@ -28,25 +28,25 @@ PROTECTED [CastSpellByName](https://wow.gamepedia.com/API_CastSpellByName)\("nam
 
 [GetSpellBookItemInfo](https://wow.gamepedia.com/API_GetSpellBookItemInfo)\(spellID, "bookType"\) - 返回玩家技能书中技能的类型和技能ID。
 
-[GetSpellBookItemName](https://wow.gamepedia.com/API_GetSpellBookItemName)\(spellID, "bookType"\) - 返回玩家法术书中法术的法术名称和法术等级。
+[GetSpellBookItemName](https://wow.gamepedia.com/API_GetSpellBookItemName)\(spellID, "bookType"\) - 返回玩家技能书中技能的名称和技能等级。
 
-[GetSpellBookItemTexture](https://wow.gamepedia.com/API_GetSpellBookItemTexture)\(spellID, "bookType"\) - 返回玩家法术书中法术的法术图标fileId。
+[GetSpellBookItemTexture](https://wow.gamepedia.com/API_GetSpellBookItemTexture)\(spellID, "bookType"\) - 返回玩家技能书中技能的图标fileId。
 
-GetSpellBookItemTextureFileName\(spellID, "bookType"\) - 返回玩家法术书中法术的法术图标纹理。
+GetSpellBookItemTextureFileName\(spellID, "bookType"\) - 返回玩家技能书中技能的图标纹理。
 
 [GetSpellCharges](https://wow.gamepedia.com/API_GetSpellCharges)\(spellId \| spellName\) - 返回有关能量累积玩家能力的消耗的信息。
 
-[GetSpellCooldown](https://wow.gamepedia.com/API_GetSpellCooldown)\(spellName \| spellID, "bookType"\) - Retrieves data on the cooldown of a specific spell.
+[GetSpellCooldown](https://wow.gamepedia.com/API_GetSpellCooldown)\(spellName \| spellID, "bookType"\) - 检索特定技能的冷却时间数据。
 
-GetSpellDescription\(spellId\) - Returns the spell description.
+GetSpellDescription\(spellId\) - 返回技能描述.
 
-[GetSpellInfo](https://wow.gamepedia.com/API_GetSpellInfo)\(spellId \| spellName \| spellLink\) - Returns the spell's name, rank, iconFileDataID, cast time, min and max ranges, and spellID.
+[GetSpellInfo](https://wow.gamepedia.com/API_GetSpellInfo)\(spellId \| spellName \| spellLink\) - 返回技能的名称，等级，iconFileDataID，施法时间，最小和最大范围以及spellID。
 
-[GetSpellLink](https://wow.gamepedia.com/API_GetSpellLink)\(spellName, spellRank\) - Returns the spell's link. \(2.4\)
+[GetSpellLink](https://wow.gamepedia.com/API_GetSpellLink)\(spellName, spellRank\) - 返回技能连接. \(2.4\)
 
-[GetSpellPowerCost](https://wow.gamepedia.com/API_GetSpellPowerCost)\(spellId \| spellName\) - Returns information about a spell's resource cost.
+[GetSpellPowerCost](https://wow.gamepedia.com/API_GetSpellPowerCost)\(spellId \| spellName\) - 返回有关技能资源成本的信息。
 
-[GetSpellTabInfo](https://wow.gamepedia.com/API_GetSpellTabInfo)\(spellbookTabNum\) - Returns information about the specified spellbook tab.
+[GetSpellTabInfo](https://wow.gamepedia.com/API_GetSpellTabInfo)\(spellbookTabNum\) - 返回有关指定的技能书选项卡的信息。
 
 [GetSpellTexture](https://wow.gamepedia.com/API_GetSpellTexture)\(spellId \| spellName\) - Returns the fileId used for the spell's icon.
 
