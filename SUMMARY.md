@@ -78,4 +78,6 @@
   * [真实ID\(战网\)函数](chapter1/zhen-shi-id-zhan-7f5129-han-shu.md)
   * [战友招募函数](chapter1/zhan-you-zhao-mu-han-shu.md)
   * [脚本分析函数](chapter1/jiao-ben-fen-xi-han-shu.md)
+  * [安全和保护函数](chapter1/an-quan-he-bao-hu-han-shu.md)
+  * [设置函数](chapter1/she-zhi-han-shu.md)
 
