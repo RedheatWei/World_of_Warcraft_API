@@ -72,4 +72,5 @@
   * [宠物手册函数](chapter1/chong-wu-shou-ce-han-shu.md)
   * [请愿函数](chapter1/qing-yuan-han-shu.md)
   * [副职业函数](chapter1/fu-zhi-ye-han-shu.md)
+  * [PVP函数](chapter1/pvphan-shu.md)
 
