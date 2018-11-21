@@ -12,9 +12,9 @@ PROTECTED [CastSpellByName](https://wow.gamepedia.com/API_CastSpellByName)\("nam
 
 [GetNumSpellTabs](https://wow.gamepedia.com/API_GetNumSpellTabs)\(\) - 返回用户技能书中的标签总数。
 
-[GetQuestLogRewardSpell](https://wow.gamepedia.com/API_GetQuestLogRewardSpell) - ?.
+[GetQuestLogRewardSpell](https://wow.gamepedia.com/API_GetQuestLogRewardSpell) - ?.
 
-[GetRewardSpell](https://wow.gamepedia.com/API_GetRewardSpell) - ?.
+[GetRewardSpell](https://wow.gamepedia.com/API_GetRewardSpell) - ?.
 
 [GetShapeshiftForm](https://wow.gamepedia.com/API_GetShapeshiftForm)\(unknown\) - 返回当前形式/立场的从零开始的索引
 
@@ -28,13 +28,13 @@ PROTECTED [CastSpellByName](https://wow.gamepedia.com/API_CastSpellByName)\("nam
 
 [GetSpellBookItemInfo](https://wow.gamepedia.com/API_GetSpellBookItemInfo)\(spellID, "bookType"\) - 返回玩家技能书中技能的类型和技能ID。
 
-[GetSpellBookItemName](https://wow.gamepedia.com/API_GetSpellBookItemName)\(spellID, "bookType"\) - Returns the spell name and spell rank for a spell in the player's spellbook.
+[GetSpellBookItemName](https://wow.gamepedia.com/API_GetSpellBookItemName)\(spellID, "bookType"\) - 返回玩家法术书中法术的法术名称和法术等级。
 
-[GetSpellBookItemTexture](https://wow.gamepedia.com/API_GetSpellBookItemTexture)\(spellID, "bookType"\) - Returns the spell icon fileId for a spell in the player's spellbook.
+[GetSpellBookItemTexture](https://wow.gamepedia.com/API_GetSpellBookItemTexture)\(spellID, "bookType"\) - 返回玩家法术书中法术的法术图标fileId。
 
-GetSpellBookItemTextureFileName\(spellID, "bookType"\) - Returns the spell icon texture for a spell in the player's spellbook.
+GetSpellBookItemTextureFileName\(spellID, "bookType"\) - 返回玩家法术书中法术的法术图标纹理。
 
-[GetSpellCharges](https://wow.gamepedia.com/API_GetSpellCharges)\(spellId \| spellName\) - Returns information about the charges of a charge-accumulating player ability.
+[GetSpellCharges](https://wow.gamepedia.com/API_GetSpellCharges)\(spellId \| spellName\) - 返回有关能量累积玩家能力的消耗的信息。
 
 [GetSpellCooldown](https://wow.gamepedia.com/API_GetSpellCooldown)\(spellName \| spellID, "bookType"\) - Retrieves data on the cooldown of a specific spell.
 
@@ -91,6 +91,4 @@ PROTECTED ToggleSpellAutocast\("spellName" \| spellId, bookType\) - Toggles whet
 [UnitCastingInfo](https://wow.gamepedia.com/API_UnitCastingInfo)\("unit"\) - Returns information about the spell currently being cast by the specified unit.
 
 [UnitChannelInfo](https://wow.gamepedia.com/API_UnitChannelInfo)\("unit"\) - Returns information about the spell currently being channeled by the specified unit.
-
-
 
