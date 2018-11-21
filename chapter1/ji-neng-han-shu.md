@@ -48,47 +48,47 @@ GetSpellDescription\(spellId\) - 返回技能描述.
 
 [GetSpellTabInfo](https://wow.gamepedia.com/API_GetSpellTabInfo)\(spellbookTabNum\) - 返回有关指定的技能书选项卡的信息。
 
-[GetSpellTexture](https://wow.gamepedia.com/API_GetSpellTexture)\(spellId \| spellName\) - Returns the fileId used for the spell's icon.
+[GetSpellTexture](https://wow.gamepedia.com/API_GetSpellTexture)\(spellId \| spellName\) - 返回用于该技能图标的fileId。
 
-[GetSpellTextureFileName](https://wow.gamepedia.com/API_GetSpellTextureFileName)\(spellId \| spellName\) - Returns the texture used for the spell's icon.
+[GetSpellTextureFileName](https://wow.gamepedia.com/API_GetSpellTextureFileName)\(spellId \| spellName\) - 返回用于该技能图标的纹理。
 
-[GetTotemInfo](https://wow.gamepedia.com/API_GetTotemInfo)\(slot\) - Returns information about a totem.
+[GetTotemInfo](https://wow.gamepedia.com/API_GetTotemInfo)\(slot\) - 返回有关图腾的信息。
 
-[IsAttackSpell](https://wow.gamepedia.com/API_IsAttackSpell)\(spell\) - Returns 1 if the spell is the "Attack" spell.
+[IsAttackSpell](https://wow.gamepedia.com/API_IsAttackSpell)\(spell\) - 如果该技能是“攻击”技能，则返回1。
 
 IsAutoRepeatSpell\(spell\) -
 
-[IsPassiveSpell](https://wow.gamepedia.com/API_IsPassiveSpell)\(spellID, "bookType"\) - Returns whether the icon in your spellbook is a Passive ability. Formerly IsSpellPassive\(spell\).
+[IsPassiveSpell](https://wow.gamepedia.com/API_IsPassiveSpell)\(spellID, "bookType"\) - 返回法术书中的图标是否为被动技能。以前是IsSpellPassive\(\)。
 
-[IsSpellInRange](https://wow.gamepedia.com/API_IsSpellInRange)\("spellName", \[unit\]\) - Is nil for no valid target, 0 for out of range, 1 for in range.
+[IsSpellInRange](https://wow.gamepedia.com/API_IsSpellInRange)\("spellName", \[unit\]\) - nil表示无效目标，0表示超出范围，1表示范围。
 
-[IsSpellKnown](https://wow.gamepedia.com/API_IsSpellKnown)\(spellID, isPetSpell\) - Returns whether the player \(or pet\) knows the given spell.
+[IsSpellKnown](https://wow.gamepedia.com/API_IsSpellKnown)\(spellID, isPetSpell\) - 返回玩家（或宠物）是否学会给定的技能。
 
-[IsSpellOverlayed](https://wow.gamepedia.com/API_IsSpellOverlayed)\(spellID\) - Returns whether the spell is currently affected by a proc \(glow highlighting\).
+[IsSpellOverlayed](https://wow.gamepedia.com/API_IsSpellOverlayed)\(spellID\) - 返回该技能当前是否受到proc（发光突出显示）的影响。
 
-[IsUsableSpell](https://wow.gamepedia.com/API_IsUsableSpell)\("spellName" \| spellID \| spellIndex, "bookType"\) - Determines whether a spell can be used by the player character.
+[IsUsableSpell](https://wow.gamepedia.com/API_IsUsableSpell)\("spellName" \| spellID \| spellIndex, "bookType"\) - 确定玩家角色是否可以使用该技能。
 
-[PickupSpell](https://wow.gamepedia.com/API_PickupSpell)\("spellName" \| spellID, "bookType"\) - Loads an action button onto the cursor to be dropped into a quickbar slot.
+[PickupSpell](https://wow.gamepedia.com/API_PickupSpell)\("spellName" \| spellID, "bookType"\) - 在光标上加载一个操作按钮，将其放入快速栏插槽中。
 
-UI [QueryCastSequence](https://wow.gamepedia.com/API_QueryCastSequence)\("sequence"\) - Returns index, item, spell for the spell/item that will be used next if the cast sequence is executed.
+UI [QueryCastSequence](https://wow.gamepedia.com/API_QueryCastSequence)\("sequence"\) - 返回执行强制转换序列时将使用的技能/项目的索引，项目，法术。
 
-PROTECTED [SetMultiCastSpell](https://wow.gamepedia.com/API_SetMultiCastSpell)\(actionID,spellID\) - Assigns a spellID to a multicast \(totem bar\) actionID. \(added in 3.2\)
+PROTECTED [SetMultiCastSpell](https://wow.gamepedia.com/API_SetMultiCastSpell)\(actionID,spellID\) - 将spellID分配给多播（图腾栏）actionID。（在3.2中添加）
 
-[SpellCanTargetUnit](https://wow.gamepedia.com/API_SpellCanTargetUnit)\("unit"\) - Returns true if the spell awaiting target selection can be cast on the specified unit.
+[SpellCanTargetUnit](https://wow.gamepedia.com/API_SpellCanTargetUnit)\("unit"\) - 如果等待目标选择的技能可以在指定单位上施放，则返回true。
 
-SpellHasRange\(spell\) - Returns true if the specified spell has a ranged effect \(i.e. requires a target\).
+SpellHasRange\(spell\) - 如果指定的技能具有远程效果（即需要目标），则返回true。
 
-[SpellIsTargeting](https://wow.gamepedia.com/API_SpellIsTargeting)\(\) - Returns true if a spell has been cast and is awaiting target selection.
+[SpellIsTargeting](https://wow.gamepedia.com/API_SpellIsTargeting)\(\) - 如果施放了一个技能并且正在等待目标选择，则返回true。
 
-PROTECTED [SpellStopCasting](https://wow.gamepedia.com/API_SpellStopCasting)\(\) - Stops the current spellcast.
+PROTECTED [SpellStopCasting](https://wow.gamepedia.com/API_SpellStopCasting)\(\) - 停止当前的施法。
 
-PROTECTED [SpellStopTargeting](https://wow.gamepedia.com/API_SpellStopTargeting)\(\) - Cancels the spell awaiting target selection.
+PROTECTED [SpellStopTargeting](https://wow.gamepedia.com/API_SpellStopTargeting)\(\) - 取消等待目标选择的技能。
 
-PROTECTED [SpellTargetUnit](https://wow.gamepedia.com/API_SpellTargetUnit)\("unit"\) - Casts the spell awaiting target selection on the specified unit.
+PROTECTED [SpellTargetUnit](https://wow.gamepedia.com/API_SpellTargetUnit)\("unit"\) - 在指定单位上施放等待目标选择的技能。
 
-PROTECTED ToggleSpellAutocast\("spellName" \| spellId, bookType\) - Toggles whether the specified spell should autocast or not. This is used for some pet abilities.
+PROTECTED ToggleSpellAutocast\("spellName" \| spellId, bookType\) - 切换指定的技能是否应该自动释放。这用于一些宠物能力。
 
-[UnitCastingInfo](https://wow.gamepedia.com/API_UnitCastingInfo)\("unit"\) - Returns information about the spell currently being cast by the specified unit.
+[UnitCastingInfo](https://wow.gamepedia.com/API_UnitCastingInfo)\("unit"\) - 返回有关指定单位当前正在施放的技能的信息。
 
-[UnitChannelInfo](https://wow.gamepedia.com/API_UnitChannelInfo)\("unit"\) - Returns information about the spell currently being channeled by the specified unit.
+[UnitChannelInfo](https://wow.gamepedia.com/API_UnitChannelInfo)\("unit"\) - 返回有关当前由指定单位引导的技能的信息。
 
