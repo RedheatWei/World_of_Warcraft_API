@@ -24,5 +24,5 @@ C\_RecruitAFriend.SendRecruit\(?\) -
 
 [SummonFriend](https://wow.gamepedia.com/API_SummonFriend)\("unit"\) - 使用RaF系统召唤玩家。
 
-[GetSummonFriendCooldown](https://wow.gamepedia.com/API_GetSummonFriendCooldown)\(\) - 返回RaF Summon Friend技能的冷却时间（开始，持续时间）。
+[GetSummonFriendCooldown](https://wow.gamepedia.com/API_GetSummonFriendCooldown)\(\) - 返回RaF战友招募状态的冷却时间（开始，持续时间）。
 
