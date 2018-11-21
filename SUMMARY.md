@@ -77,4 +77,5 @@
   * [Raid函数](chapter1/raidhan-shu.md)
   * [真实ID\(战网\)函数](chapter1/zhen-shi-id-zhan-7f5129-han-shu.md)
   * [战友招募函数](chapter1/zhan-you-zhao-mu-han-shu.md)
+  * [脚本分析函数](chapter1/jiao-ben-fen-xi-han-shu.md)
 
