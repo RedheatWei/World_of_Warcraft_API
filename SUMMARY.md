@@ -68,4 +68,6 @@
   * [坐骑手册函数](chapter1/zuo-qi-shou-ce-han-shu.md)
   * [音乐播放器函数](chapter1/yin-le-bo-fang-qi-han-shu.md)
   * [宠物函数](chapter1/chong-wu-han-shu.md)
+  * [宠物战斗函数](chapter1/chong-wu-zhan-dou-han-shu.md)
+  * [宠物手册函数](chapter1/chong-wu-shou-ce-han-shu.md)
 

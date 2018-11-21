@@ -1,5 +1,7 @@
 ### 宠物函数
 
+###### 猎人宝宝,术士宝宝等宠物.
+
 PROTECTED [CastPetAction](https://wow.gamepedia.com/API_CastPetAction)\(index\) - 施展相应的宠物技能。
 
 [ClosePetStables](https://wow.gamepedia.com/API_ClosePetStables)\(\) - 关闭宠物手册用户界面。
@@ -62,18 +64,13 @@ PROTECTED [PetWait](https://wow.gamepedia.com/API_PetWait)\(\) - 指示你的宠
 
 [PickupPetAction](https://wow.gamepedia.com/API_PickupPetAction)\(slot\) - 将指定的宠物动作栏插槽中的动作拖动到光标中。
 
-[PickupStablePet](https://wow.gamepedia.com/API_PickupStablePet)\(index\) - ?.
+[PickupStablePet](https://wow.gamepedia.com/API_PickupStablePet)\(index\) - ?.
 
-[SetPetStablePaperdoll](https://wow.gamepedia.com/API_SetPetStablePaperdoll)\(modelObject\) - ?.
+[SetPetStablePaperdoll](https://wow.gamepedia.com/API_SetPetStablePaperdoll)\(modelObject\) - ?.
 
 PROTECTED TogglePetAutocast\(index\) - 切换指定的PET能力是否应该自动释放。
 
 PROTECTED ToggleSpellAutocast\("spellName" \| spellId, bookType\) - 切换指定的技能是否应该自动释放。
 
 [GetSpellAutocast](https://wow.gamepedia.com/API_GetSpellAutocast)\("spellName" \| spellId, bookType\) - 检查指定的技能是否自动释放。
-
-  
-
-
-
 
