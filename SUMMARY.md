@@ -63,4 +63,5 @@
   * [宏函数](chapter1/hong-han-shu.md)
   * [邮件函数](chapter1/you-jian-han-shu.md)
   * [地图函数](chapter1/di-tu-han-shu.md)
+  * [商人函数](chapter1/shang-ren-han-shu.md)
 
