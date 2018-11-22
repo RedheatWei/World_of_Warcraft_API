@@ -83,4 +83,5 @@
   * [专精函数](chapter1/zhuan-jing-han-shu.md)
   * [技能函数](chapter1/ji-neng-han-shu.md)
   * [系统函数](chapter1/xi-tong-han-shu.md)
+  * [天赋函数](chapter1/tian-fu-han-shu.md)
 
