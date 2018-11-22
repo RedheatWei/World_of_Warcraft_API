@@ -88,4 +88,5 @@
   * [飞行点函数](chapter1/fei-xing-dian-han-shu.md)
   * [定时器函数](chapter1/ding-shi-qi-han-shu.md)
   * [切换函数](chapter1/qie-huan-han-shu.md)
+  * [玩具盒函数](chapter1/wan-ju-he-han-shu.md)
 
