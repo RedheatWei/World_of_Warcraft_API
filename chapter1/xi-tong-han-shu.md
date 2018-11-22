@@ -1,58 +1,58 @@
 ### 系统函数
 
-[ConsoleExec](https://wow.gamepedia.com/API_ConsoleExec)\("command"\) - Execute a console command.
+[ConsoleExec](https://wow.gamepedia.com/API_ConsoleExec)\("command"\) - 执行控制台命令。
 
-DetectWowMouse\(\) - Attempts to detect the world of warcraft MMO mouse.
+DetectWowMouse\(\) - 试图探测魔兽世界的MMO鼠标。
 
-[GetBuildInfo](https://wow.gamepedia.com/API_GetBuildInfo)\(\) - Returns information about current client build.
+[GetBuildInfo](https://wow.gamepedia.com/API_GetBuildInfo)\(\) - 返回有关当前客户端构建的信息
 
-geterrorhandler\(\) - Returns the currently set error handler.
+geterrorhandler\(\) - 返回当前设置的错误处理程序。
 
-GetCurrentKeyBoardFocus\(\) - Returns the \[editbox\] widget currently handling keyboard events.
+GetCurrentKeyBoardFocus\(\) - 返回当前处理键盘事件的\[editbox\]小部件。
 
-REMOVED [GetExistingLocales](https://wow.gamepedia.com/API_GetExistingLocales)\(\) - Returns a list of installed language packs.
+REMOVED [GetExistingLocales](https://wow.gamepedia.com/API_GetExistingLocales)\(\) - 返回已安装语言包的列表。
 
-[GetFramerate](https://wow.gamepedia.com/API_GetFramerate)\(\) - Returns the current framerate \(full precision\)
+[GetFramerate](https://wow.gamepedia.com/API_GetFramerate)\(\) - 返回当前帧速率（全精度）
 
-[GetGameTime](https://wow.gamepedia.com/API_GetGameTime)\(\) - Returns the time in-game.
+[GetGameTime](https://wow.gamepedia.com/API_GetGameTime)\(\) - 返回游戏中的时间。
 
-[GetLocale](https://wow.gamepedia.com/API_GetLocale)\(\) - Returns client locale, example 'enUS'.
+[GetLocale](https://wow.gamepedia.com/API_GetLocale)\(\) - 返回客户端区域设置，例如'enUS'。
 
-[GetCursorPosition](https://wow.gamepedia.com/API_GetCursorPosition)\(\) - Returns the cursor's position on the screen.
+[GetCursorPosition](https://wow.gamepedia.com/API_GetCursorPosition)\(\) - 返回光标在屏幕上的位置。
 
-[GetNetStats](https://wow.gamepedia.com/API_GetNetStats)\(\) - Get bandwidth and latency network information.
+[GetNetStats](https://wow.gamepedia.com/API_GetNetStats)\(\) - 获取带宽和延迟网络信息。
 
-[GetRealmName](https://wow.gamepedia.com/API_GetRealmName)\(\) - returns the name of the server a user is logged in to
+[GetRealmName](https://wow.gamepedia.com/API_GetRealmName)\(\) - 返回用户登录的服务器的名称
 
-[GetScreenHeight](https://wow.gamepedia.com/API_GetScreenHeight)\(\) - Returns the height of the window in pixels.
+[GetScreenHeight](https://wow.gamepedia.com/API_GetScreenHeight)\(\) - 以像素为单位返回窗口的高度。
 
-[GetScreenWidth](https://wow.gamepedia.com/API_GetScreenWidth)\(\) - Returns the width of the window in pixels.
+[GetScreenWidth](https://wow.gamepedia.com/API_GetScreenWidth)\(\) - 返回窗口的宽度（以像素为单位）。
 
-UI [GetText](https://wow.gamepedia.com/API_GetText)\(\) - Used to localize some client text.
+UI [GetText](https://wow.gamepedia.com/API_GetText)\(\) - 用于本地化一些客户端文本。
 
-[GetTime](https://wow.gamepedia.com/API_GetTime)\(\) - Returns the system uptime in seconds \(millisecond precision\).
+[GetTime](https://wow.gamepedia.com/API_GetTime)\(\) - 以秒为单位返回系统正常运行时间（毫秒精度）。
 
-[IsAltKeyDown](https://wow.gamepedia.com/API_IsAltKeyDown)\(\) - Returns true if the alt key is currently depressed.
+[IsAltKeyDown](https://wow.gamepedia.com/API_IsAltKeyDown)\(\) - 如果当前按下alt键，则返回true。
 
 InCinematic\(\)
 
-[IsControlKeyDown](https://wow.gamepedia.com/API_IsControlKeyDown)\(\) - Returns true if the control key is currently depressed.
+[IsControlKeyDown](https://wow.gamepedia.com/API_IsControlKeyDown)\(\) - 如果当前按下控制键，则返回true。
 
 IsDebugBuild\(\) - ?
 
 IsDesaturateSupported\(\) - ?
 
-[IsLeftAltKeyDown](https://wow.gamepedia.com/API_IsLeftAltKeyDown)\(\) - Returns true if the left alt key is currently depressed.
+[IsLeftAltKeyDown](https://wow.gamepedia.com/API_IsLeftAltKeyDown)\(\) - 如果当前按下左Alt键，则返回true。
 
-[IsLeftControlKeyDown](https://wow.gamepedia.com/API_IsLeftControlKeyDown)\(\) - Returns true if the left control key is currently depressed.
+[IsLeftControlKeyDown](https://wow.gamepedia.com/API_IsLeftControlKeyDown)\(\) - 如果当前按下左ctrl键，则返回true。
 
-[IsLeftShiftKeyDown](https://wow.gamepedia.com/API_IsLeftShiftKeyDown)\(\) - Returns true if the left shift key is currently depressed.
+[IsLeftShiftKeyDown](https://wow.gamepedia.com/API_IsLeftShiftKeyDown)\(\) - 如果当前按下左shift键，则返回true。
 
-[IsLinuxClient](https://wow.gamepedia.com/API_IsLinuxClient)\(\) - Boolean - Returns true if WoW is being run on Linux.
+[IsLinuxClient](https://wow.gamepedia.com/API_IsLinuxClient)\(\) - Boolean  - 如果在Linux上运行WoW，则返回true。
 
-IsLoggedIn\(\) - Returns nil before the PLAYER\_LOGIN event has fired, 1 afterwards.
+IsLoggedIn\(\) - 在PLAYER\_LOGIN事件触发之前返回nil，之后返回1。
 
-[IsMacClient](https://wow.gamepedia.com/API_IsMacClient)\(\) - Returns true if WoW is being run on Mac.
+[IsMacClient](https://wow.gamepedia.com/API_IsMacClient)\(\) - 如果在Mac上运行WoW，则返回true。
 
 IsOnTournamentRealm\(\) - Returns true if currently on a tournament realm, nil otherwise.
 
@@ -107,12 +107,4 @@ debuginfo\(\) - Output win32 debug text. Freeware debug message viewer:
 [DebugView](http://www.sysinternals.com/Utilities/DebugView.html)\(Has no effect on live server.\)
 
 UI [message](https://wow.gamepedia.com/API_message)\("text"\) - Displays a message box with your text message and an "Okay" button.
-
-  
-
-
-  
-
-
-
 
