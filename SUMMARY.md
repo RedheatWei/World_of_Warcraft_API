@@ -91,4 +91,5 @@
   * [玩具盒函数](chapter1/wan-ju-he-han-shu.md)
   * [商业技能函数](chapter1/shang-ye-ji-neng-han-shu.md)
   * [追踪函数](chapter1/zhui-zong-han-shu.md)
+  * [交易函数](chapter1/jiao-yi-han-shu.md)
 
