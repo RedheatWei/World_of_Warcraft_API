@@ -94,4 +94,5 @@
   * [交易函数](chapter1/jiao-yi-han-shu.md)
   * [学习函数](chapter1/xue-xi-han-shu.md)
   * [幻化函数](chapter1/huan-hua-han-shu.md)
+  * [单位函数](chapter1/dan-wei-han-shu.md)
 
