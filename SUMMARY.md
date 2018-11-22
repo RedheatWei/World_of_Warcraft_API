@@ -86,4 +86,5 @@
   * [天赋函数](chapter1/tian-fu-han-shu.md)
   * [目标函数](chapter1/mu-biao-han-shu.md)
   * [飞行点函数](chapter1/fei-xing-dian-han-shu.md)
+  * [定时器函数](chapter1/ding-shi-qi-han-shu.md)
 
