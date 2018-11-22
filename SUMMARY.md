@@ -93,4 +93,5 @@
   * [追踪函数](chapter1/zhui-zong-han-shu.md)
   * [交易函数](chapter1/jiao-yi-han-shu.md)
   * [学习函数](chapter1/xue-xi-han-shu.md)
+  * [幻化函数](chapter1/huan-hua-han-shu.md)
 
