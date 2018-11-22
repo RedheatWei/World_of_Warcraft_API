@@ -85,4 +85,5 @@
   * [系统函数](chapter1/xi-tong-han-shu.md)
   * [天赋函数](chapter1/tian-fu-han-shu.md)
   * [目标函数](chapter1/mu-biao-han-shu.md)
+  * [飞行点函数](chapter1/fei-xing-dian-han-shu.md)
 
