@@ -54,57 +54,55 @@ IsLoggedIn\(\) - 在PLAYER\_LOGIN事件触发之前返回nil，之后返回1。
 
 [IsMacClient](https://wow.gamepedia.com/API_IsMacClient)\(\) - 如果在Mac上运行WoW，则返回true。
 
-IsOnTournamentRealm\(\) - Returns true if currently on a tournament realm, nil otherwise.
+IsOnTournamentRealm\(\) - 如果当前在锦标赛领域，则返回true，否则返回nil。
 
-[IsRightAltKeyDown](https://wow.gamepedia.com/API_IsRightAltKeyDown)\(\) - Returns true if the right alt key is currently depressed.
+[IsRightAltKeyDown](https://wow.gamepedia.com/API_IsRightAltKeyDown)\(\) - 如果当前按下右Alt键，则返回true。
 
-[IsRightControlKeyDown](https://wow.gamepedia.com/API_IsRightControlKeyDown)\(\) - Returns true if the right control key is currently depressed.
+[IsRightControlKeyDown](https://wow.gamepedia.com/API_IsRightControlKeyDown)\(\) - 如果当前按下右控制键，则返回true。
 
-[IsRightShiftKeyDown](https://wow.gamepedia.com/API_IsRightShiftKeyDown)\(\) - Returns true if the right shift key is currently depressed.
+[IsRightShiftKeyDown](https://wow.gamepedia.com/API_IsRightShiftKeyDown)\(\) - 如果当前按下右移键，则返回true。
 
-[IsShiftKeyDown](https://wow.gamepedia.com/API_IsShiftKeyDown)\(\) - Returns true if the shift key is currently depressed.
+[IsShiftKeyDown](https://wow.gamepedia.com/API_IsShiftKeyDown)\(\) - 如果当前按下shift键，则返回true。
 
-IsStereoVideoAvailable\(\) - added in 3.0.8
+IsStereoVideoAvailable\(\) - 添加于3.0.8
 
-[IsWindowsClient](https://wow.gamepedia.com/API_IsWindowsClient)\(\) - Returns true if WoW is being run on Windows.
+[IsWindowsClient](https://wow.gamepedia.com/API_IsWindowsClient)\(\) - 如果在Windows上运行WoW，则返回true。
 
-OpeningCinematic\(\) - Shows the opening movie for a player's race
+OpeningCinematic\(\) - 显示玩家比赛的开场电影
 
-[PlayMusic](https://wow.gamepedia.com/API_PlayMusic)\(\) - Plays the specified mp3.
+[PlayMusic](https://wow.gamepedia.com/API_PlayMusic)\(\) - 播放指定的mp3。
 
-[PlaySound](https://wow.gamepedia.com/API_PlaySound)\(\) - Plays the specified built-in sound effect.
+[PlaySound](https://wow.gamepedia.com/API_PlaySound)\(\) - 播放指定的内置音效。
 
-[PlaySoundFile](https://wow.gamepedia.com/API_PlaySoundFile)\(\) - Plays the specified sound file.
+[PlaySoundFile](https://wow.gamepedia.com/API_PlaySoundFile)\(\) - 播放指定的声音文件。
 
-HW [ReloadUI](https://wow.gamepedia.com/API_ReloadUI)\(\) - Reloads the UI from source files
+HW [ReloadUI](https://wow.gamepedia.com/API_ReloadUI)\(\) - 从源文件重新加载UI
 
-[RepopMe](https://wow.gamepedia.com/API_RepopMe)\(\) - The "Release Spirit" button. Sends you to the graveyard when dead.
+[RepopMe](https://wow.gamepedia.com/API_RepopMe)\(\) - “释放灵魂”按钮。死后会把你送到墓地。
 
-[RequestTimePlayed](https://wow.gamepedia.com/API_RequestTimePlayed)\(\) - Request a summary of time played from the server.
+[RequestTimePlayed](https://wow.gamepedia.com/API_RequestTimePlayed)\(\) - 请求从服务器播放的时间摘要。
 
-[RestartGx](https://wow.gamepedia.com/API_RestartGx)\(\) - Restarts the graphical engine. Needed for things such as resolution changes to take effect.
+[RestartGx](https://wow.gamepedia.com/API_RestartGx)\(\) - 重新启动图形引擎。需要诸如分辨率更改才能生效。
 
-[RunScript](https://wow.gamepedia.com/API_RunScript)\("script"\) - Execute "script" as a block of Lua code.
+[RunScript](https://wow.gamepedia.com/API_RunScript)\("script"\) - 执行“script”作为Lua代码块。
 
-[Screenshot](https://wow.gamepedia.com/API_Screenshot)\(\) - Takes a screenshot.
+[Screenshot](https://wow.gamepedia.com/API_Screenshot)\(\) - 截图。
 
-UI [SecondsToTime](https://wow.gamepedia.com/API_SecondsToTime) - Converts a number of seconds into a readable days / hours / etc. formatted string.
+UI [SecondsToTime](https://wow.gamepedia.com/API_SecondsToTime) - 将数秒转换为可读日/小时/等格式化字符串。
 
-[seterrorhandler](https://wow.gamepedia.com/API_seterrorhandler)\(function\) - Set the error handler to the given parameter.
+[seterrorhandler](https://wow.gamepedia.com/API_seterrorhandler)\(function\) - 将错误处理程序设置为给定参数。
 
 StopCinematic\(\)
 
-[StopMusic](https://wow.gamepedia.com/API_StopMusic)\(\) - Stops the currently playing mp3.
+[StopMusic](https://wow.gamepedia.com/API_StopMusic)\(\) - 停止当前播放的mp3。
 
-UI [UIParentLoadAddOn](https://wow.gamepedia.com/API_UIParentLoadAddOn)\("AddOnName"\) - Loads or Reloads the specified AddOn, and pops up an error message if it fails to load for any reason.
+UI [UIParentLoadAddOn](https://wow.gamepedia.com/API_UIParentLoadAddOn)\("AddOnName"\) - 加载或重新加载指定的AddOn，如果因任何原因无法加载，则会弹出错误消息。
 
-REMOVED UI [TakeScreenshot](https://wow.gamepedia.com/API_TakeScreenshot)\(\) - Takes a screenshot.
+REMOVED UI [TakeScreenshot](https://wow.gamepedia.com/API_TakeScreenshot)\(\) - 截图
 
-UI [\_ERRORMESSAGE](https://wow.gamepedia.com/API_ERRORMESSAGE)\(value\) - Displays the script error dialog with optional text
+UI [\_ERRORMESSAGE](https://wow.gamepedia.com/API_ERRORMESSAGE)\(value\) - 显示带有可选文本的脚本错误对话框
 
-debuginfo\(\) - Output win32 debug text. Freeware debug message viewer:
+debuginfo\(\) - 输出win32调试文本。免费软件调试消息查看器： [DebugView](http://www.sysinternals.com/Utilities/DebugView.html)\(对实时服务器没有影响.\)
 
-[DebugView](http://www.sysinternals.com/Utilities/DebugView.html)\(Has no effect on live server.\)
-
-UI [message](https://wow.gamepedia.com/API_message)\("text"\) - Displays a message box with your text message and an "Okay" button.
+UI [message](https://wow.gamepedia.com/API_message)\("text"\) - 显示带有消息和“正常”按钮的消息框。
 
