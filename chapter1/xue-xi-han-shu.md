@@ -1,46 +1,42 @@
 ### 学习函数
 
-[BuyTrainerService](https://wow.gamepedia.com/API_BuyTrainerService)\(index\) - Used for buying new/upgrading professions, profession items and class skills.
+[BuyTrainerService](https://wow.gamepedia.com/API_BuyTrainerService)\(index\) - 用于购买新的/升级专业，专业项目和职业技能。
 
-[CloseTrainer](https://wow.gamepedia.com/API_CloseTrainer)\(\) - Closes the trainer window.
+[CloseTrainer](https://wow.gamepedia.com/API_CloseTrainer)\(\) - 关闭学习窗口。
 
-[GetNumTrainerServices](https://wow.gamepedia.com/API_GetNumTrainerServices)\(\) - Get the number of the trainer services.
+[GetNumTrainerServices](https://wow.gamepedia.com/API_GetNumTrainerServices)\(\) - 获取训练师服务的数量。
 
-[GetTrainerGreetingText](https://wow.gamepedia.com/API_GetTrainerGreetingText)\(\) - Get the trainer's greeting text.
+[GetTrainerGreetingText](https://wow.gamepedia.com/API_GetTrainerGreetingText)\(\) - 获取训练师的问候语。
 
-[GetTrainerSelectionIndex](https://wow.gamepedia.com/API_GetTrainerSelectionIndex)\(\) - Get the index of the selected trainer service.
+[GetTrainerSelectionIndex](https://wow.gamepedia.com/API_GetTrainerSelectionIndex)\(\) - 获取所选训练师服务的索引。
 
-[GetTrainerServiceAbilityReq](https://wow.gamepedia.com/API_GetTrainerServiceAbilityReq)\(trainerIndex,reqIndex\) - Used for displaying the requirements to learn a new profession, profession skill or class skill.
+[GetTrainerServiceAbilityReq](https://wow.gamepedia.com/API_GetTrainerServiceAbilityReq)\(trainerIndex,reqIndex\) - 用于显示学习新职业，专业技能或职业技能的要求。
 
-[GetTrainerServiceCost](https://wow.gamepedia.com/API_GetTrainerServiceCost)\(index\) - Returns the cost of a specific trainer service.
+[GetTrainerServiceCost](https://wow.gamepedia.com/API_GetTrainerServiceCost)\(index\) - 返回特定训练师服务的费用。
 
-[GetTrainerServiceDescription](https://wow.gamepedia.com/API_GetTrainerServiceDescription)\(index\) - Returns the description of a specific trainer service.
+[GetTrainerServiceDescription](https://wow.gamepedia.com/API_GetTrainerServiceDescription)\(index\) - 返回特定训练师服务的描述。
 
-[GetTrainerServiceIcon](https://wow.gamepedia.com/API_GetTrainerServiceIcon)\(index\) - Returns icon texture for a trainer service.
+[GetTrainerServiceIcon](https://wow.gamepedia.com/API_GetTrainerServiceIcon)\(index\) - 返回训练服务的图标纹理。
 
-[GetTrainerServiceInfo](https://wow.gamepedia.com/API_GetTrainerServiceInfo)\(index\) - Returns information about a trainer service.
+[GetTrainerServiceInfo](https://wow.gamepedia.com/API_GetTrainerServiceInfo)\(index\) - 返回有关训练师服务的信息。
 
-[GetTrainerServiceItemLink](https://wow.gamepedia.com/API_GetTrainerServiceItemLink)\(index\) - Returns an item link for a trainer service.
+[GetTrainerServiceItemLink](https://wow.gamepedia.com/API_GetTrainerServiceItemLink)\(index\) - 返回训练师服务的项链接。
 
-[GetTrainerServiceLevelReq](https://wow.gamepedia.com/API_GetTrainerServiceLevelReq)\(index\) - Get the required level to learn the skill.
+[GetTrainerServiceLevelReq](https://wow.gamepedia.com/API_GetTrainerServiceLevelReq)\(index\) - 获得学习技能所需的等级。
 
-GetTrainerServiceNumAbilityReq - Get the maximum number of requirements that [GetTrainerServiceAbilityReq](https://wow.gamepedia.com/API_GetTrainerServiceAbilityReq)\(\) has.
+GetTrainerServiceNumAbilityReq - 获取[GetTrainerServiceAbilityReq](https://wow.gamepedia.com/API_GetTrainerServiceAbilityReq)（）具有的最大要求数。
 
-[GetTrainerServiceSkillLine](https://wow.gamepedia.com/API_GetTrainerServiceSkillLine)\(index\) - ?.
+[GetTrainerServiceSkillLine](https://wow.gamepedia.com/API_GetTrainerServiceSkillLine)\(index\) - ?.
 
-[GetTrainerServiceSkillReq](https://wow.gamepedia.com/API_GetTrainerServiceSkillReq)\(index\) - Returns a String and Variable for the requirements of a specific trainer service.
+[GetTrainerServiceSkillReq](https://wow.gamepedia.com/API_GetTrainerServiceSkillReq)\(index\) - 返回特定培训练师服务要求的字符串和变量。
 
-[GetTrainerServiceTypeFilter](https://wow.gamepedia.com/API_GetTrainerServiceTypeFilter)\("filter"\) - Returns the status of a skill filter in the trainer window.
+[GetTrainerServiceTypeFilter](https://wow.gamepedia.com/API_GetTrainerServiceTypeFilter)\("filter"\) - 返回训练师窗口中技能过滤器的状态。
 
-[IsTradeskillTrainer](https://wow.gamepedia.com/API_IsTradeskillTrainer)\(\) - Returns 1 if trainer is for a tradeskill.
+[IsTradeskillTrainer](https://wow.gamepedia.com/API_IsTradeskillTrainer)\(\) - 如果训练师是商业技能，则返回1。
 
-REMOVED [IsTradeSkillLinked](https://wow.gamepedia.com/API_IsTradeSkillLinked)\(\) - Returns true if you're inspecting a tradeskill link rather then looking at your own tradeskills
+OpenTrainer\(\) - ?.
 
-REMOVED SelectTradeSkill\(index\) - Select a specific trade skill in the list.
+[SelectTrainerService](https://wow.gamepedia.com/API_SelectTrainerService) - ?.
 
-REMOVED [SetTradeSkillInvSlotFilter](https://wow.gamepedia.com/API_SetTradeSkillInvSlotFilter)\(slotIndex, onOff\[, exclusive\] \) - Set the inventory slot type filter.
-
-REMOVED StopTradeSkillRepeat\(\) - Stops creating additional queued items.
-
-REMOVED TradeSkillOnlyShowMakeable\(onlyMakable\) - Controls whether only recipes you have the reagents to craft are shown.
+[SetTrainerServiceTypeFilter](https://wow.gamepedia.com/API_SetTrainerServiceTypeFilter)\("filter",state\) - 在训练师窗口中设置技能过滤器的状态。
 
