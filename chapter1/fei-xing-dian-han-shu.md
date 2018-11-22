@@ -14,40 +14,37 @@ GetTaxiMapID\(\) -
 
 GetNumRoutes\(slot\) - 获取当前飞行点和目的飞行点之间的跳数。
 
-[NumTaxiNodes](https://wow.gamepedia.com/API_NumTaxiNodes)\(\) - Returns the number of nodes \(flight paths\) on an open taxi map.
+[NumTaxiNodes](https://wow.gamepedia.com/API_NumTaxiNodes)\(\) - 返回打开的飞行地图上的节点数（飞行路线）。
 
 SetTaxiBenchmarkMode\(\) -
 
-[SetTaxiMap](https://wow.gamepedia.com/API_SetTaxiMap)\(frame\) - ?.
+[SetTaxiMap](https://wow.gamepedia.com/API_SetTaxiMap)\(frame\) - ?.
 
-[TakeTaxiNode](https://wow.gamepedia.com/API_TakeTaxiNode)\(slot\) - Takes the named taxi node.
+[TakeTaxiNode](https://wow.gamepedia.com/API_TakeTaxiNode)\(slot\) - 选取指定飞行点。
 
-[TaxiGetDestX](https://wow.gamepedia.com/API_TaxiGetDestX)\(slot, hop\) - ?.
+[TaxiGetDestX](https://wow.gamepedia.com/API_TaxiGetDestX)\(slot, hop\) - ?.
 
-[TaxiGetDestY](https://wow.gamepedia.com/API_TaxiGetDestY)\(slot, hop\) - ?.
+[TaxiGetDestY](https://wow.gamepedia.com/API_TaxiGetDestY)\(slot, hop\) - ?.
 
 TaxiGetNodeSlot\(\) -
 
-[TaxiGetSrcX](https://wow.gamepedia.com/API_TaxiGetSrcX)\(slot, hop\) - ?.
+[TaxiGetSrcX](https://wow.gamepedia.com/API_TaxiGetSrcX)\(slot, hop\) - ?.
 
-[TaxiGetSrcY](https://wow.gamepedia.com/API_TaxiGetSrcY)\(slot, hop\) - ?.
+[TaxiGetSrcY](https://wow.gamepedia.com/API_TaxiGetSrcY)\(slot, hop\) - ?.
 
-REMOVED TaxiNodeSetCurrent\(slot\) - Renumbers slots based on new current slot.
+REMOVED TaxiNodeSetCurrent\(slot\) - 根据新的当前节点重新编号节点\(不懂\)。
 
 TaxiIsDirectFlight\(\) -
 
-[TaxiNodeCost](https://wow.gamepedia.com/API_TaxiNodeCost)\(slot\) - Returns the cost in copper of a node.
+[TaxiNodeCost](https://wow.gamepedia.com/API_TaxiNodeCost)\(slot\) - 返回节点的铜花费。
 
-[TaxiNodeGetType](https://wow.gamepedia.com/API_TaxiNodeGetType)\(slot\) - Returns the status of a node.
+[TaxiNodeGetType](https://wow.gamepedia.com/API_TaxiNodeGetType)\(slot\) - 返回节点的状态。
 
-[TaxiNodeName](https://wow.gamepedia.com/API_TaxiNodeName)\(slot\) - Returns the name of a node.
+[TaxiNodeName](https://wow.gamepedia.com/API_TaxiNodeName)\(slot\) - 返回节点的名称。
 
-[TaxiNodePosition](https://wow.gamepedia.com/API_TaxiNodePosition)\(slot\) - Returns position \(x,y\) of node on the map.
+[TaxiNodePosition](https://wow.gamepedia.com/API_TaxiNodePosition)\(slot\) - 返回地图上节点的坐标（x，y）。
 
 TaxiRequestEarlyLanding\(\) -
 
-[UnitOnTaxi](https://wow.gamepedia.com/API_UnitOnTaxi)\("unit"\) - Returns 1 if unit is on a taxi.
-
-  
-
+[UnitOnTaxi](https://wow.gamepedia.com/API_UnitOnTaxi)\("unit"\) - 如果单位在飞行中，则返回1。
 
