@@ -82,4 +82,5 @@
   * [设置函数](chapter1/she-zhi-han-shu.md)
   * [专精函数](chapter1/zhuan-jing-han-shu.md)
   * [技能函数](chapter1/ji-neng-han-shu.md)
+  * [系统函数](chapter1/xi-tong-han-shu.md)
 
