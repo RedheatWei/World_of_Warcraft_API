@@ -84,4 +84,5 @@
   * [技能函数](chapter1/ji-neng-han-shu.md)
   * [系统函数](chapter1/xi-tong-han-shu.md)
   * [天赋函数](chapter1/tian-fu-han-shu.md)
+  * [目标函数](chapter1/mu-biao-han-shu.md)
 
