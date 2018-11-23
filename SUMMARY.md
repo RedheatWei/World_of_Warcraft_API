@@ -98,4 +98,5 @@
   * [载具函数](chapter1/zai-ju-han-shu.md)
   * [语音聊天函数](chapter1/yu-yin-liao-tian-han-shu.md)
   * [虚空仓库函数](chapter1/xu-kong-cang-ku-han-shu.md)
+  * [世界战场函数](chapter1/shi-jie-zhan-chang-han-shu.md)
 
