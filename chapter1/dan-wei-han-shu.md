@@ -254,41 +254,41 @@ UnitPowerBarTimerInfo\(?\) -
 
 UnitPrestige\(?\) -
 
-[UnitRace](https://wow.gamepedia.com/API_UnitRace)\("unit"\) - Returns the race name of the specified unit \(e.g., "Human" or "Troll"\).
+[UnitRace](https://wow.gamepedia.com/API_UnitRace)\("unit"\) - 返回指定单位的种族名称（例如，“人”或“巨魔”）。
 
-[UnitRangedAttack](https://wow.gamepedia.com/API_UnitRangedAttack)\("unit"\) - Returns the ranged attack number of the unit.
+[UnitRangedAttack](https://wow.gamepedia.com/API_UnitRangedAttack)\("unit"\) - 返回单位的远程攻击数值。
 
-[UnitRangedAttackPower](https://wow.gamepedia.com/API_UnitRangedAttackPower)\("unit"\) - Returns the ranged attack power of the unit.
+[UnitRangedAttackPower](https://wow.gamepedia.com/API_UnitRangedAttackPower)\("unit"\) - 返回单位的远程攻击强度。
 
-[UnitRangedDamage](https://wow.gamepedia.com/API_UnitRangedDamage)\("unit"\) - Returns the ranged attack speed and damage of the unit.
+[UnitRangedDamage](https://wow.gamepedia.com/API_UnitRangedDamage)\("unit"\) - 返回远程攻击速度和单位的伤害。
 
 [UnitRealmRelationship](https://wow.gamepedia.com/API_UnitRealmRelationship)\(?\) -
 
-[UnitReaction](https://wow.gamepedia.com/API_UnitReaction)\("unit", "otherUnit"\) - Returns a number corresponding to the reaction \(aggressive, neutral or friendly\) of the first unit towards the second unit.
+[UnitReaction](https://wow.gamepedia.com/API_UnitReaction)\("unit", "otherUnit"\) - 返回对应于第一单位朝向第二单位的反应（仇恨，中立的或友好的）的数字。
 
-[UnitResistance](https://wow.gamepedia.com/API_UnitResistance)\("unit", "resistanceIndex"\) - Returns the resistance statistics relevant to the specified unit and resistance type.
+[UnitResistance](https://wow.gamepedia.com/API_UnitResistance)\("unit", "resistanceIndex"\) - 返回与指定单位和伤害类型相关的抗性统计数据。
 
-[UnitSelectionColor](https://wow.gamepedia.com/API_UnitSelectionColor)\("unit"\) - Returns RGBA values for the color of a unit's name.
+[UnitSelectionColor](https://wow.gamepedia.com/API_UnitSelectionColor)\("unit"\) - 返回单位名称颜色的RGBA值。
 
 [UnitSetRole](https://wow.gamepedia.com/API_UnitSetRole)\(?\) -
 
-[UnitSex](https://wow.gamepedia.com/API_UnitSex)\("unit"\) - Returns a code indicating the gender of the specified unit, if known. \(1=unknown, 2=male, 3=female\) ← changed in 1.11!
+[UnitSex](https://wow.gamepedia.com/API_UnitSex)\("unit"\) - 返回指示指定单位性别的代码（如果已知）。（1 =未知，2 =男性，3 =女性）←在1.11中改变了！
 
 UnitShouldDisplayName\(?\) -
 
-[UnitSpellHaste](https://wow.gamepedia.com/API_UnitSpellHaste)\("unit" or "name"\) - Returns the current spell haste percentage for a unit.
+[UnitSpellHaste](https://wow.gamepedia.com/API_UnitSpellHaste)\("unit" or "name"\) - 返回单位的当前法术急速百分比。
 
 [UnitStagger](https://wow.gamepedia.com/API_UnitStagger)\(?\) -
 
-[UnitStat](https://wow.gamepedia.com/API_UnitStat)\("unit", statIndex\) - Returns the statistics relevant to the specified unit and basic attribute \(e.g., strength or intellect\).
+[UnitStat](https://wow.gamepedia.com/API_UnitStat)\("unit", statIndex\) - 返回与指定单位和基本属性（例如，力量或智力）相关的统计数据。
 
 UnitThreatPercentageOfLead\(?\) -
 
-[UnitThreatSituation](https://wow.gamepedia.com/API_UnitThreatSituation)\("unit", "mobUnit"\) - Returns the specified unit's threat status on a mob. \(added in [Patch 3.0](https://wow.gamepedia.com/Patch_3.0)\)
+[UnitThreatSituation](https://wow.gamepedia.com/API_UnitThreatSituation)\("unit", "mobUnit"\) - 返回指定单位对怪物的威胁状态。（在[补丁3.0](https://wow.gamepedia.com/Patch_3.0)中添加）
 
-[UnitUsingVehicle](https://wow.gamepedia.com/API_UnitUsingVehicle)\("unit"\) - Returns whether the specified unit is currently using a vehicle \(including transitioning between seats\).
+[UnitUsingVehicle](https://wow.gamepedia.com/API_UnitUsingVehicle)\("unit"\) - 返回指定单位当前是否正在使用载具（包括在座位之间转换）。
 
-[UnitXP](https://wow.gamepedia.com/API_UnitXP)\("unit"\) - Returns the number of experience points the specified unit has in their current level. \(only works on your player\)
+[UnitXP](https://wow.gamepedia.com/API_UnitXP)\("unit"\) - 返回指定单位在当前级别中的经验值数。（仅适用于您的角色）
 
-[UnitXPMax](https://wow.gamepedia.com/API_UnitXPMax)\("unit"\) - Returns the number of experience points the specified unit needs to reach their next level. \(only works on your player\)
+[UnitXPMax](https://wow.gamepedia.com/API_UnitXPMax)\("unit"\) - 返回指定单位达到下一级别所需的经验值数。（仅适用于您的角色）
 
