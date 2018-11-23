@@ -18,5 +18,11 @@
 
 * **REMOVED -** 此功能已从魔兽世界API中删除（或将在大约一个月内从此列表中删除）。出于历史目的，请参阅“[已删除的函数](https://wow.gamepedia.com/Category:World_of_Warcraft_API/Removed_Functions)”类别。
 
+---
+
+#### 更新日志:
+
+* 2018.11.23 初译完成
+
 
 
