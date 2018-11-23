@@ -68,61 +68,61 @@ UnitBattlePetType\(?\) -
 
 UnitBonusArmor\(?\) -
 
-[UnitBuff](https://wow.gamepedia.com/API_UnitBuff)\("unit", index \[,raidFilter\]\) - Retrieves info about a buff of a certain unit. \(Updated in 2.0\)
+[UnitBuff](https://wow.gamepedia.com/API_UnitBuff)\("unit", index \[,raidFilter\]\) - 检索有关某个单位的buff的信息。（在2.0中更新）
 
-[UnitCanAssist](https://wow.gamepedia.com/API_UnitCanAssist)\("unit", "otherUnit"\) - Indicates whether the first unit can assist the second unit.
+[UnitCanAssist](https://wow.gamepedia.com/API_UnitCanAssist)\("unit", "otherUnit"\) - 指示第一个单位是否可以辅助第二个单位。
 
-[UnitCanAttack](https://wow.gamepedia.com/API_UnitCanAttack)\("unit", "otherUnit"\) - Returns true if the first unit can attack the second, false otherwise.
+[UnitCanAttack](https://wow.gamepedia.com/API_UnitCanAttack)\("unit", "otherUnit"\) - 如果第一个单位可以攻击第二个单位，则返回true，否则返回false。
 
-[UnitCanCooperate](https://wow.gamepedia.com/API_UnitCanCooperate)\("unit", "otherUnit"\) - Returns true if the first unit can cooperate with the second, false otherwise.
+[UnitCanCooperate](https://wow.gamepedia.com/API_UnitCanCooperate)\("unit", "otherUnit"\) - 如果第一个单位可以与第二个单位配合，则返回true，否则返回false。
 
 UnitCanPetBattle\(?\) -
 
-[UnitClass](https://wow.gamepedia.com/API_UnitClass)\("unit"\) - Returns the class name of the specified unit \(e.g., "Warrior" or "Shaman"\).
+[UnitClass](https://wow.gamepedia.com/API_UnitClass)\("unit"\) - 返回指定单位的职业（例如“战士”或“萨满”）。
 
 UnitClassBase\(?\) -
 
-[UnitClassification](https://wow.gamepedia.com/API_UnitClassification)\("unit"\) - Returns the classification of the specified unit \(e.g., "elite" or "worldboss"\).
+[UnitClassification](https://wow.gamepedia.com/API_UnitClassification)\("unit"\) - 返回指定单位的分类（例如，“稀有”或“世界boss”）。
 
-[UnitCreatureFamily](https://wow.gamepedia.com/API_UnitCreatureFamily)\("unit"\) - Returns the type of creature of the specified unit \(e.g., "Crab"\).
+[UnitCreatureFamily](https://wow.gamepedia.com/API_UnitCreatureFamily)\("unit"\) - 返回指定单位的生物类型（例如“螃蟹”）。
 
-[UnitCreatureType](https://wow.gamepedia.com/API_UnitCreatureType)\("unit"\) - Returns the classification type of creature of the specified unit \(e.g., "Beast"\).
+[UnitCreatureType](https://wow.gamepedia.com/API_UnitCreatureType)\("unit"\) - 返回指定单位的生物的分类类型（例如，“野兽”）。
 
-[UnitDamage](https://wow.gamepedia.com/API_UnitDamage)\("unit"\) - Returns the damage statistics relevant to the specified unit.
+[UnitDamage](https://wow.gamepedia.com/API_UnitDamage)\("unit"\) - 返回与指定单位相关的损坏统计信息。
 
-[UnitDebuff](https://wow.gamepedia.com/API_UnitDebuff)\("unit", index \[,raidFilter\]\) - Retrieves info about a debuff of a certain unit. \(Updated in 2.0\)
+[UnitDebuff](https://wow.gamepedia.com/API_UnitDebuff)\("unit", index \[,raidFilter\]\) - 检索有关某个单位的debuff的信息。（在2.0中更新）
 
-[UnitDefense](https://wow.gamepedia.com/API_UnitDefense)\("unit"\) - Returns the base defense skill of the specified unit.
+[UnitDefense](https://wow.gamepedia.com/API_UnitDefense)\("unit"\) - 返回指定单位的基本防御技能。
 
-[UnitDetailedThreatSituation](https://wow.gamepedia.com/API_UnitDetailedThreatSituation)\("unit", "unitMob"\) - Returns detailed information about the specified unit's threat on a mob. \(added in [Patch 3.0](https://wow.gamepedia.com/Patch_3.0)\)
+[UnitDetailedThreatSituation](https://wow.gamepedia.com/API_UnitDetailedThreatSituation)\("unit", "unitMob"\) - 返回有关指定单位对怪物的威胁的详细信息。 \(添加于 [Patch 3.0](https://wow.gamepedia.com/Patch_3.0)\)
 
-[UnitDistanceSquared](https://wow.gamepedia.com/API_UnitDistanceSquared)\("unit"\) - Returns the squared distance to a unit in your group
+[UnitDistanceSquared](https://wow.gamepedia.com/API_UnitDistanceSquared)\("unit"\) - 返回队伍中单位的平方距离
 
 [UnitEffectiveLevel](https://wow.gamepedia.com/API_UnitEffectiveLevel)\(?\) -
 
-[UnitExists](https://wow.gamepedia.com/API_UnitExists)\("unit"\) - Returns 1 if the specified unit exists, nil otherwise.
+[UnitExists](https://wow.gamepedia.com/API_UnitExists)\("unit"\) - 如果指定的单位存在，则返回1，否则返回nil。
 
-[UnitFactionGroup](https://wow.gamepedia.com/API_UnitFactionGroup)\("unit"\) - Returns the faction group id and name of the specified unit. \(eg. "Alliance"\) - string returned is localization-independent \(used in filepath\)
+[UnitFactionGroup](https://wow.gamepedia.com/API_UnitFactionGroup)\("unit"\) - 返回指定单元的阵营ID和名称。（例如“联盟”） - 返回的字符串与本地化无关（在文件路径中使用）
 
 [UnitFullName](https://wow.gamepedia.com/API_UnitFullName)\(?\) -
 
 UnitGetAvailableRoles\(?\) -
 
-[UnitGetIncomingHeals](https://wow.gamepedia.com/API_UnitGetIncomingHeals)\("unit"\[, "healer"\]\) - Returns the predicted heals cast on the specified unit.
+[UnitGetIncomingHeals](https://wow.gamepedia.com/API_UnitGetIncomingHeals)\("unit"\[, "healer"\]\) - 返回指定单位的预测治疗。
 
-[UnitGetTotalAbsorbs](https://wow.gamepedia.com/API_UnitGetTotalAbsorbs)\("unit"\) - Returns the total amount of damage the unit can absorb before losing health.
+[UnitGetTotalAbsorbs](https://wow.gamepedia.com/API_UnitGetTotalAbsorbs)\("unit"\) - 返回在死亡之前该单位可以吸收的总伤害量。
 
 [UnitGetTotalHealAbsorbs](https://wow.gamepedia.com/API_UnitGetTotalHealAbsorbs)\(?\) -
 
-[UnitGroupRolesAssigned](https://wow.gamepedia.com/API_UnitGroupRolesAssigned)\("unit"\) - Returns the assigned role in a group formed via the Dungeon Finder Tool. \(added in[Patch 3.3](https://wow.gamepedia.com/Patch_3.3)\)
+[UnitGroupRolesAssigned](https://wow.gamepedia.com/API_UnitGroupRolesAssigned)\("unit"\) - 返回通过地下城查找器形成的队伍中指定的角色。 \(添加于[Patch 3.3](https://wow.gamepedia.com/Patch_3.3)\)
 
-[UnitGUID](https://wow.gamepedia.com/API_UnitGUID)\("unit"\) - Returns the GUID as a string for the specified unit matching the GUIDs used by the new combat logs. \(added in [Patch 2.4](https://wow.gamepedia.com/Patch_2.4)\)
+[UnitGUID](https://wow.gamepedia.com/API_UnitGUID)\("unit"\) - 将GUID作为与新战斗日志使用的GUID匹配的指定单位的字符串返回。\(添加于 [Patch 2.4](https://wow.gamepedia.com/Patch_2.4)\)
 
 UnitHPPerStamina\(?\) -
 
-[UnitHasIncomingResurrection](https://wow.gamepedia.com/API_UnitHasIncomingResurrection)\("unit"\) - Returns whether the unit is currently being resurrected. \([Patch 4.2.0](https://wow.gamepedia.com/Patch_4.2.0)\)
+[UnitHasIncomingResurrection](https://wow.gamepedia.com/API_UnitHasIncomingResurrection)\("unit"\) - 返回单位当前是否正在复活。 \([Patch 4.2.0](https://wow.gamepedia.com/Patch_4.2.0)\)
 
-[UnitHasLFGDeserter](https://wow.gamepedia.com/API_UnitHasLFGDeserter)\("unit"\) - Returns whether the unit is currently unable to use the dungeon finder due to leaving a group prematurely. \(3.3.3\)
+[UnitHasLFGDeserter](https://wow.gamepedia.com/API_UnitHasLFGDeserter)\("unit"\) - 返回该单元当前是否因为过早离开组而无法使用地下城查找器。（3.3.3）
 
 [UnitHasLFGRandomCooldown](https://wow.gamepedia.com/API_UnitHasLFGRandomCooldown)\("unit"\) - Returns whether the unit is currently under the effects of the random dungeon cooldown. \(3.3.3\)
 
