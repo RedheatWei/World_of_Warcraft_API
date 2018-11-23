@@ -212,47 +212,45 @@ REMOVED [UnitIsTapped](https://wow.gamepedia.com/API_UnitIsTapped)\("unit"\) - �
 
 REMOVED [UnitIsTappedByPlayer](https://wow.gamepedia.com/API_UnitIsTappedByPlayer)\("unit"\) - 如果玩家自己点击指定的单位，则返回true，否则返回false。
 
-REMOVED [UnitIsTappedByAllThreatList](https://wow.gamepedia.com/API_UnitIsTappedByAllThreatList)\("unit"\) - Returns whether the specified unit is a community monster, i.e. whether all players engaged in combat with it will receive kill \(quest\) credit.
+REMOVED [UnitIsTappedByAllThreatList](https://wow.gamepedia.com/API_UnitIsTappedByAllThreatList)\("unit"\) - 返回指定单位是否为社区怪物，即与其进行战斗的所有玩家是否将获得杀戮（任务）信用。
 
 UnitIsTapDenied\(?\) -
 
-[UnitIsTrivial](https://wow.gamepedia.com/API_UnitIsTrivial)\("unit"\) - Returns true if the specified unit is trivial \(Trivial means the unit is "grey" to the player. false otherwise.
+[UnitIsTrivial](https://wow.gamepedia.com/API_UnitIsTrivial)\("unit"\) - 如果指定的单位是Trivial，则返回true（Trivial表示单位对玩家是“灰色”。否则为false。\)
 
 UnitIsUnconscious\(?\) -
 
-[UnitIsUnit](https://wow.gamepedia.com/API_UnitIsUnit)\("unit", "otherUnit"\) - Determine if two units are the same unit.
+[UnitIsUnit](https://wow.gamepedia.com/API_UnitIsUnit)\("unit", "otherUnit"\) - 确定两个单位是否是同一个单位。
 
-[UnitIsVisible](https://wow.gamepedia.com/API_UnitIsVisible)\("unit"\) - 1 if visible, nil if not
+[UnitIsVisible](https://wow.gamepedia.com/API_UnitIsVisible)\("unit"\) - 1如果可见，否则为零
 
 UnitIsWildBattlePet\(?\) -
 
 UnitLeadsAnyGroup\(?\) -
 
-[UnitLevel](https://wow.gamepedia.com/API_UnitLevel)\("unit"\) - Returns the level of a unit.
+[UnitLevel](https://wow.gamepedia.com/API_UnitLevel)\("unit"\) - 返回单位的级别。
 
-[UnitName](https://wow.gamepedia.com/API_UnitName)\("unit"\) - Returns the name \(and realm name\) of a unit.
+[UnitName](https://wow.gamepedia.com/API_UnitName)\("unit"\) - 返回单位的名称（和服务器名称）。
 
 UnitNumPowerBarTimers\(?\) -
 
-[UnitOnTaxi](https://wow.gamepedia.com/API_UnitOnTaxi)\("unit"\) - Returns 1 if unit is on a taxi.
+[UnitOnTaxi](https://wow.gamepedia.com/API_UnitOnTaxi)\("unit"\) - 如果单位在飞行点状态，则返回1。
 
-[UnitPVPName](https://wow.gamepedia.com/API_UnitPVPName)\("unit"\) - Returns unit's name with PvP rank prefix \(e.g., "Corporal Allianceguy"\).
+[UnitPVPName](https://wow.gamepedia.com/API_UnitPVPName)\("unit"\) - 返回具有PvP等级前缀的单位名称（例如，“下士联盟”）。
 
-[UnitPlayerControlled](https://wow.gamepedia.com/API_UnitPlayerControlled)\("unit"\) - Returns true if the specified unit is controlled by a player, false otherwise.
+[UnitPlayerControlled](https://wow.gamepedia.com/API_UnitPlayerControlled)\("unit"\) - 如果指定的单位由玩家控制，则返回true，否则返回false。
 
-[UnitPlayerOrPetInParty](https://wow.gamepedia.com/API_UnitPlayerOrPetInParty)\("unit"\) - Returns 1 if the specified unit/pet is a member of the player's party, nil otherwise \(returns nil for "player" and "pet"\) - Added in 1.12
+[UnitPlayerOrPetInParty](https://wow.gamepedia.com/API_UnitPlayerOrPetInParty)\("unit"\) - 如果指定的单位/宠物是玩家小队的成员，则返回1，否则返回nil（对于“玩家”和“宠物”返回nil） - 在1.12中添加
 
-[UnitPlayerOrPetInRaid](https://wow.gamepedia.com/API_UnitPlayerOrPetInRaid)\("unit"\) - Returns 1 if the specified unit/pet is a member of the player's raid, nil otherwise \(returns nil for "player" and "pet"\) - Added in 1.12
+[UnitPlayerOrPetInRaid](https://wow.gamepedia.com/API_UnitPlayerOrPetInRaid)\("unit"\) - 如果指定的单位/宠物是玩家团队的成员，则返回1，否则返回nil（对于“玩家”和“宠物”返回nil） - 在1.12中添加
 
-[UnitPower](https://wow.gamepedia.com/API_UnitPower)\("unit"\[,type\]\) - Returns current power of the specified unit \(Replaces
-
-[UnitMana](https://wow.gamepedia.com/API_UnitMana)\(\) as of WoW 3.0.2\)
+[UnitPower](https://wow.gamepedia.com/API_UnitPower)\("unit"\[,type\]\) - 返回指定单位的当前能量（从WoW 3.0.2开始替换[UnitMana](https://wow.gamepedia.com/API_UnitMana)\(\)）
 
 UnitPowerBarTimerInfo\(?\) -
 
-[UnitPowerMax](https://wow.gamepedia.com/API_UnitPowerMax)\("unit"\[,type\]\) - Returns max power of the specified unit \(Replaces [UnitManaMax](https://wow.gamepedia.com/API_UnitManaMax)\(\) as of WoW 3.0.2\)
+[UnitPowerMax](https://wow.gamepedia.com/API_UnitPowerMax)\("unit"\[,type\]\) - 返回指定单位的最大能量（从WoW 3.0.2开始替换[UnitManaMax](https://wow.gamepedia.com/API_UnitManaMax)\(\)）
 
-[UnitPowerType](https://wow.gamepedia.com/API_UnitPowerType)\("unit"\) - Returns a number corresponding to the power type \(e.g., mana, rage or energy\) of the specified unit.
+[UnitPowerType](https://wow.gamepedia.com/API_UnitPowerType)\("unit"\) - 返回与指定单位的能量类型（例如，法力，愤怒或能量）对应的数字。
 
 UnitPrestige\(?\) -
 
