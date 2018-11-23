@@ -2,47 +2,47 @@
 
 ###### 这些是作用于一个或多个单位的功能。单位由[UnitIds](https://wow.gamepedia.com/UnitId)标识。
 
-PROTECTED [AssistUnit](https://wow.gamepedia.com/API_AssistUnit)\("unit"\) - Instructs your character to assist the specified unit.
+PROTECTED [AssistUnit](https://wow.gamepedia.com/API_AssistUnit)\("unit"\) - 指示角色协助指定的单位。
 
 [CheckInteractDistance](https://wow.gamepedia.com/API_CheckInteractDistance)\("unit",distIndex\)
 
-PROTECTED [ClearFocus](https://wow.gamepedia.com/API_ClearFocus)\(\) - Removes any focus you may have set.
+PROTECTED [ClearFocus](https://wow.gamepedia.com/API_ClearFocus)\(\) - 删除您可能设置的任何焦点。
 
-[DropItemOnUnit](https://wow.gamepedia.com/API_DropItemOnUnit)\("unit"\) - Drops an item from the cursor onto a unit.
+[DropItemOnUnit](https://wow.gamepedia.com/API_DropItemOnUnit)\("unit"\) - 将项目从光标拖放到单元上。
 
-[FillLocalizedClassList](https://wow.gamepedia.com/API_FillLocalizedClassList)\(classTable\[, isFemale\]\) - Fills table with localized class names.
+[FillLocalizedClassList](https://wow.gamepedia.com/API_FillLocalizedClassList)\(classTable\[, isFemale\]\) - 使用本地化的职业名填充表。
 
-PROTECTED [FocusUnit](https://wow.gamepedia.com/API_FocusUnit)\("unit"\) - Sets your unit for focus. -- Protected with Patch 2.0!
+PROTECTED [FocusUnit](https://wow.gamepedia.com/API_FocusUnit)\("unit"\) - 设置焦点单位。- 于Patch 2.0保护！
 
-[FollowUnit](https://wow.gamepedia.com/API_FollowUnit)\("unit"\) - Follow an ally with the specified UnitID
+[FollowUnit](https://wow.gamepedia.com/API_FollowUnit)\("unit"\) - 跟随指定UnitID的盟友
 
-[GetClassColor](https://wow.gamepedia.com/API_GetClassColor)\(englishClass\) - Returns information about a class' color
+[GetClassColor](https://wow.gamepedia.com/API_GetClassColor)\(englishClass\) - 返回有关职业颜色的信息
 
-[GetPlayerInfoByGUID](https://wow.gamepedia.com/API_GetPlayerInfoByGUID)\("guid"\) - Added in 3.2, returns race, class, sex about the guid \(client must have seen the guid\)
+[GetPlayerInfoByGUID](https://wow.gamepedia.com/API_GetPlayerInfoByGUID)\("guid"\) - 在3.2中添加，返回关于guid的种族，职业，性别（客户端必须看到guid）
 
-[GetThreatStatusColor](https://wow.gamepedia.com/API_GetThreatStatusColor)\(status\) - Returns RGB values for a given UnitThreatSituation return value.
+[GetThreatStatusColor](https://wow.gamepedia.com/API_GetThreatStatusColor)\(status\) - 返回给定UnitThreatSituation返回值的RGB值。
 
-UI [GetUnitName](https://wow.gamepedia.com/API_GetUnitName)\("unit", showServerName\) - Returns a string with the unit's name and realm name if applicable.
+UI [GetUnitName](https://wow.gamepedia.com/API_GetUnitName)\("unit", showServerName\) - 如果适用，返回包含单位名称和服务器名称的字符串。
 
-GetUnitPitch\("unit"\) - Returns the moving pitch of the unit. \(added in 3.0.2\)
+GetUnitPitch\("unit"\) - 返回单位的移动高度?（在3.0.2中添加）
 
-[GetUnitSpeed](https://wow.gamepedia.com/API_GetUnitSpeed)\("unit"\) - Returns the moving speed of the unit. \(added in 3.0.2\)
+[GetUnitSpeed](https://wow.gamepedia.com/API_GetUnitSpeed)\("unit"\) - 返回单位的移动速度。（在3.0.2中添加）
 
-[InviteUnit](https://wow.gamepedia.com/API_InviteUnit)\("name" or "unit"\) - Invites the specified player to the group you are currently in. \(added in 2.0\)
+[InviteUnit](https://wow.gamepedia.com/API_InviteUnit)\("name" or "unit"\) - 邀请指定的玩家加入您当前所在的队伍。（在2.0中添加）
 
-[IsUnitOnQuest](https://wow.gamepedia.com/API_IsUnitOnQuest)\(questIndex, "unit"\) - Determine if the specified unit is on the given quest.
+[IsUnitOnQuest](https://wow.gamepedia.com/API_IsUnitOnQuest)\(questIndex, "unit"\) - 确定指定的单位是否在给定的任务中。
 
-SetPortraitTexture\(texture,"unit"\) - Paint a Texture object with the specified unit's portrait.
+SetPortraitTexture\(texture,"unit"\) - 使用指定单位的肖像绘制质地对象。
 
-[SetPortraitToTexture](https://wow.gamepedia.com/API_SetPortraitToTexture)\(texture or "texture", "texturePath"\) - Sets the texture to be displayed from a file applying a circular opacity mask making it look round like portraits.
+[SetPortraitToTexture](https://wow.gamepedia.com/API_SetPortraitToTexture)\(texture or "texture", "texturePath"\) - 设置要从应用圆形不透明蒙版的文件显示的纹理，使其看起来像人像。
 
-[SpellCanTargetUnit](https://wow.gamepedia.com/API_SpellCanTargetUnit)\("unit"\) - Returns true if the spell awaiting target selection can be cast on the specified unit.
+[SpellCanTargetUnit](https://wow.gamepedia.com/API_SpellCanTargetUnit)\("unit"\) - 如果等待目标选择的技能可以在指定单位上施放，则返回true。
 
-PROTECTED [SpellTargetUnit](https://wow.gamepedia.com/API_SpellTargetUnit)\("unit"\) - Casts the spell awaiting target selection on the specified unit.
+PROTECTED [SpellTargetUnit](https://wow.gamepedia.com/API_SpellTargetUnit)\("unit"\) - 在指定单位上施放等待目标选择的法术。
 
-PROTECTED [TargetUnit](https://wow.gamepedia.com/API_TargetUnit)\("unit" or "name" \[, exactMatch\]\) - Selects the specified unit as the current target. -- Protected with Patch 2.0!
+PROTECTED [TargetUnit](https://wow.gamepedia.com/API_TargetUnit)\("unit" or "name" \[, exactMatch\]\) - 选择指定的单位作为当前目标。- 于Patch 2.0保护！
 
-[UnitAffectingCombat](https://wow.gamepedia.com/API_UnitAffectingCombat)\("unit"\) - Determine if the unit is in combat or has aggro. \(returns nil if "false" and 1 if "true"\)
+[UnitAffectingCombat](https://wow.gamepedia.com/API_UnitAffectingCombat)\("unit"\) - 确定该单位是在战斗中还是具有仇恨。（如果为“false”则返回nil，如果为“true”则返回1）
 
 UnitAlternatePowerCounterInfo\(?\) -
 
@@ -50,9 +50,9 @@ UnitAlternatePowerInfo\(?\) -
 
 UnitAlternatePowerTextureInfo\(?\) -
 
-[UnitArmor](https://wow.gamepedia.com/API_UnitArmor)\("unit"\) - Returns the armor statistics relevant to the specified unit.
+[UnitArmor](https://wow.gamepedia.com/API_UnitArmor)\("unit"\) - 返回与指定单位相关的装甲统计数据。
 
-[UnitAttackBothHands](https://wow.gamepedia.com/API_UnitAttackBothHands)\("unit"\) - Returns information about the unit's melee attacks.
+[UnitAttackBothHands](https://wow.gamepedia.com/API_UnitAttackBothHands)\("unit"\) - 返回有关单位近战攻击的信息
 
 [UnitAttackPower](https://wow.gamepedia.com/API_UnitAttackPower)\("unit"\) - Returns the unit's melee attack power and modifiers.
 
