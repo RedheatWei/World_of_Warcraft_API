@@ -54,11 +54,11 @@ UnitAlternatePowerTextureInfo\(?\) -
 
 [UnitAttackBothHands](https://wow.gamepedia.com/API_UnitAttackBothHands)\("unit"\) - 返回有关单位近战攻击的信息
 
-[UnitAttackPower](https://wow.gamepedia.com/API_UnitAttackPower)\("unit"\) - Returns the unit's melee attack power and modifiers.
+[UnitAttackPower](https://wow.gamepedia.com/API_UnitAttackPower)\("unit"\) - 返回单位的近战攻击强度和修正值。
 
-[UnitAttackSpeed](https://wow.gamepedia.com/API_UnitAttackSpeed)\("unit"\) - Returns the unit's melee attack speed for each hand.
+[UnitAttackSpeed](https://wow.gamepedia.com/API_UnitAttackSpeed)\("unit"\) - 返回每只手的单位近战攻击速度。
 
-[UnitAura](https://wow.gamepedia.com/API_UnitAura)\("unit", index \[, filter\]\) - Returns info about buffs and debuffs of a unit.
+[UnitAura](https://wow.gamepedia.com/API_UnitAura)\("unit", index \[, filter\]\) - 返回有关单位的buff和debuff的信息。
 
 UnitBattlePetLevel\(?\) -
 
