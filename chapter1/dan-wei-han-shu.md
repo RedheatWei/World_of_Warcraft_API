@@ -124,65 +124,65 @@ UnitHPPerStamina\(?\) -
 
 [UnitHasLFGDeserter](https://wow.gamepedia.com/API_UnitHasLFGDeserter)\("unit"\) - 返回该单元当前是否因为过早离开组而无法使用地下城查找器。（3.3.3）
 
-[UnitHasLFGRandomCooldown](https://wow.gamepedia.com/API_UnitHasLFGRandomCooldown)\("unit"\) - Returns whether the unit is currently under the effects of the random dungeon cooldown. \(3.3.3\)
+[UnitHasLFGRandomCooldown](https://wow.gamepedia.com/API_UnitHasLFGRandomCooldown)\("unit"\) - 返回单位当前是否受随机地下城冷却时间的影响。（3.3.3）
 
 UnitHasRelicSlot\("unit"\)
 
 UnitHasVehiclePlayerFrameUI\(?\) -
 
-[UnitHealth](https://wow.gamepedia.com/API_UnitHealth)\("unit"\) - Returns the current health, in points, of the specified unit.
+[UnitHealth](https://wow.gamepedia.com/API_UnitHealth)\("unit"\) - 返回指定单位的当前血量
 
-[UnitHealthMax](https://wow.gamepedia.com/API_UnitHealthMax)\("unit"\) - Returns the maximum health, in points, of the specified unit.
+[UnitHealthMax](https://wow.gamepedia.com/API_UnitHealthMax)\("unit"\) - 返回指定单位最大血量
 
-[UnitHonor](https://wow.gamepedia.com/API_UnitHonor)\("unit"\) - Returns the amount of honor the unit has for the current rank.
+[UnitHonor](https://wow.gamepedia.com/API_UnitHonor)\("unit"\) - 返回单位在当前荣誉等级的荣誉点。
 
-[UnitHonorLevel](https://wow.gamepedia.com/API_UnitHonorLevel)\("unit"\) - Returns the current honor rank for the unit.
+[UnitHonorLevel](https://wow.gamepedia.com/API_UnitHonorLevel)\("unit"\) - 返回单位的当前荣誉等级。
 
-[UnitHonorMax](https://wow.gamepedia.com/API_UnitHonorMax)\("unit"\) - Returns the maximum amount of honor for the current rank.
+[UnitHonorMax](https://wow.gamepedia.com/API_UnitHonorMax)\("unit"\) - 返回当前荣誉等级的最大荣誉点。
 
-UnitInBattleground\("unit"\) - Returns the unit index if the unit is in your battleground, nil otherwise.
+UnitInBattleground\("unit"\) - 如果单位在战场，则返回单位索引，否则返回nil。
 
 UnitInOtherParty\(?\) -
 
-[UnitInParty](https://wow.gamepedia.com/API_UnitInParty)\("unit"\) - Returns true if the unit is a member of your party.
+[UnitInParty](https://wow.gamepedia.com/API_UnitInParty)\("unit"\) - 如果单位是您的队友，则返回true。
 
 UnitInPhase\(?\) -
 
-[UnitInRaid](https://wow.gamepedia.com/API_UnitInRaid)\("unit"\) - Returns the unit index if the unit is in your raid/battlegroud, nil otherwise.
+[UnitInRaid](https://wow.gamepedia.com/API_UnitInRaid)\("unit"\) - 如果单位在raid / battleground中，则返回单位索引，否则返回nil。
 
-UnitIsInMyGuild\("unit"\) - Returns whether the specified unit is in the same guild as the player's character.
+UnitIsInMyGuild\("unit"\) - 返回指定单位是否与玩家角色在同一个公会中。
 
-[UnitInRange](https://wow.gamepedia.com/API_UnitInRange)\("unit"\) - Returns true if the unit \(party or raid only\) is in range of a typical spell such as flash heal. \(added in [Patch 2.4](https://wow.gamepedia.com/Patch_2.4)\)
+[UnitInRange](https://wow.gamepedia.com/API_UnitInRange)\("unit"\) -如果单位（仅限小队或团队）在典型法术范围内（如圣光闪现），则返回true。 \(added in [Patch 2.4](https://wow.gamepedia.com/Patch_2.4)\)
 
 UnitInVehicleHidesPetFrame\(?\) -
 
-[UnitIsAFK](https://wow.gamepedia.com/API_UnitIsAFK)\("unit"\) - Only works for friendly units.
+[UnitIsAFK](https://wow.gamepedia.com/API_UnitIsAFK)\("unit"\) - 仅适用于友方单位。
 
 [UnitIsBattlePet](https://wow.gamepedia.com/API_UnitIsBattlePet)\(?\) -
 
 UnitIsBattlePetCompanion\(?\) -
 
-[UnitIsCharmed](https://wow.gamepedia.com/API_UnitIsCharmed)\("unit"\) - Returns true if the specified unit is charmed, false otherwise.
+[UnitIsCharmed](https://wow.gamepedia.com/API_UnitIsCharmed)\("unit"\) - 如果指定的单位被魅惑，则返回true，否则返回false。
 
-UnitIsConnected\("unit"\) - Returns 1 if the specified unit is connected or npc, nil if offline or not a valid unit.
+UnitIsConnected\("unit"\) - 如果指定的单元已连接，则返回1或npc，如果离线则返回nil，或者不是有效单位。
 
 UnitIsControlling\(?\) -
 
-UnitIsCorpse\("unit"\) - Returns true if the specified unit is a corpse, false otherwise.
+UnitIsCorpse\("unit"\) - 如果指定的单位是尸体，则返回true，否则返回false。
 
-[UnitIsDead](https://wow.gamepedia.com/API_UnitIsDead)\("unit"\) - Returns true if the specified unit is dead, nil otherwise.
+[UnitIsDead](https://wow.gamepedia.com/API_UnitIsDead)\("unit"\) - 如果指定的单位死亡，则返回true，否则返回nil。
 
-[UnitIsDeadOrGhost](https://wow.gamepedia.com/API_UnitIsDeadOrGhost)\("unit"\) - Returns true if the specified unit is dead or a ghost, nil otherwise.
+[UnitIsDeadOrGhost](https://wow.gamepedia.com/API_UnitIsDeadOrGhost)\("unit"\) - 如果指定的单位为死亡或灵魂状态，则返回true，否则返回nil。
 
-[UnitIsDND](https://wow.gamepedia.com/API_UnitIsDND)\("unit"\) - Only works for friendly units.
+[UnitIsDND](https://wow.gamepedia.com/API_UnitIsDND)\("unit"\) - 仅适用于友方单位。
 
-[UnitIsEnemy](https://wow.gamepedia.com/API_UnitIsEnemy)\("unit", "otherUnit"\) - Returns true if the specified units are enemies, false otherwise.
+[UnitIsEnemy](https://wow.gamepedia.com/API_UnitIsEnemy)\("unit", "otherUnit"\) - 如果指定的单位是敌人，则返回true，否则返回false。
 
-[UnitIsFeignDeath](https://wow.gamepedia.com/API_UnitIsFeignDeath)\("unit"\) - Returns true if the specified unit \(must be a member of your group\) is feigning death. -- Added in 2.1
+[UnitIsFeignDeath](https://wow.gamepedia.com/API_UnitIsFeignDeath)\("unit"\) - 如果指定的单位（必须是你的小组成员）假装死亡，则返回true .--在2.1中添加
 
-[UnitIsFriend](https://wow.gamepedia.com/API_UnitIsFriend)\("unit", "otherUnit"\) - Returns true if the specified units are friends \(PC of same faction or friendly NPC\), false otherwise.
+[UnitIsFriend](https://wow.gamepedia.com/API_UnitIsFriend)\("unit", "otherUnit"\) - 如果指定的单位是友方目标（同一阵营的玩家或友好的NPC），则返回true，否则返回false。
 
-[UnitIsGhost](https://wow.gamepedia.com/API_UnitIsGhost)\("unit"\) - Returns true if the specified unit is a ghost, false otherwise.
+[UnitIsGhost](https://wow.gamepedia.com/API_UnitIsGhost)\("unit"\) - 如果指定的单位是灵魂状态，则返回true，否则返回false。
 
 [UnitIsGroupAssistant](https://wow.gamepedia.com/API_UnitIsGroupAssistant)\(?\) -
 
@@ -192,25 +192,25 @@ UnitIsOtherPlayersBattlePet\(?\) -
 
 UnitIsOtherPlayersPet\(?\) -
 
-[UnitIsPVP](https://wow.gamepedia.com/API_UnitIsPVP)\("unit"\) - Returns true if the specified unit is flagged for PVP, false otherwise.
+[UnitIsPVP](https://wow.gamepedia.com/API_UnitIsPVP)\("unit"\) - 如果指定的单位标记为PVP，则返回true，否则返回false。
 
-[UnitIsPVPFreeForAll](https://wow.gamepedia.com/API_UnitIsPVPFreeForAll)\("unit"\) - Returns true if the specified unit is flagged for free-for-all PVP, false otherwise.
+[UnitIsPVPFreeForAll](https://wow.gamepedia.com/API_UnitIsPVPFreeForAll)\("unit"\) - 如果指定的单位标记为自由PVP，则返回true，否则返回false。
 
-UnitIsPVPSanctuary\("unit"\) - Returns whether the unit is in a PvP sanctuary, and therefore cannot be attacked by other players.
+UnitIsPVPSanctuary\("unit"\) - 返回该单位是否在安全区域，因此不能被其他玩家攻击。
 
-[UnitIsPlayer](https://wow.gamepedia.com/API_UnitIsPlayer)\("unit"\) - Returns true if the specified unit is a player character, false otherwise.
+[UnitIsPlayer](https://wow.gamepedia.com/API_UnitIsPlayer)\("unit"\) - 如果指定的单位是玩家角色，则返回true，否则返回false。
 
-[UnitIsPossessed](https://wow.gamepedia.com/API_UnitIsPossessed)\("unit"\) - Returns whether the specified unit is currently under control of another \(i.e. "pet" when casting Mind Control\).
+[UnitIsPossessed](https://wow.gamepedia.com/API_UnitIsPossessed)\("unit"\) - 返回指定单位当前是否受另一个单位控制（即在施放精神控制时为“宠物”）。
 
-UnitIsQuestBoss\("unit"\) - Returns true if the specified unit is the "boss" \(objective\) of a kill quest. If true, then the default UI displays a shield with a yellow "!" on it on the unit's unitframe.
+UnitIsQuestBoss\("unit"\) - 如果指定的单位是击杀任务的“boss”（目标），则返回true。如果为true，则默认UI显示带有黄色“！”的屏蔽。在单位的单位框架上。
 
-UnitIsRaidOfficer\("unit"\) - Returns whether the specified unit is an officer in your raid.
+UnitIsRaidOfficer\("unit"\) - 返回指定的单位是否是raid中的管理。
 
-[UnitIsSameServer](https://wow.gamepedia.com/API_UnitIsSameServer)\("unit"\) - Returns whether the specified unit is from the same server as the player's character.
+[UnitIsSameServer](https://wow.gamepedia.com/API_UnitIsSameServer)\("unit"\) - 返回指定的单位是否与玩家角色在同一服务器上。
 
-REMOVED [UnitIsTapped](https://wow.gamepedia.com/API_UnitIsTapped)\("unit"\) - Returns true if the specified unit is tapped, false otherwise.
+REMOVED [UnitIsTapped](https://wow.gamepedia.com/API_UnitIsTapped)\("unit"\) - 如果指定的单位被点击则返回true，否则返回false。
 
-REMOVED [UnitIsTappedByPlayer](https://wow.gamepedia.com/API_UnitIsTappedByPlayer)\("unit"\) - Returns true if the specified unit is tapped by the player himself, otherwise false.
+REMOVED [UnitIsTappedByPlayer](https://wow.gamepedia.com/API_UnitIsTappedByPlayer)\("unit"\) - 如果玩家自己点击指定的单位，则返回true，否则返回false。
 
 REMOVED [UnitIsTappedByAllThreatList](https://wow.gamepedia.com/API_UnitIsTappedByAllThreatList)\("unit"\) - Returns whether the specified unit is a community monster, i.e. whether all players engaged in combat with it will receive kill \(quest\) credit.
 
