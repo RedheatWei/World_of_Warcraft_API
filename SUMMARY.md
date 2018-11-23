@@ -96,4 +96,5 @@
   * [幻化函数](chapter1/huan-hua-han-shu.md)
   * [单位函数](chapter1/dan-wei-han-shu.md)
   * [载具函数](chapter1/zai-ju-han-shu.md)
+  * [语音聊天函数](chapter1/yu-yin-liao-tian-han-shu.md)
 
