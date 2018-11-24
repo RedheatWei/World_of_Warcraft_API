@@ -100,4 +100,5 @@
   * [虚空仓库函数](chapter1/xu-kong-cang-ku-han-shu.md)
   * [世界战场函数](chapter1/shi-jie-zhan-chang-han-shu.md)
   * [Who函数](chapter1/whohan-shu.md)
+  * [附加](chapter1/fu-jia.md)
 
