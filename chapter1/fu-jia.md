@@ -6,3 +6,5 @@ ClickPosition\(x,y,z,true\)  点击移动
 
 ObjectPosition\('player'\) 获取当前坐标
 
+InteractUnit\('target'\) 和目标互动
+
