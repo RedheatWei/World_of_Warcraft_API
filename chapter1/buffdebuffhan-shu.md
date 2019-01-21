@@ -10,11 +10,11 @@ PROTECTED [CancelItemTempEnchantment](https://wow.gamepedia.com/API_CancelItemTe
 
 [GetWeaponEnchantInfo](https://wow.gamepedia.com/API_GetWeaponEnchantInfo)\(\) - 返回有关主要武器附魔和副武器附魔的信息。
 
-[UnitAura](https://wow.gamepedia.com/API_UnitAura)\("unit", index or "buffName"\[, filter\]\) - 返回有关某个单位的buff / debuff的信息。
+[UnitAura](https://wow.gamepedia.com/API_UnitAura)\("unit", \[index\]\[, filter\]\) - 返回有关某个单位的buff / debuff的信息。
 
-[UnitBuff](https://wow.gamepedia.com/API_UnitBuff)\("unit", index or "buffName"\[, castable\]\) - 检索有关某个单位的buff的信息。
+[UnitBuff](https://wow.gamepedia.com/API_UnitBuff)\("unit", \[index\]\[, castable\]\) - 检索有关某个单位的buff的信息。
 
-[UnitDebuff](https://wow.gamepedia.com/API_UnitDebuff)\("unit", index or "buffName"\[, removable\]\) - 检索有关某个单位的debuff的信息。
+[UnitDebuff](https://wow.gamepedia.com/API_UnitDebuff)\("unit", \[index\]\[, removable\]\) - 检索有关某个单位的debuff的信息。
 
 
 
